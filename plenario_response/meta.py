@@ -21,5 +21,8 @@ class Meta(object):
     def get_previous_link(self):
         return self.links.get('previous')
 
+    def get_params(self):
+        return self.params
+
     def get_counts(self):
         return self.counts
