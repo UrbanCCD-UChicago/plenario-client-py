@@ -13,5 +13,5 @@ class PlenarioClient(object):
         self.response = None
 
     def get(self):
-        response = (self.session.get(self.api_url))
-        return PlenarioResponse(response.json())
+        self.response = self.session.get(self.api_url)
+        return PlenarioResponse(self.response.json())
