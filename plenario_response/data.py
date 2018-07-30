@@ -1,2 +1,2 @@
-class Data(object):
+class Data:
     pass

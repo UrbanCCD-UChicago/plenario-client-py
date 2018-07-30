@@ -1,2 +1,2 @@
-class Errors(object):
+class Errors:
     pass
