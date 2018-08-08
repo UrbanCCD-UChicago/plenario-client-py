@@ -1,5 +1,4 @@
-import pytest
-import json
+from tests.conftest import load_json
 from plenario_response.meta import Meta
 
 PARAMS = {
@@ -17,19 +16,33 @@ LINKS = {
     "next": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=2",
     "current": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=1"
 }
-
-
-@pytest.fixture
-def load_json():
-    with open("tests/fixtures/chicago_beach_lab_dna_tests_page_one.json") as f:
-        return json.load(f)
+json = load_json()
+meta = Meta(json.get('meta'))
 
 
 def test_meta_response():
-    meta = Meta(load_json())
+    assert meta is not None
+
+
+def test_meta_get_page():
     assert meta.page == PARAMS.get("page")
+
+
+def test_meta_get_page_size():
     assert meta.page_size == PARAMS.get("page_size")
+
+
+def test_meta_get_counts():
     assert meta.counts == COUNTS
+
+
+def test_meta_get_current_page():
     assert meta.current_page_link == LINKS.get("current")
+
+
+def test_meta_get_previous_link():
     assert meta.previous_link == LINKS.get("previous")
+
+
+def test_meta_get_next_page():
     assert meta.next_page_link == LINKS.get("next")
