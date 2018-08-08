@@ -1,7 +1,7 @@
 class Meta:
 
     def __init__(self, json_payload: dict):
-        self.payload = json_payload.get('meta')
+        self.payload = json_payload
         self._params: dict = self.payload.get('params')
         self._links: dict = self.payload.get('links')
         self._counts: dict = self.payload.get('counts')
