@@ -6,11 +6,11 @@
     },
     "links": {
       "previous": null,
-      "next": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-dna-tests?inserted_at=le%3A2018-08-02T18%3A39%3A13.368679&page_size=500&page=2",
-      "current": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-dna-tests?inserted_at=le%3A2018-08-02T18%3A39%3A13.368679&page_size=500&page=1"
+      "next": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=2",
+      "current": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=1"
     },
     "counts": {
-      "total_records": 4290,
+      "total_records": 4381,
       "total_pages": 9,
       "errors": 0,
       "data": 500
@@ -18,7 +18,7 @@
   },
   "data": [
     {
-      "vpf_9L8crryKDtPDiy_b": {
+      "vpf_tNaE6k34OqpOqiUk": {
         "srid": 4326,
         "coordinates": [
           -87.6385,
@@ -29,7 +29,7 @@
       "Longitude": -87.6385,
       "Location": "(41.9655, -87.6385)",
       "Latitude": 41.9655,
-      "DNA Test ID": "1606",
+      "DNA Test ID": 1606,
       "DNA Sample Timestamp": "2016-08-05T12:35:00.000000",
       "DNA Sample 2 Reading": 163,
       "DNA Sample 1 Reading": 39,
@@ -45,7 +45,7 @@
       "Beach": "Montrose"
     },
     {
-      "vpf_9L8crryKDtPDiy_b": {
+      "vpf_tNaE6k34OqpOqiUk": {
         "srid": 4326,
         "coordinates": [
           -87.5299,
@@ -56,7 +56,7 @@
       "Longitude": -87.5299,
       "Location": "(41.7142, -87.5299)",
       "Latitude": 41.7142,
-      "DNA Test ID": "4585",
+      "DNA Test ID": 4585,
       "DNA Sample Timestamp": "2017-07-30T00:00:00.000000",
       "DNA Sample 2 Reading": 389,
       "DNA Sample 1 Reading": 313,
@@ -72,7 +72,7 @@
       "Beach": "Calumet"
     },
     {
-      "vpf_9L8crryKDtPDiy_b": {
+      "vpf_tNaE6k34OqpOqiUk": {
         "srid": 4326,
         "coordinates": [
           -87.6545,
@@ -83,7 +83,7 @@
       "Longitude": -87.6545,
       "Location": "(41.9877, -87.6545)",
       "Latitude": 41.9877,
-      "DNA Test ID": "5451",
+      "DNA Test ID": 5451,
       "DNA Sample Timestamp": "2017-08-23T00:00:00.000000",
       "DNA Sample 2 Reading": 247,
       "DNA Sample 1 Reading": 87,
