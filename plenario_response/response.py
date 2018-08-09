@@ -1,6 +1,7 @@
 from plenario_response.meta import Meta
 from plenario_response.data import Data
 
+
 class PlenarioResponse:
 
     def __init__(self, json_payload: dict):
