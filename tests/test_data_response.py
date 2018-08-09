@@ -89,6 +89,10 @@ data = Data(json.get('data'))
 
 
 def test_data_response():
+    assert data is not None
+
+
+def test_data_response_dataset():
     assert data.dataset == DATA
 
 
