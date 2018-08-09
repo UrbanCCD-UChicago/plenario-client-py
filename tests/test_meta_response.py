@@ -1,9 +1,14 @@
-from tests.conftest import load_json
+from tests.conftest import load_json_fixture
 from plenario_response.meta import Meta
 
 PARAMS = {
     "page_size": 500,
     "page": 1
+}
+LINKS = {
+    "previous": None,
+    "next": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=2",
+    "current": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=1"
 }
 COUNTS = {
     "total_records": 4381,
@@ -11,12 +16,7 @@ COUNTS = {
     "errors": 0,
     "data": 500
 }
-LINKS = {
-    "previous": None,
-    "next": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=2",
-    "current": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=1"
-}
-json = load_json()
+json = load_json_fixture()
 meta = Meta(json.get('meta'))
 
 
