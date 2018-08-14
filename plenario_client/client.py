@@ -19,3 +19,11 @@ class PlenarioClient:
     def get_dataset(self, dataset_slug: str) -> PlenarioResponse:
         self.response = self.session.get(self.api_url + dataset_slug)
         return PlenarioResponse(self.response.json(), self.session)
+
+    def get_datasets(self) -> list:
+        datasets = []
+        self.response = self.session.get(self.api_url)
+        json = self.response.json()
+        for datum in json['data']:
+            datasets.append(datum['slug'])
+        return datasets
