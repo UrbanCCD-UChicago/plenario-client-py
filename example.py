@@ -1,4 +1,4 @@
-from plenario_client import Client
+from plenario_client import Client, F
 
 if __name__ == '__main__':
     client = Client(scheme='http', host='localhost:4000', version='v2')
@@ -25,3 +25,26 @@ if __name__ == '__main__':
             print('>> {size}'.format(size=len(page.records)))
 
         print('\n')
+
+    from pprint import pprint
+
+    f1 = F()
+    f1 &= ('timestamp', 'gt', 'three days ago')
+    f1 &= ('location', 'within', 'chicago')
+
+    pprint(f1.to_query_params())
+
+    f2 = F('time_range', 'contains', 'yesterday')
+    f1 &= f2
+
+    pprint(f1.to_query_params())
+
+    f1 &= ('node_id', 'eq', '080')
+    f1 &= ('node_id', 'eq', '081')
+
+    pprint(f1.to_query_params())
+
+    f1 |= ('timestamp', 'lt', 'today')
+    f1 |= F('location', 'outside', 'town')
+
+    pprint(f1.to_query_params())
