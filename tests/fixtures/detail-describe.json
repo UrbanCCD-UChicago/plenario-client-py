@@ -1,0 +1,169 @@
+{
+    "meta": {
+        "params": {
+            "page_size": 200,
+            "page": 1,
+            "order_by": {
+                "asc": "row_id"
+            }
+        },
+        "links": {
+            "previous": null,
+            "next": null,
+            "current": "https://dev.plenar.io/api/v2/data-sets/chicago-beach-lab-data-dna-tests/@describe?order_by=asc%3Arow_id&page=1&page_size=200"
+        },
+        "counts": {
+            "total_records": 1,
+            "total_pages": 1,
+            "data_count": 1
+        }
+    },
+    "data": {
+        "virtual_points": [
+            {
+                "name": "vpf_tNaE6k34OqpOqiUk",
+                "lon_field": "Longitude",
+                "loc_field": null,
+                "lat_field": "Latitude"
+            }
+        ],
+        "virtual_dates": [],
+        "user": {
+            "name": "Vince Forgione",
+            "email": "vforgione@uchicago.edu",
+            "bio": "Lead Engineer with UChicago's Urban CCD"
+        },
+        "time_range": {
+            "upper_inclusive": true,
+            "upper": "2018-08-14T00:00:00",
+            "lower_inclusive": true,
+            "lower": "2015-05-26T00:00:00"
+        },
+        "source_url": "https://data.cityofchicago.org/api/views/hmqm-anjq/rows.csv?accessType=DOWNLOAD",
+        "slug": "chicago-beach-lab-data-dna-tests",
+        "refresh_starts_on": "2018-01-01",
+        "refresh_rate": "days",
+        "refresh_interval": 1,
+        "refresh_ends_on": null,
+        "next_import": "2018-08-15T19:33:00.023410Z",
+        "name": "Chicago Beach Lab Data - DNA Tests",
+        "latest_import": "2018-08-14T19:34:01.199381Z",
+        "first_import": "2018-07-17T19:33:00.007941Z",
+        "fields": [
+            {
+                "type": "text",
+                "name": "Culture Sample 1 Timestamp",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Culture Sample 2 Reading",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Culture Sample 2 Timestamp",
+                "description": null
+            },
+            {
+                "type": "float",
+                "name": "DNA Reading Mean",
+                "description": null
+            },
+            {
+                "type": "float",
+                "name": "DNA Sample 2 Reading",
+                "description": null
+            },
+            {
+                "type": "float",
+                "name": "Latitude",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Beach",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Location",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Culture Note",
+                "description": null
+            },
+            {
+                "type": "float",
+                "name": "Longitude",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Culture Reading Mean",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Culture Sample 1 Reading",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Culture Sample Interval",
+                "description": null
+            },
+            {
+                "type": "text",
+                "name": "Culture Test ID",
+                "description": null
+            },
+            {
+                "type": "float",
+                "name": "DNA Sample 1 Reading",
+                "description": null
+            },
+            {
+                "type": "timestamp",
+                "name": "DNA Sample Timestamp",
+                "description": null
+            },
+            {
+                "type": "integer",
+                "name": "DNA Test ID",
+                "description": null
+            }
+        ],
+        "description": null,
+        "bbox": {
+            "srid": 4326,
+            "coordinates": [
+                [
+                    [
+                        -87.5299,
+                        41.7142
+                    ],
+                    [
+                        -87.703717,
+                        41.7142
+                    ],
+                    [
+                        -87.703717,
+                        42.0213
+                    ],
+                    [
+                        -87.5299,
+                        42.0213
+                    ],
+                    [
+                        -87.5299,
+                        41.7142
+                    ]
+                ]
+            ]
+        },
+        "attribution": "City of Chicago"
+    }
+}

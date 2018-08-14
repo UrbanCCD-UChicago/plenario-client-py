@@ -146,7 +146,11 @@ class Client:
             raise ApiError(payload['error'])
 
         if parse_res_as_description:
-            return [Description(**meta) for meta in payload.get('data')]
+            data = payload.get('data')
+            if isinstance(data, list):
+                return [Description(**meta) for meta in data]
+            else:
+                return Description(**data)
         else:
             response = Response(payload)
             return DataSet(response=response, client=self)

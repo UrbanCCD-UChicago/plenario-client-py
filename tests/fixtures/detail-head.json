@@ -1,0 +1,50 @@
+{
+    "meta": {
+        "params": {
+            "page_size": 200,
+            "page": 1,
+            "order_by": {
+                "asc": "row_id"
+            }
+        },
+        "links": {
+            "previous": null,
+            "next": null,
+            "current": "https://dev.plenar.io/api/v2/data-sets/chicago-beach-lab-data-dna-tests/@head?order_by=asc%3Arow_id&page=1&page_size=200"
+        },
+        "counts": {
+            "total_records": 4520,
+            "total_pages": 23,
+            "data_count": 200
+        }
+    },
+    "data": [
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 1,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 1606,
+            "DNA Sample Timestamp": "2016-08-05T12:35:00.000000",
+            "DNA Sample 2 Reading": 163.0,
+            "DNA Sample 1 Reading": 39.0,
+            "DNA Reading Mean": 79.7,
+            "Culture Test ID": "113691",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/05/2016 08:36:00 AM",
+            "Culture Sample 2 Reading": "1733.0",
+            "Culture Sample 1 Timestamp": "08/05/2016 08:35:00 AM",
+            "Culture Sample 1 Reading": "411.0",
+            "Culture Reading Mean": "844.0",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        }
+    ]
+}

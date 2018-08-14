@@ -8,6 +8,7 @@ requests = "*"
 
 [dev-packages]
 pytest = "*"
+responses = "*"
 
 [requires]
 python_version = "3.6"
