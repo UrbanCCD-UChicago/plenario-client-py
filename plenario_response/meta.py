@@ -15,12 +15,21 @@ class Meta:
         return self._params.get('page_size')
 
     @property
+    def total_pages(self) -> int:
+        return self._counts.get('total_pages')
+
+    @property
     def current_page_link(self) -> str:
         return self._links.get('current')
 
     @property
     def next_page_link(self) -> str:
         return self._links.get('next')
+
+    # only use for testing
+    @next_page_link.setter
+    def next_page_link(self, link) -> str:
+        self._links['next'] = link
 
     @property
     def previous_link(self) -> str:
@@ -38,3 +47,6 @@ class Meta:
     def links(self) -> dict:
         return self._links
 
+    @property
+    def meta(self) -> dict:
+        return self.payload

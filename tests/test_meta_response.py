@@ -1,22 +1,11 @@
 from tests.conftest import load_json_fixture
+from tests.conftest import RESPONSE_PAGE_ONE
 from plenario_response.meta import Meta
 
-PARAMS = {
-    "page_size": 500,
-    "page": 1
-}
-LINKS = {
-    "previous": None,
-    "next": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=2",
-    "current": "http://localhost:4000/api/v2/data-sets/chicago-beach-lab-data-dna-tests?page_size=500&page=1"
-}
-COUNTS = {
-    "total_records": 4381,
-    "total_pages": 9,
-    "errors": 0,
-    "data": 500
-}
-json = load_json_fixture()
+PARAMS = RESPONSE_PAGE_ONE.get('meta').get('params')
+LINKS = RESPONSE_PAGE_ONE.get('meta').get('links')
+COUNTS = RESPONSE_PAGE_ONE.get('meta').get('counts')
+json = load_json_fixture("tests/fixtures/chicago_beach_lab_dna_tests_page_one.json")
 meta = Meta(json.get('meta'))
 
 
