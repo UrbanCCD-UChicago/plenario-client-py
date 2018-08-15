@@ -26,6 +26,11 @@ class Meta:
     def next_page_link(self) -> str:
         return self._links.get('next')
 
+    # only use for testing
+    @next_page_link.setter
+    def next_page_link(self, link) -> str:
+        self._links['next'] = link
+
     @property
     def previous_link(self) -> str:
         return self._links.get('previous')
