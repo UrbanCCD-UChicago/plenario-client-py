@@ -1,0 +1,6068 @@
+{
+    "meta": {
+        "params": {
+            "window": "2018-08-15T14:57:52",
+            "page_size": 200,
+            "page": 1,
+            "order_by": {
+                "desc": "timestamp"
+            }
+        },
+        "links": {
+            "previous": null,
+            "next": "https://dev.plenar.io/api/v2/aot?order_by=desc%3Atimestamp&page=2&page_size=200&window=2018-08-15T14%3A57%3A52",
+            "current": "https://dev.plenar.io/api/v2/aot?order_by=desc%3Atimestamp&page=1&page_size=200&window=2018-08-15T14%3A57%3A52"
+        },
+        "counts": {
+            "total_records": 8880789,
+            "total_pages": 44404,
+            "data_count": 200
+        }
+    },
+    "data": [
+        {
+            "timestamp": "2018-06-03T00:42:37.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.27
+                },
+                "HTU21D": {
+                    "temperature": 19.23
+                },
+                "BMP180": {
+                    "temperature": 27.8,
+                    "pressure": 1082.76
+                }
+            },
+            "node_id": "025",
+            "longitude": -87.685806,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685806,
+                    41.857797
+                ]
+            },
+            "latitude": 41.857797,
+            "human_address": " Western Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:52.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.94
+                },
+                "HTU21D": {
+                    "temperature": 19.24
+                },
+                "BMP180": {
+                    "temperature": 27.8,
+                    "pressure": 1082.8
+                }
+            },
+            "node_id": "025",
+            "longitude": -87.685806,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685806,
+                    41.857797
+                ]
+            },
+            "latitude": 41.857797,
+            "human_address": " Western Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:07.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.07
+                },
+                "HTU21D": {
+                    "temperature": 19.3
+                },
+                "BMP180": {
+                    "temperature": 27.8,
+                    "pressure": 1082.72
+                }
+            },
+            "node_id": "025",
+            "longitude": -87.685806,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685806,
+                    41.857797
+                ]
+            },
+            "latitude": 41.857797,
+            "human_address": " Western Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:22.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.95
+                },
+                "HTU21D": {
+                    "temperature": 19.1
+                },
+                "BMP180": {
+                    "temperature": 27.6,
+                    "pressure": 1082.8
+                }
+            },
+            "node_id": "025",
+            "longitude": -87.685806,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685806,
+                    41.857797
+                ]
+            },
+            "latitude": 41.857797,
+            "human_address": " Western Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:42.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.7
+                },
+                "HTU21D": {
+                    "temperature": 19.58,
+                    "humidity": 60.69
+                },
+                "BMP180": {
+                    "temperature": 51.9,
+                    "pressure": 1098.32
+                }
+            },
+            "node_id": "085",
+            "longitude": -87.663518,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.663518,
+                    41.75034
+                ]
+            },
+            "latitude": 41.75034,
+            "human_address": " Ashland Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:52.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.25
+                },
+                "HTU21D": {
+                    "temperature": 19.22,
+                    "humidity": 62.18
+                },
+                "BMP180": {
+                    "temperature": 51.6,
+                    "pressure": 1098.53
+                }
+            },
+            "node_id": "085",
+            "longitude": -87.663518,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.663518,
+                    41.75034
+                ]
+            },
+            "latitude": 41.75034,
+            "human_address": " Ashland Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:00.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.74
+                },
+                "HTU21D": {
+                    "temperature": 2.86
+                },
+                "BMP180": {
+                    "temperature": 20.0
+                }
+            },
+            "node_id": "05A",
+            "longitude": -87.607817,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.607817,
+                    41.838618
+                ]
+            },
+            "latitude": 41.838618,
+            "human_address": " Fort Dearborn Dr & 31st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:22.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 5.9
+                },
+                "HTU21D": {
+                    "temperature": 10.14
+                },
+                "BMP180": {
+                    "temperature": 17.9
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:33.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.6
+                },
+                "HTU21D": {
+                    "temperature": 5.82
+                },
+                "BMP180": {
+                    "temperature": 20.9
+                }
+            },
+            "node_id": "04C",
+            "longitude": -87.685557,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685557,
+                    41.846579
+                ]
+            },
+            "latitude": 41.846579,
+            "human_address": " Western Ave & 25th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:07.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.59
+                },
+                "HTU21D": {
+                    "temperature": 17.96,
+                    "humidity": 64.46
+                },
+                "BMP180": {
+                    "temperature": 50.2,
+                    "pressure": 1008.56
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:16.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.93
+                },
+                "HTU21D": {
+                    "temperature": 17.33,
+                    "humidity": 66.11
+                },
+                "BMP180": {
+                    "temperature": 49.6,
+                    "pressure": 1008.89
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:52.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.31
+                },
+                "HTU21D": {
+                    "temperature": 2.52
+                },
+                "BMP180": {
+                    "temperature": 19.2
+                }
+            },
+            "node_id": "039",
+            "longitude": -87.69068,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.69068,
+                    41.94672
+                ]
+            },
+            "latitude": 41.94672,
+            "human_address": " Campbell Ave & Addison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:39.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.13
+                },
+                "HTU21D": {
+                    "temperature": 19.42,
+                    "humidity": 64.34
+                },
+                "BMP180": {
+                    "temperature": 40.1,
+                    "pressure": 1059.02
+                }
+            },
+            "node_id": "067",
+            "longitude": -87.665048,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.665048,
+                    41.808594
+                ]
+            },
+            "latitude": 41.808594,
+            "human_address": " Ashland Ave & 47th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:47.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.89
+                },
+                "HTU21D": {
+                    "temperature": 19.18,
+                    "humidity": 64.44
+                },
+                "BMP180": {
+                    "temperature": 39.9,
+                    "pressure": 1059.01
+                }
+            },
+            "node_id": "067",
+            "longitude": -87.665048,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.665048,
+                    41.808594
+                ]
+            },
+            "latitude": 41.808594,
+            "human_address": " Ashland Ave & 47th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:48:05.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.7
+                },
+                "HTU21D": {
+                    "temperature": 14.81,
+                    "humidity": 71.16
+                },
+                "BMP180": {
+                    "temperature": 21.9,
+                    "pressure": 1016.12
+                }
+            },
+            "node_id": "080",
+            "longitude": -87.659672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.659672,
+                    41.96904
+                ]
+            },
+            "latitude": 41.96904,
+            "human_address": " Broadway Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:50:10.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.63
+                },
+                "HTU21D": {
+                    "temperature": 14.8,
+                    "humidity": 71.45
+                },
+                "BMP180": {
+                    "temperature": 21.8,
+                    "pressure": 1016.04
+                }
+            },
+            "node_id": "080",
+            "longitude": -87.659672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.659672,
+                    41.96904
+                ]
+            },
+            "latitude": 41.96904,
+            "human_address": " Broadway Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:52:15.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.65
+                },
+                "HTU21D": {
+                    "temperature": 14.82,
+                    "humidity": 71.22
+                },
+                "BMP180": {
+                    "temperature": 21.9,
+                    "pressure": 1016.08
+                }
+            },
+            "node_id": "080",
+            "longitude": -87.659672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.659672,
+                    41.96904
+                ]
+            },
+            "latitude": 41.96904,
+            "human_address": " Broadway Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:49:12.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.49
+                },
+                "HTU21D": {
+                    "temperature": 17.48,
+                    "humidity": 78.01
+                },
+                "BMP180": {
+                    "temperature": 17.3,
+                    "pressure": 976.42
+                }
+            },
+            "node_id": "02A",
+            "longitude": -87.57535,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.57535,
+                    41.722457
+                ]
+            },
+            "latitude": 41.722457,
+            "human_address": " Jeffrey Ave & 95th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:51:14.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.41
+                },
+                "HTU21D": {
+                    "temperature": 17.4,
+                    "humidity": 78.0
+                },
+                "BMP180": {
+                    "temperature": 17.1,
+                    "pressure": 976.29
+                }
+            },
+            "node_id": "02A",
+            "longitude": -87.57535,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.57535,
+                    41.722457
+                ]
+            },
+            "latitude": 41.722457,
+            "human_address": " Jeffrey Ave & 95th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:52.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.79
+                },
+                "HTU21D": {
+                    "temperature": 17.74,
+                    "humidity": 70.82
+                },
+                "BMP180": {
+                    "temperature": 18.45
+                }
+            },
+            "node_id": "00D",
+            "longitude": -87.590228,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.590228,
+                    41.810342
+                ]
+            },
+            "latitude": 41.810342,
+            "human_address": " Cornell & 47th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:49:04.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.4
+                },
+                "HTU21D": {
+                    "temperature": 17.45,
+                    "humidity": 71.44
+                },
+                "BMP180": {
+                    "temperature": 18.1
+                }
+            },
+            "node_id": "00D",
+            "longitude": -87.590228,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.590228,
+                    41.810342
+                ]
+            },
+            "latitude": 41.810342,
+            "human_address": " Cornell & 47th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:50:17.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.55
+                },
+                "HTU21D": {
+                    "temperature": 17.52,
+                    "humidity": 71.5
+                },
+                "BMP180": {
+                    "temperature": 18.25
+                }
+            },
+            "node_id": "00D",
+            "longitude": -87.590228,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.590228,
+                    41.810342
+                ]
+            },
+            "latitude": 41.810342,
+            "human_address": " Cornell & 47th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:51:27.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.82
+                },
+                "HTU21D": {
+                    "temperature": 17.01,
+                    "humidity": 73.48
+                },
+                "BMP180": {
+                    "temperature": 17.65
+                }
+            },
+            "node_id": "00D",
+            "longitude": -87.590228,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.590228,
+                    41.810342
+                ]
+            },
+            "latitude": 41.810342,
+            "human_address": " Cornell & 47th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:37.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.53
+                },
+                "HTU21D": {
+                    "temperature": 18.24,
+                    "humidity": 64.34
+                },
+                "BMP180": {
+                    "temperature": 24.1,
+                    "pressure": 1032.98
+                }
+            },
+            "node_id": "01F",
+            "longitude": -87.624179,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.624179,
+                    41.736314
+                ]
+            },
+            "latitude": 41.736314,
+            "human_address": " State St & 87th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:46.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.69
+                },
+                "HTU21D": {
+                    "temperature": 18.37,
+                    "humidity": 63.98
+                },
+                "BMP180": {
+                    "temperature": 24.3,
+                    "pressure": 1032.84
+                }
+            },
+            "node_id": "01F",
+            "longitude": -87.624179,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.624179,
+                    41.736314
+                ]
+            },
+            "latitude": 41.736314,
+            "human_address": " State St & 87th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:13.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.2
+                },
+                "HTU21D": {
+                    "temperature": 20.89,
+                    "humidity": 58.66
+                },
+                "BMP180": {
+                    "temperature": 21.45
+                }
+            },
+            "node_id": "053",
+            "longitude": -87.656427,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.656427,
+                    41.857959
+                ]
+            },
+            "latitude": 41.857959,
+            "human_address": " Racine Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:26.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.44
+                },
+                "HTU21D": {
+                    "temperature": 21.05,
+                    "humidity": 58.25
+                },
+                "BMP180": {
+                    "temperature": 21.7
+                }
+            },
+            "node_id": "053",
+            "longitude": -87.656427,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.656427,
+                    41.857959
+                ]
+            },
+            "latitude": 41.857959,
+            "human_address": " Racine Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:38.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.49
+                },
+                "HTU21D": {
+                    "temperature": 21.08,
+                    "humidity": 57.91
+                },
+                "BMP180": {
+                    "temperature": 21.7
+                }
+            },
+            "node_id": "053",
+            "longitude": -87.656427,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.656427,
+                    41.857959
+                ]
+            },
+            "latitude": 41.857959,
+            "human_address": " Racine Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:50.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.7
+                },
+                "HTU21D": {
+                    "temperature": 21.23,
+                    "humidity": 57.58
+                },
+                "BMP180": {
+                    "temperature": 21.84
+                }
+            },
+            "node_id": "053",
+            "longitude": -87.656427,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.656427,
+                    41.857959
+                ]
+            },
+            "latitude": 41.857959,
+            "human_address": " Racine Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:02.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 22.04
+                },
+                "HTU21D": {
+                    "temperature": 21.49,
+                    "humidity": 56.7
+                },
+                "BMP180": {
+                    "temperature": 22.1
+                }
+            },
+            "node_id": "053",
+            "longitude": -87.656427,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.656427,
+                    41.857959
+                ]
+            },
+            "latitude": 41.857959,
+            "human_address": " Racine Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:36.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.71
+                },
+                "HTU21D": {
+                    "temperature": 2.87
+                },
+                "BMP180": {
+                    "temperature": 19.84
+                }
+            },
+            "node_id": "05A",
+            "longitude": -87.607817,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.607817,
+                    41.838618
+                ]
+            },
+            "latitude": 41.838618,
+            "human_address": " Fort Dearborn Dr & 31st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:59.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 6.04
+                },
+                "HTU21D": {
+                    "temperature": 10.19
+                },
+                "BMP180": {
+                    "temperature": 18.0
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:39.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.39
+                },
+                "HTU21D": {
+                    "temperature": 16.57,
+                    "humidity": 65.14
+                },
+                "BMP180": {
+                    "temperature": 42.8,
+                    "pressure": 1097.53
+                }
+            },
+            "node_id": "086",
+            "longitude": -87.679174,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679174,
+                    41.968757
+                ]
+            },
+            "latitude": 41.968757,
+            "human_address": " Damen Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:49.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 16.54
+                },
+                "HTU21D": {
+                    "temperature": 15.92,
+                    "humidity": 67.55
+                },
+                "BMP180": {
+                    "temperature": 42.1,
+                    "pressure": 1097.88
+                }
+            },
+            "node_id": "086",
+            "longitude": -87.679174,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679174,
+                    41.968757
+                ]
+            },
+            "latitude": 41.968757,
+            "human_address": " Damen Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:08.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.73
+                },
+                "HTU21D": {
+                    "temperature": 21.0,
+                    "humidity": 53.2
+                },
+                "BMP180": {
+                    "temperature": 24.0,
+                    "pressure": 1030.72
+                }
+            },
+            "node_id": "051",
+            "longitude": -87.605288,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.605288,
+                    41.751295
+                ]
+            },
+            "latitude": 41.751295,
+            "human_address": " Cottage Grove Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:14.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.34
+                },
+                "HTU21D": {
+                    "temperature": 20.54,
+                    "humidity": 54.59
+                },
+                "BMP180": {
+                    "temperature": 23.6,
+                    "pressure": 1030.72
+                }
+            },
+            "node_id": "051",
+            "longitude": -87.605288,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.605288,
+                    41.751295
+                ]
+            },
+            "latitude": 41.751295,
+            "human_address": " Cottage Grove Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:19.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.33
+                },
+                "HTU21D": {
+                    "temperature": 20.53,
+                    "humidity": 54.59
+                },
+                "BMP180": {
+                    "temperature": 23.6,
+                    "pressure": 1030.65
+                }
+            },
+            "node_id": "051",
+            "longitude": -87.605288,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.605288,
+                    41.751295
+                ]
+            },
+            "latitude": 41.751295,
+            "human_address": " Cottage Grove Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:37.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.38
+                },
+                "HTU21D": {
+                    "temperature": 18.89,
+                    "humidity": 63.81
+                },
+                "BMP180": {
+                    "temperature": 19.5
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:49.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.34
+                },
+                "HTU21D": {
+                    "temperature": 18.83,
+                    "humidity": 64.19
+                },
+                "BMP180": {
+                    "temperature": 19.5
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:02.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.26
+                },
+                "HTU21D": {
+                    "temperature": 18.76,
+                    "humidity": 64.47
+                },
+                "BMP180": {
+                    "temperature": 19.4
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:14.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.28
+                },
+                "HTU21D": {
+                    "temperature": 18.73,
+                    "humidity": 64.38
+                },
+                "BMP180": {
+                    "temperature": 19.4
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:26.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.33
+                },
+                "HTU21D": {
+                    "temperature": 18.76,
+                    "humidity": 64.5
+                },
+                "BMP180": {
+                    "temperature": 19.45
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:27.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.29
+                },
+                "HTU21D": {
+                    "temperature": 18.49,
+                    "humidity": 63.13
+                },
+                "BMP180": {
+                    "temperature": 22.2,
+                    "pressure": 1033.37
+                }
+            },
+            "node_id": "056",
+            "longitude": -87.761072,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.761072,
+                    41.923996
+                ]
+            },
+            "latitude": 41.923996,
+            "human_address": " Long Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:32.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.74
+                },
+                "HTU21D": {
+                    "temperature": 18.8,
+                    "humidity": 62.21
+                },
+                "BMP180": {
+                    "temperature": 22.5,
+                    "pressure": 1033.34
+                }
+            },
+            "node_id": "056",
+            "longitude": -87.761072,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.761072,
+                    41.923996
+                ]
+            },
+            "latitude": 41.923996,
+            "human_address": " Long Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:09.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.59
+                },
+                "HTU21D": {
+                    "temperature": 9.12
+                },
+                "BMP180": {
+                    "temperature": 20.9
+                }
+            },
+            "node_id": "04C",
+            "longitude": -87.685557,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685557,
+                    41.846579
+                ]
+            },
+            "latitude": 41.846579,
+            "human_address": " Western Ave & 25th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:29.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.3
+                },
+                "HTU21D": {
+                    "temperature": 2.5
+                },
+                "BMP180": {
+                    "temperature": 19.15
+                }
+            },
+            "node_id": "039",
+            "longitude": -87.69068,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.69068,
+                    41.94672
+                ]
+            },
+            "latitude": 41.94672,
+            "human_address": " Campbell Ave & Addison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:36.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.64
+                },
+                "HTU21D": {
+                    "temperature": 18.37,
+                    "humidity": 64.0
+                },
+                "BMP180": {
+                    "temperature": 24.2,
+                    "pressure": 1032.79
+                }
+            },
+            "node_id": "01F",
+            "longitude": -87.624179,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.624179,
+                    41.736314
+                ]
+            },
+            "latitude": 41.736314,
+            "human_address": " State St & 87th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:48.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.71
+                },
+                "HTU21D": {
+                    "temperature": 2.8200000000000003
+                },
+                "BMP180": {
+                    "temperature": 19.9
+                }
+            },
+            "node_id": "05A",
+            "longitude": -87.607817,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.607817,
+                    41.838618
+                ]
+            },
+            "latitude": 41.838618,
+            "human_address": " Fort Dearborn Dr & 31st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:10.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 5.82
+                },
+                "HTU21D": {
+                    "temperature": 10.15
+                },
+                "BMP180": {
+                    "temperature": 17.79
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:20.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.67
+                },
+                "HTU21D": {
+                    "temperature": 16.79,
+                    "humidity": 65.07
+                },
+                "BMP180": {
+                    "temperature": 43.0,
+                    "pressure": 1097.41
+                }
+            },
+            "node_id": "086",
+            "longitude": -87.679174,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679174,
+                    41.968757
+                ]
+            },
+            "latitude": 41.968757,
+            "human_address": " Damen Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:29.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 16.92
+                },
+                "HTU21D": {
+                    "temperature": 16.22,
+                    "humidity": 66.49
+                },
+                "BMP180": {
+                    "temperature": 42.4,
+                    "pressure": 1097.74
+                }
+            },
+            "node_id": "086",
+            "longitude": -87.679174,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679174,
+                    41.968757
+                ]
+            },
+            "latitude": 41.968757,
+            "human_address": " Damen Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:39.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 16.48
+                },
+                "HTU21D": {
+                    "temperature": 15.86,
+                    "humidity": 67.95
+                },
+                "BMP180": {
+                    "temperature": 42.1,
+                    "pressure": 1097.91
+                }
+            },
+            "node_id": "086",
+            "longitude": -87.679174,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679174,
+                    41.968757
+                ]
+            },
+            "latitude": 41.968757,
+            "human_address": " Damen Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:59.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.27
+                },
+                "HTU21D": {
+                    "temperature": 20.56,
+                    "humidity": 54.76
+                },
+                "BMP180": {
+                    "temperature": 23.5,
+                    "pressure": 1030.76
+                }
+            },
+            "node_id": "051",
+            "longitude": -87.605288,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.605288,
+                    41.751295
+                ]
+            },
+            "latitude": 41.751295,
+            "human_address": " Cottage Grove Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:04.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.25
+                },
+                "HTU21D": {
+                    "temperature": 20.43,
+                    "humidity": 55.1
+                },
+                "BMP180": {
+                    "temperature": 23.5,
+                    "pressure": 1030.71
+                }
+            },
+            "node_id": "051",
+            "longitude": -87.605288,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.605288,
+                    41.751295
+                ]
+            },
+            "latitude": 41.751295,
+            "human_address": " Cottage Grove Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:17.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.44
+                },
+                "HTU21D": {
+                    "temperature": 18.61,
+                    "humidity": 62.96
+                },
+                "BMP180": {
+                    "temperature": 22.3,
+                    "pressure": 1033.33
+                }
+            },
+            "node_id": "056",
+            "longitude": -87.761072,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.761072,
+                    41.923996
+                ]
+            },
+            "latitude": 41.923996,
+            "human_address": " Long Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:23.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.92
+                },
+                "HTU21D": {
+                    "temperature": 18.93,
+                    "humidity": 61.63
+                },
+                "BMP180": {
+                    "temperature": 22.7,
+                    "pressure": 1033.29
+                }
+            },
+            "node_id": "056",
+            "longitude": -87.761072,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.761072,
+                    41.923996
+                ]
+            },
+            "latitude": 41.923996,
+            "human_address": " Long Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:22.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.62
+                },
+                "HTU21D": {
+                    "temperature": 9.57
+                },
+                "BMP180": {
+                    "temperature": 20.9
+                }
+            },
+            "node_id": "04C",
+            "longitude": -87.685557,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685557,
+                    41.846579
+                ]
+            },
+            "latitude": 41.846579,
+            "human_address": " Western Ave & 25th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:08.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.02
+                },
+                "HTU21D": {
+                    "temperature": 17.11
+                },
+                "BMP180": {
+                    "temperature": 17.3,
+                    "pressure": 1036.14
+                }
+            },
+            "node_id": "08C",
+            "longitude": -87.687703,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.687703,
+                    41.924903
+                ]
+            },
+            "latitude": 41.924903,
+            "human_address": " Western Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:24.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.14
+                },
+                "HTU21D": {
+                    "temperature": 17.2
+                },
+                "BMP180": {
+                    "temperature": 17.4,
+                    "pressure": 1036.16
+                }
+            },
+            "node_id": "08C",
+            "longitude": -87.687703,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.687703,
+                    41.924903
+                ]
+            },
+            "latitude": 41.924903,
+            "human_address": " Western Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:35.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.29
+                },
+                "HTU21D": {
+                    "temperature": 17.32
+                },
+                "BMP180": {
+                    "temperature": 17.5,
+                    "pressure": 1036.12
+                }
+            },
+            "node_id": "08C",
+            "longitude": -87.687703,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.687703,
+                    41.924903
+                ]
+            },
+            "latitude": 41.924903,
+            "human_address": " Western Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:55.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.29
+                },
+                "HTU21D": {
+                    "temperature": 17.37
+                },
+                "BMP180": {
+                    "temperature": 17.6,
+                    "pressure": 1036.13
+                }
+            },
+            "node_id": "08C",
+            "longitude": -87.687703,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.687703,
+                    41.924903
+                ]
+            },
+            "latitude": 41.924903,
+            "human_address": " Western Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:41.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.13
+                },
+                "HTU21D": {
+                    "temperature": 2.44
+                },
+                "BMP180": {
+                    "temperature": 19.0
+                }
+            },
+            "node_id": "039",
+            "longitude": -87.69068,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.69068,
+                    41.94672
+                ]
+            },
+            "latitude": 41.94672,
+            "human_address": " Campbell Ave & Addison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:23.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.48
+                },
+                "HTU21D": {
+                    "temperature": 17.23
+                },
+                "BMP180": {
+                    "temperature": 17.6
+                }
+            },
+            "node_id": "04D",
+            "longitude": -87.682414,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.682414,
+                    41.913583
+                ]
+            },
+            "latitude": 41.913583,
+            "human_address": " Leavitt St & Milwaukee Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:21.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.62
+                },
+                "HTU21D": {
+                    "temperature": 18.11,
+                    "humidity": 63.24
+                },
+                "BMP180": {
+                    "temperature": 15.0,
+                    "pressure": 987.97
+                }
+            },
+            "node_id": "089",
+            "longitude": -87.662391,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.662391,
+                    41.896157
+                ]
+            },
+            "latitude": 41.896157,
+            "human_address": " Chicago Ave & Noble St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:26.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.28
+                },
+                "HTU21D": {
+                    "temperature": 17.97,
+                    "humidity": 63.57
+                },
+                "BMP180": {
+                    "temperature": 14.8,
+                    "pressure": 987.95
+                }
+            },
+            "node_id": "089",
+            "longitude": -87.662391,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.662391,
+                    41.896157
+                ]
+            },
+            "latitude": 41.896157,
+            "human_address": " Chicago Ave & Noble St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:37.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.46
+                },
+                "HTU21D": {
+                    "temperature": 15.13,
+                    "humidity": 78.35
+                },
+                "BMP180": {
+                    "temperature": 18.1,
+                    "pressure": 889.76
+                }
+            },
+            "node_id": "077",
+            "longitude": -87.617298,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.617298,
+                    41.83107
+                ]
+            },
+            "latitude": 41.83107,
+            "human_address": " Martin Luther King Dr & 35th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:45.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.71
+                },
+                "HTU21D": {
+                    "temperature": 15.32,
+                    "humidity": 77.81
+                },
+                "BMP180": {
+                    "temperature": 18.3,
+                    "pressure": 889.58
+                }
+            },
+            "node_id": "077",
+            "longitude": -87.617298,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.617298,
+                    41.83107
+                ]
+            },
+            "latitude": 41.83107,
+            "human_address": " Martin Luther King Dr & 35th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:14.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.88
+                },
+                "HTU21D": {
+                    "temperature": 19.85,
+                    "humidity": 59.96
+                },
+                "BMP180": {
+                    "temperature": 47.3,
+                    "pressure": 991.65
+                }
+            },
+            "node_id": "079",
+            "longitude": -87.668257,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.668257,
+                    41.918733
+                ]
+            },
+            "latitude": 41.918733,
+            "human_address": " Ashland Ave & Elston Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:33.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.21
+                },
+                "HTU21D": {
+                    "temperature": -2.57
+                },
+                "BMP180": {
+                    "temperature": 50.9,
+                    "pressure": 997.91
+                }
+            },
+            "node_id": "087",
+            "longitude": -87.604759,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.604759,
+                    41.736593
+                ]
+            },
+            "latitude": 41.736593,
+            "human_address": " Cottage Grove Ave & 87th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:50.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.43
+                },
+                "HTU21D": {
+                    "temperature": -2.47
+                },
+                "BMP180": {
+                    "temperature": 51.2,
+                    "pressure": 997.83
+                }
+            },
+            "node_id": "087",
+            "longitude": -87.604759,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.604759,
+                    41.736593
+                ]
+            },
+            "latitude": 41.736593,
+            "human_address": " Cottage Grove Ave & 87th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:07.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.53
+                },
+                "HTU21D": {
+                    "temperature": -2.41
+                },
+                "BMP180": {
+                    "temperature": 51.2,
+                    "pressure": 997.68
+                }
+            },
+            "node_id": "087",
+            "longitude": -87.604759,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.604759,
+                    41.736593
+                ]
+            },
+            "latitude": 41.736593,
+            "human_address": " Cottage Grove Ave & 87th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:12.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.67
+                },
+                "HTU21D": {
+                    "temperature": 2.85
+                },
+                "BMP180": {
+                    "temperature": 19.9
+                }
+            },
+            "node_id": "05A",
+            "longitude": -87.607817,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.607817,
+                    41.838618
+                ]
+            },
+            "latitude": 41.838618,
+            "human_address": " Fort Dearborn Dr & 31st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:36.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 6.1
+                },
+                "HTU21D": {
+                    "temperature": 10.26
+                },
+                "BMP180": {
+                    "temperature": 18.1
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:11.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.89
+                },
+                "HTU21D": {
+                    "temperature": 17.63,
+                    "humidity": 63.39
+                },
+                "BMP180": {
+                    "temperature": 17.95
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:22.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.65
+                },
+                "HTU21D": {
+                    "temperature": 17.4,
+                    "humidity": 64.79
+                },
+                "BMP180": {
+                    "temperature": 17.7
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:34.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.87
+                },
+                "HTU21D": {
+                    "temperature": 17.58,
+                    "humidity": 63.91
+                },
+                "BMP180": {
+                    "temperature": 18.0
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:46.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.27
+                },
+                "HTU21D": {
+                    "temperature": 17.82,
+                    "humidity": 63.08
+                },
+                "BMP180": {
+                    "temperature": 18.25
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:59.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.79
+                },
+                "HTU21D": {
+                    "temperature": 17.44,
+                    "humidity": 63.74
+                },
+                "BMP180": {
+                    "temperature": 17.84
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:52.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.17
+                },
+                "HTU21D": {
+                    "temperature": 18.96,
+                    "humidity": 60.5
+                },
+                "BMP180": {
+                    "temperature": 16.3,
+                    "pressure": 1001.02
+                }
+            },
+            "node_id": "08B",
+            "longitude": -87.598713,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.598713,
+                    41.788608
+                ]
+            },
+            "latitude": 41.788608,
+            "human_address": " UChicago Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:57.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.42
+                },
+                "HTU21D": {
+                    "temperature": 19.09,
+                    "humidity": 60.28
+                },
+                "BMP180": {
+                    "temperature": 16.4,
+                    "pressure": 1000.97
+                }
+            },
+            "node_id": "08B",
+            "longitude": -87.598713,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.598713,
+                    41.788608
+                ]
+            },
+            "latitude": 41.788608,
+            "human_address": " UChicago Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:02.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.89
+                },
+                "HTU21D": {
+                    "temperature": 19.51,
+                    "humidity": 59.4
+                },
+                "BMP180": {
+                    "temperature": 16.8,
+                    "pressure": 1000.95
+                }
+            },
+            "node_id": "08B",
+            "longitude": -87.598713,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.598713,
+                    41.788608
+                ]
+            },
+            "latitude": 41.788608,
+            "human_address": " UChicago Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:22.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.94
+                },
+                "HTU21D": {
+                    "temperature": 19.11,
+                    "humidity": 62.27
+                },
+                "BMP180": {
+                    "temperature": 20.75
+                }
+            },
+            "node_id": "034",
+            "longitude": -87.681052,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.681052,
+                    41.912681
+                ]
+            },
+            "latitude": 41.912681,
+            "human_address": " Milwaukee Ave & Wabansia Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:34.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.77
+                },
+                "HTU21D": {
+                    "temperature": 19.02,
+                    "humidity": 62.27
+                },
+                "BMP180": {
+                    "temperature": 20.55
+                }
+            },
+            "node_id": "034",
+            "longitude": -87.681052,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.681052,
+                    41.912681
+                ]
+            },
+            "latitude": 41.912681,
+            "human_address": " Milwaukee Ave & Wabansia Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:46.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.22
+                },
+                "HTU21D": {
+                    "temperature": 18.66,
+                    "humidity": 63.32
+                },
+                "BMP180": {
+                    "temperature": 20.0
+                }
+            },
+            "node_id": "034",
+            "longitude": -87.681052,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.681052,
+                    41.912681
+                ]
+            },
+            "latitude": 41.912681,
+            "human_address": " Milwaukee Ave & Wabansia Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:58.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.13
+                },
+                "HTU21D": {
+                    "temperature": 18.53,
+                    "humidity": 63.75
+                },
+                "BMP180": {
+                    "temperature": 19.95
+                }
+            },
+            "node_id": "034",
+            "longitude": -87.681052,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.681052,
+                    41.912681
+                ]
+            },
+            "latitude": 41.912681,
+            "human_address": " Milwaukee Ave & Wabansia Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:45.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.66
+                },
+                "HTU21D": {
+                    "temperature": 6.11
+                },
+                "BMP180": {
+                    "temperature": 20.9
+                }
+            },
+            "node_id": "04C",
+            "longitude": -87.685557,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685557,
+                    41.846579
+                ]
+            },
+            "latitude": 41.846579,
+            "human_address": " Western Ave & 25th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:03.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.24
+                },
+                "HTU21D": {
+                    "temperature": 2.48
+                },
+                "BMP180": {
+                    "temperature": 19.04
+                }
+            },
+            "node_id": "039",
+            "longitude": -87.69068,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.69068,
+                    41.94672
+                ]
+            },
+            "latitude": 41.94672,
+            "human_address": " Campbell Ave & Addison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:49.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.22
+                },
+                "HTU21D": {
+                    "temperature": 17.01
+                },
+                "BMP180": {
+                    "temperature": 17.29
+                }
+            },
+            "node_id": "04D",
+            "longitude": -87.682414,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.682414,
+                    41.913583
+                ]
+            },
+            "latitude": 41.913583,
+            "human_address": " Leavitt St & Milwaukee Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:38.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.37
+                },
+                "HTU21D": {
+                    "temperature": 17.6,
+                    "humidity": 71.52
+                },
+                "BMP180": {
+                    "temperature": 17.7
+                }
+            },
+            "node_id": "052",
+            "longitude": -87.664421,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.664421,
+                    41.779369
+                ]
+            },
+            "latitude": 41.779369,
+            "human_address": " Ashland & 63rd St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:50.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.4
+                },
+                "HTU21D": {
+                    "temperature": 17.56,
+                    "humidity": 71.33
+                },
+                "BMP180": {
+                    "temperature": 17.75
+                }
+            },
+            "node_id": "052",
+            "longitude": -87.664421,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.664421,
+                    41.779369
+                ]
+            },
+            "latitude": 41.779369,
+            "human_address": " Ashland & 63rd St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:02.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.57
+                },
+                "HTU21D": {
+                    "temperature": 17.67,
+                    "humidity": 71.04
+                },
+                "BMP180": {
+                    "temperature": 17.9
+                }
+            },
+            "node_id": "052",
+            "longitude": -87.664421,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.664421,
+                    41.779369
+                ]
+            },
+            "latitude": 41.779369,
+            "human_address": " Ashland & 63rd St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:16.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.41
+                },
+                "HTU21D": {
+                    "temperature": -2.47
+                },
+                "BMP180": {
+                    "temperature": 51.2,
+                    "pressure": 997.8
+                }
+            },
+            "node_id": "087",
+            "longitude": -87.604759,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.604759,
+                    41.736593
+                ]
+            },
+            "latitude": 41.736593,
+            "human_address": " Cottage Grove Ave & 87th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:12.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.72
+                },
+                "HTU21D": {
+                    "temperature": 2.83
+                },
+                "BMP180": {
+                    "temperature": 19.9
+                }
+            },
+            "node_id": "05A",
+            "longitude": -87.607817,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.607817,
+                    41.838618
+                ]
+            },
+            "latitude": 41.838618,
+            "human_address": " Fort Dearborn Dr & 31st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:49.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.34
+                },
+                "HTU21D": {
+                    "temperature": 2.63
+                },
+                "BMP180": {
+                    "temperature": 19.45
+                }
+            },
+            "node_id": "05A",
+            "longitude": -87.607817,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.607817,
+                    41.838618
+                ]
+            },
+            "latitude": 41.838618,
+            "human_address": " Fort Dearborn Dr & 31st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:34.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 5.85
+                },
+                "HTU21D": {
+                    "temperature": 10.16
+                },
+                "BMP180": {
+                    "temperature": 17.79
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:34.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.66
+                },
+                "HTU21D": {
+                    "temperature": 17.5,
+                    "humidity": 64.2
+                },
+                "BMP180": {
+                    "temperature": 17.79
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:46.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.75
+                },
+                "HTU21D": {
+                    "temperature": 17.48,
+                    "humidity": 64.82
+                },
+                "BMP180": {
+                    "temperature": 17.79
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:00.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.84
+                },
+                "HTU21D": {
+                    "temperature": 17.55,
+                    "humidity": 63.96
+                },
+                "BMP180": {
+                    "temperature": 17.9
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:12.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.14
+                },
+                "HTU21D": {
+                    "temperature": 17.74,
+                    "humidity": 62.97
+                },
+                "BMP180": {
+                    "temperature": 18.15
+                }
+            },
+            "node_id": "02D",
+            "longitude": -87.679076,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679076,
+                    41.965089
+                ]
+            },
+            "latitude": 41.965089,
+            "human_address": " Damen Ave & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:48.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.94
+                },
+                "HTU21D": {
+                    "temperature": 19.13,
+                    "humidity": 62.03
+                },
+                "BMP180": {
+                    "temperature": 20.75
+                }
+            },
+            "node_id": "034",
+            "longitude": -87.681052,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.681052,
+                    41.912681
+                ]
+            },
+            "latitude": 41.912681,
+            "human_address": " Milwaukee Ave & Wabansia Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:57.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.58
+                },
+                "HTU21D": {
+                    "temperature": 18.89,
+                    "humidity": 62.71
+                },
+                "BMP180": {
+                    "temperature": 20.4
+                }
+            },
+            "node_id": "034",
+            "longitude": -87.681052,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.681052,
+                    41.912681
+                ]
+            },
+            "latitude": 41.912681,
+            "human_address": " Milwaukee Ave & Wabansia Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:10.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.24
+                },
+                "HTU21D": {
+                    "temperature": 18.65,
+                    "humidity": 63.48
+                },
+                "BMP180": {
+                    "temperature": 20.04
+                }
+            },
+            "node_id": "034",
+            "longitude": -87.681052,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.681052,
+                    41.912681
+                ]
+            },
+            "latitude": 41.912681,
+            "human_address": " Milwaukee Ave & Wabansia Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:22.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.16
+                },
+                "HTU21D": {
+                    "temperature": 18.51,
+                    "humidity": 63.75
+                },
+                "BMP180": {
+                    "temperature": 19.95
+                }
+            },
+            "node_id": "034",
+            "longitude": -87.681052,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.681052,
+                    41.912681
+                ]
+            },
+            "latitude": 41.912681,
+            "human_address": " Milwaukee Ave & Wabansia Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:45.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.56
+                },
+                "HTU21D": {
+                    "temperature": 7.78
+                },
+                "BMP180": {
+                    "temperature": 20.9
+                }
+            },
+            "node_id": "04C",
+            "longitude": -87.685557,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685557,
+                    41.846579
+                ]
+            },
+            "latitude": 41.846579,
+            "human_address": " Western Ave & 25th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:47.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.02
+                },
+                "HTU21D": {
+                    "temperature": 18.26,
+                    "humidity": 63.35
+                },
+                "BMP180": {
+                    "temperature": 50.5,
+                    "pressure": 1008.33
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:57.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.46
+                },
+                "HTU21D": {
+                    "temperature": 17.84,
+                    "humidity": 64.85
+                },
+                "BMP180": {
+                    "temperature": 50.0,
+                    "pressure": 1008.62
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:06.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.65
+                },
+                "HTU21D": {
+                    "temperature": 17.13,
+                    "humidity": 67.15
+                },
+                "BMP180": {
+                    "temperature": 49.4,
+                    "pressure": 1009.05
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:04.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.11
+                },
+                "HTU21D": {
+                    "temperature": 2.43
+                },
+                "BMP180": {
+                    "temperature": 19.0
+                }
+            },
+            "node_id": "039",
+            "longitude": -87.69068,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.69068,
+                    41.94672
+                ]
+            },
+            "latitude": 41.94672,
+            "human_address": " Campbell Ave & Addison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:47.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.49
+                },
+                "HTU21D": {
+                    "temperature": 17.25
+                },
+                "BMP180": {
+                    "temperature": 17.6
+                }
+            },
+            "node_id": "04D",
+            "longitude": -87.682414,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.682414,
+                    41.913583
+                ]
+            },
+            "latitude": 41.913583,
+            "human_address": " Leavitt St & Milwaukee Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:49.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.41
+                },
+                "HTU21D": {
+                    "temperature": 17.62,
+                    "humidity": 71.61
+                },
+                "BMP180": {
+                    "temperature": 17.75
+                }
+            },
+            "node_id": "052",
+            "longitude": -87.664421,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.664421,
+                    41.779369
+                ]
+            },
+            "latitude": 41.779369,
+            "human_address": " Ashland & 63rd St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:01.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.41
+                },
+                "HTU21D": {
+                    "temperature": 17.62,
+                    "humidity": 71.4
+                },
+                "BMP180": {
+                    "temperature": 17.75
+                }
+            },
+            "node_id": "052",
+            "longitude": -87.664421,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.664421,
+                    41.779369
+                ]
+            },
+            "latitude": 41.779369,
+            "human_address": " Ashland & 63rd St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:13.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.35
+                },
+                "HTU21D": {
+                    "temperature": 17.54,
+                    "humidity": 71.46
+                },
+                "BMP180": {
+                    "temperature": 17.7
+                }
+            },
+            "node_id": "052",
+            "longitude": -87.664421,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.664421,
+                    41.779369
+                ]
+            },
+            "latitude": 41.779369,
+            "human_address": " Ashland & 63rd St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:25.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.56
+                },
+                "HTU21D": {
+                    "temperature": 17.66,
+                    "humidity": 71.04
+                },
+                "BMP180": {
+                    "temperature": 17.9
+                }
+            },
+            "node_id": "052",
+            "longitude": -87.664421,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.664421,
+                    41.779369
+                ]
+            },
+            "latitude": 41.779369,
+            "human_address": " Ashland & 63rd St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:22.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.12
+                },
+                "HTU21D": {
+                    "temperature": 19.4,
+                    "humidity": 64.85
+                },
+                "BMP180": {
+                    "temperature": 40.1,
+                    "pressure": 1059.0
+                }
+            },
+            "node_id": "067",
+            "longitude": -87.665048,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.665048,
+                    41.808594
+                ]
+            },
+            "latitude": 41.808594,
+            "human_address": " Ashland Ave & 47th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:46.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 5.8100000000000005
+                },
+                "HTU21D": {
+                    "temperature": 10.13
+                },
+                "BMP180": {
+                    "temperature": 17.84
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:42.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.24
+                },
+                "HTU21D": {
+                    "temperature": 18.93,
+                    "humidity": 60.83
+                },
+                "BMP180": {
+                    "temperature": 16.3,
+                    "pressure": 1000.99
+                }
+            },
+            "node_id": "08B",
+            "longitude": -87.598713,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.598713,
+                    41.788608
+                ]
+            },
+            "latitude": 41.788608,
+            "human_address": " UChicago Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:47.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.63
+                },
+                "HTU21D": {
+                    "temperature": 19.23,
+                    "humidity": 60.09
+                },
+                "BMP180": {
+                    "temperature": 16.5,
+                    "pressure": 1000.97
+                }
+            },
+            "node_id": "08B",
+            "longitude": -87.598713,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.598713,
+                    41.788608
+                ]
+            },
+            "latitude": 41.788608,
+            "human_address": " UChicago Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:45.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.4
+                },
+                "HTU21D": {
+                    "temperature": 17.86,
+                    "humidity": 73.12
+                },
+                "BMP180": {
+                    "temperature": 18.0
+                }
+            },
+            "node_id": "03F",
+            "longitude": -87.72566,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72566,
+                    41.880732
+                ]
+            },
+            "latitude": 41.880732,
+            "human_address": " Pulaski Rd & Madison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:57.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.15
+                },
+                "HTU21D": {
+                    "temperature": 17.66,
+                    "humidity": 73.63
+                },
+                "BMP180": {
+                    "temperature": 17.75
+                }
+            },
+            "node_id": "03F",
+            "longitude": -87.72566,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72566,
+                    41.880732
+                ]
+            },
+            "latitude": 41.880732,
+            "human_address": " Pulaski Rd & Madison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:09.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.13
+                },
+                "HTU21D": {
+                    "temperature": 17.64,
+                    "humidity": 73.89
+                },
+                "BMP180": {
+                    "temperature": 17.7
+                }
+            },
+            "node_id": "03F",
+            "longitude": -87.72566,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72566,
+                    41.880732
+                ]
+            },
+            "latitude": 41.880732,
+            "human_address": " Pulaski Rd & Madison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:20.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.37
+                },
+                "HTU21D": {
+                    "temperature": 17.8,
+                    "humidity": 73.29
+                },
+                "BMP180": {
+                    "temperature": 17.9
+                }
+            },
+            "node_id": "03F",
+            "longitude": -87.72566,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72566,
+                    41.880732
+                ]
+            },
+            "latitude": 41.880732,
+            "human_address": " Pulaski Rd & Madison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:26.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.57
+                },
+                "HTU21D": {
+                    "temperature": 4.01
+                },
+                "BMP180": {
+                    "temperature": 48.9,
+                    "pressure": 1000.18
+                }
+            },
+            "node_id": "088",
+            "longitude": -87.66672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.66672,
+                    41.965256
+                ]
+            },
+            "latitude": 41.965256,
+            "human_address": " Clark St & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:41.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.34
+                },
+                "HTU21D": {
+                    "temperature": 3.42
+                },
+                "BMP180": {
+                    "temperature": 48.8,
+                    "pressure": 1000.18
+                }
+            },
+            "node_id": "088",
+            "longitude": -87.66672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.66672,
+                    41.965256
+                ]
+            },
+            "latitude": 41.965256,
+            "human_address": " Clark St & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:56.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.46
+                },
+                "HTU21D": {
+                    "temperature": 5.59
+                },
+                "BMP180": {
+                    "temperature": 48.9,
+                    "pressure": 1000.14
+                }
+            },
+            "node_id": "088",
+            "longitude": -87.66672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.66672,
+                    41.965256
+                ]
+            },
+            "latitude": 41.965256,
+            "human_address": " Clark St & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:12.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.99
+                },
+                "HTU21D": {
+                    "temperature": 7.6
+                },
+                "BMP180": {
+                    "temperature": 49.3,
+                    "pressure": 999.94
+                }
+            },
+            "node_id": "088",
+            "longitude": -87.66672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.66672,
+                    41.965256
+                ]
+            },
+            "latitude": 41.965256,
+            "human_address": " Clark St & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:59.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.68
+                },
+                "HTU21D": {
+                    "temperature": 7.68
+                },
+                "BMP180": {
+                    "temperature": 21.0
+                }
+            },
+            "node_id": "04C",
+            "longitude": -87.685557,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685557,
+                    41.846579
+                ]
+            },
+            "latitude": 41.846579,
+            "human_address": " Western Ave & 25th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:15.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.3
+                },
+                "HTU21D": {
+                    "temperature": 2.51
+                },
+                "BMP180": {
+                    "temperature": 19.15
+                }
+            },
+            "node_id": "039",
+            "longitude": -87.69068,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.69068,
+                    41.94672
+                ]
+            },
+            "latitude": 41.94672,
+            "human_address": " Campbell Ave & Addison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:40.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.27
+                },
+                "HTU21D": {
+                    "temperature": 7.02
+                },
+                "BMP180": {
+                    "temperature": 49.2,
+                    "pressure": 1015.31
+                }
+            },
+            "node_id": "062",
+            "longitude": -87.666306,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.666306,
+                    41.866786
+                ]
+            },
+            "latitude": 41.866786,
+            "human_address": " Ashland Ave & Roosevelt Rd Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:55.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.42
+                },
+                "HTU21D": {
+                    "temperature": 1.52
+                },
+                "BMP180": {
+                    "temperature": 49.3,
+                    "pressure": 1015.19
+                }
+            },
+            "node_id": "062",
+            "longitude": -87.666306,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.666306,
+                    41.866786
+                ]
+            },
+            "latitude": 41.866786,
+            "human_address": " Ashland Ave & Roosevelt Rd Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:10.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.53
+                },
+                "HTU21D": {
+                    "temperature": 1.24
+                },
+                "BMP180": {
+                    "temperature": 49.4,
+                    "pressure": 1015.15
+                }
+            },
+            "node_id": "062",
+            "longitude": -87.666306,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.666306,
+                    41.866786
+                ]
+            },
+            "latitude": 41.866786,
+            "human_address": " Ashland Ave & Roosevelt Rd Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:33.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.44
+                },
+                "HTU21D": {
+                    "temperature": 19.1,
+                    "humidity": 64.47
+                },
+                "BMP180": {
+                    "temperature": 44.3,
+                    "pressure": 935.73
+                }
+            },
+            "node_id": "092",
+            "longitude": -87.703739,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.703739,
+                    41.800846
+                ]
+            },
+            "latitude": 41.800846,
+            "human_address": " Kedzie Ave & 51st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:38.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.62
+                },
+                "HTU21D": {
+                    "temperature": 19.21,
+                    "humidity": 64.05
+                },
+                "BMP180": {
+                    "temperature": 44.5,
+                    "pressure": 935.59
+                }
+            },
+            "node_id": "092",
+            "longitude": -87.703739,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.703739,
+                    41.800846
+                ]
+            },
+            "latitude": 41.800846,
+            "human_address": " Kedzie Ave & 51st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:43.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.28
+                },
+                "HTU21D": {
+                    "temperature": 18.99,
+                    "humidity": 64.82
+                },
+                "BMP180": {
+                    "temperature": 44.2,
+                    "pressure": 935.62
+                }
+            },
+            "node_id": "092",
+            "longitude": -87.703739,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.703739,
+                    41.800846
+                ]
+            },
+            "latitude": 41.800846,
+            "human_address": " Kedzie Ave & 51st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:40.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.95
+                },
+                "HTU21D": {
+                    "temperature": 15.9,
+                    "humidity": 67.3
+                },
+                "BMP180": {
+                    "temperature": 40.9,
+                    "pressure": 934.65
+                }
+            },
+            "node_id": "096",
+            "longitude": -87.536509,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.536509,
+                    41.713867
+                ]
+            },
+            "latitude": 41.713867,
+            "human_address": " Ave L & 100th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:46.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.7
+                },
+                "HTU21D": {
+                    "temperature": 15.71,
+                    "humidity": 67.34
+                },
+                "BMP180": {
+                    "temperature": 40.8,
+                    "pressure": 934.64
+                }
+            },
+            "node_id": "096",
+            "longitude": -87.536509,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.536509,
+                    41.713867
+                ]
+            },
+            "latitude": 41.713867,
+            "human_address": " Ave L & 100th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:29.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.05
+                },
+                "HTU21D": {
+                    "temperature": 19.62,
+                    "humidity": 64.22
+                },
+                "BMP180": {
+                    "temperature": 47.5,
+                    "pressure": 1062.04
+                }
+            },
+            "node_id": "097",
+            "longitude": -87.72242,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72242,
+                    41.764122
+                ]
+            },
+            "latitude": 41.764122,
+            "human_address": " Pulaski Rd & 71st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:34.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.18
+                },
+                "HTU21D": {
+                    "temperature": 19.72,
+                    "humidity": 63.34
+                },
+                "BMP180": {
+                    "temperature": 47.6,
+                    "pressure": 1062.03
+                }
+            },
+            "node_id": "097",
+            "longitude": -87.72242,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72242,
+                    41.764122
+                ]
+            },
+            "latitude": 41.764122,
+            "human_address": " Pulaski Rd & 71st St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:22.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 5.69
+                },
+                "HTU21D": {
+                    "temperature": 10.21
+                },
+                "BMP180": {
+                    "temperature": 17.79
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:14.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.64
+                },
+                "HTU21D": {
+                    "temperature": 16.75,
+                    "humidity": 64.5
+                },
+                "BMP180": {
+                    "temperature": 43.0,
+                    "pressure": 1097.4
+                }
+            },
+            "node_id": "086",
+            "longitude": -87.679174,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679174,
+                    41.968757
+                ]
+            },
+            "latitude": 41.968757,
+            "human_address": " Damen Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:19.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 16.62
+                },
+                "HTU21D": {
+                    "temperature": 15.99,
+                    "humidity": 67.38
+                },
+                "BMP180": {
+                    "temperature": 42.2,
+                    "pressure": 1097.86
+                }
+            },
+            "node_id": "086",
+            "longitude": -87.679174,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.679174,
+                    41.968757
+                ]
+            },
+            "latitude": 41.968757,
+            "human_address": " Damen Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:49.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.4
+                },
+                "HTU21D": {
+                    "temperature": 20.6,
+                    "humidity": 54.56
+                },
+                "BMP180": {
+                    "temperature": 23.6,
+                    "pressure": 1030.75
+                }
+            },
+            "node_id": "051",
+            "longitude": -87.605288,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.605288,
+                    41.751295
+                ]
+            },
+            "latitude": 41.751295,
+            "human_address": " Cottage Grove Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:54.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.45
+                },
+                "HTU21D": {
+                    "temperature": 20.61,
+                    "humidity": 54.36
+                },
+                "BMP180": {
+                    "temperature": 23.7,
+                    "pressure": 1030.69
+                }
+            },
+            "node_id": "051",
+            "longitude": -87.605288,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.605288,
+                    41.751295
+                ]
+            },
+            "latitude": 41.751295,
+            "human_address": " Cottage Grove Ave & 79th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:02.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.43
+                },
+                "HTU21D": {
+                    "temperature": 18.59,
+                    "humidity": 62.87
+                },
+                "BMP180": {
+                    "temperature": 22.3,
+                    "pressure": 1033.37
+                }
+            },
+            "node_id": "056",
+            "longitude": -87.761072,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.761072,
+                    41.923996
+                ]
+            },
+            "latitude": 41.923996,
+            "human_address": " Long Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:07.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.72
+                },
+                "HTU21D": {
+                    "temperature": 18.78,
+                    "humidity": 62.32
+                },
+                "BMP180": {
+                    "temperature": 22.5,
+                    "pressure": 1033.34
+                }
+            },
+            "node_id": "056",
+            "longitude": -87.761072,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.761072,
+                    41.923996
+                ]
+            },
+            "latitude": 41.923996,
+            "human_address": " Long Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:13.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.01
+                },
+                "HTU21D": {
+                    "temperature": 19.01,
+                    "humidity": 61.18
+                },
+                "BMP180": {
+                    "temperature": 22.8,
+                    "pressure": 1033.43
+                }
+            },
+            "node_id": "056",
+            "longitude": -87.761072,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.761072,
+                    41.923996
+                ]
+            },
+            "latitude": 41.923996,
+            "human_address": " Long Ave & Fullerton Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:34.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.67
+                },
+                "HTU21D": {
+                    "temperature": 9.06
+                },
+                "BMP180": {
+                    "temperature": 20.95
+                }
+            },
+            "node_id": "04C",
+            "longitude": -87.685557,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685557,
+                    41.846579
+                ]
+            },
+            "latitude": 41.846579,
+            "human_address": " Western Ave & 25th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:35.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.37
+                },
+                "HTU21D": {
+                    "temperature": 17.15
+                },
+                "BMP180": {
+                    "temperature": 17.45
+                }
+            },
+            "node_id": "04D",
+            "longitude": -87.682414,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.682414,
+                    41.913583
+                ]
+            },
+            "latitude": 41.913583,
+            "human_address": " Leavitt St & Milwaukee Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:11.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.48
+                },
+                "HTU21D": {
+                    "temperature": 18.12,
+                    "humidity": 63.05
+                },
+                "BMP180": {
+                    "temperature": 14.9,
+                    "pressure": 987.88
+                }
+            },
+            "node_id": "089",
+            "longitude": -87.662391,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.662391,
+                    41.896157
+                ]
+            },
+            "latitude": 41.896157,
+            "human_address": " Chicago Ave & Noble St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:16.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.21
+                },
+                "HTU21D": {
+                    "temperature": 17.96,
+                    "humidity": 63.59
+                },
+                "BMP180": {
+                    "temperature": 14.7,
+                    "pressure": 987.85
+                }
+            },
+            "node_id": "089",
+            "longitude": -87.662391,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.662391,
+                    41.896157
+                ]
+            },
+            "latitude": 41.896157,
+            "human_address": " Chicago Ave & Noble St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:28.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.57
+                },
+                "HTU21D": {
+                    "temperature": 15.23,
+                    "humidity": 78.12
+                },
+                "BMP180": {
+                    "temperature": 18.1,
+                    "pressure": 889.64
+                }
+            },
+            "node_id": "077",
+            "longitude": -87.617298,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.617298,
+                    41.83107
+                ]
+            },
+            "latitude": 41.83107,
+            "human_address": " Martin Luther King Dr & 35th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:36.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.67
+                },
+                "HTU21D": {
+                    "temperature": 15.31,
+                    "humidity": 77.94
+                },
+                "BMP180": {
+                    "temperature": 18.2,
+                    "pressure": 889.55
+                }
+            },
+            "node_id": "077",
+            "longitude": -87.617298,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.617298,
+                    41.83107
+                ]
+            },
+            "latitude": 41.83107,
+            "human_address": " Martin Luther King Dr & 35th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:04.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.7
+                },
+                "HTU21D": {
+                    "temperature": 19.42,
+                    "humidity": 61.52
+                },
+                "BMP180": {
+                    "temperature": 47.0,
+                    "pressure": 991.83
+                }
+            },
+            "node_id": "079",
+            "longitude": -87.668257,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.668257,
+                    41.918733
+                ]
+            },
+            "latitude": 41.918733,
+            "human_address": " Ashland Ave & Elston Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:10.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.38
+                },
+                "HTU21D": {
+                    "temperature": 19.46,
+                    "humidity": 61.67
+                },
+                "BMP180": {
+                    "temperature": 47.0,
+                    "pressure": 991.84
+                }
+            },
+            "node_id": "079",
+            "longitude": -87.668257,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.668257,
+                    41.918733
+                ]
+            },
+            "latitude": 41.918733,
+            "human_address": " Ashland Ave & Elston Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:48:15.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.57
+                },
+                "HTU21D": {
+                    "temperature": 17.61,
+                    "humidity": 71.23
+                },
+                "BMP180": {
+                    "temperature": 18.25
+                }
+            },
+            "node_id": "00D",
+            "longitude": -87.590228,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.590228,
+                    41.810342
+                ]
+            },
+            "latitude": 41.810342,
+            "human_address": " Cornell & 47th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:49:27.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.35
+                },
+                "HTU21D": {
+                    "temperature": 17.44,
+                    "humidity": 71.72
+                },
+                "BMP180": {
+                    "temperature": 18.1
+                }
+            },
+            "node_id": "00D",
+            "longitude": -87.590228,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.590228,
+                    41.810342
+                ]
+            },
+            "latitude": 41.810342,
+            "human_address": " Cornell & 47th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:50:40.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.53
+                },
+                "HTU21D": {
+                    "temperature": 17.53,
+                    "humidity": 71.57
+                },
+                "BMP180": {
+                    "temperature": 18.25
+                }
+            },
+            "node_id": "00D",
+            "longitude": -87.590228,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.590228,
+                    41.810342
+                ]
+            },
+            "latitude": 41.810342,
+            "human_address": " Cornell & 47th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:51:51.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.56
+                },
+                "HTU21D": {
+                    "temperature": 16.85,
+                    "humidity": 74.18
+                },
+                "BMP180": {
+                    "temperature": 17.4
+                }
+            },
+            "node_id": "00D",
+            "longitude": -87.590228,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.590228,
+                    41.810342
+                ]
+            },
+            "latitude": 41.810342,
+            "human_address": " Cornell & 47th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:48:46.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.61
+                },
+                "HTU21D": {
+                    "temperature": 18.33,
+                    "humidity": 63.82
+                },
+                "BMP180": {
+                    "temperature": 24.3,
+                    "pressure": 1032.84
+                }
+            },
+            "node_id": "01F",
+            "longitude": -87.624179,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.624179,
+                    41.736314
+                ]
+            },
+            "latitude": 41.736314,
+            "human_address": " State St & 87th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:50:56.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.67
+                },
+                "HTU21D": {
+                    "temperature": 18.34,
+                    "humidity": 63.89
+                },
+                "BMP180": {
+                    "temperature": 24.3,
+                    "pressure": 1032.76
+                }
+            },
+            "node_id": "01F",
+            "longitude": -87.624179,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.624179,
+                    41.736314
+                ]
+            },
+            "latitude": 41.736314,
+            "human_address": " State St & 87th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:46.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 5.69
+                },
+                "HTU21D": {
+                    "temperature": 10.2
+                },
+                "BMP180": {
+                    "temperature": 17.7
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:11.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.31
+                },
+                "HTU21D": {
+                    "temperature": 17.78,
+                    "humidity": 73.29
+                },
+                "BMP180": {
+                    "temperature": 17.9
+                }
+            },
+            "node_id": "03F",
+            "longitude": -87.72566,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72566,
+                    41.880732
+                ]
+            },
+            "latitude": 41.880732,
+            "human_address": " Pulaski Rd & Madison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:23.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.08
+                },
+                "HTU21D": {
+                    "temperature": 17.61,
+                    "humidity": 73.76
+                },
+                "BMP180": {
+                    "temperature": 17.7
+                }
+            },
+            "node_id": "03F",
+            "longitude": -87.72566,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72566,
+                    41.880732
+                ]
+            },
+            "latitude": 41.880732,
+            "human_address": " Pulaski Rd & Madison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:32.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.28
+                },
+                "HTU21D": {
+                    "temperature": 17.74,
+                    "humidity": 73.66
+                },
+                "BMP180": {
+                    "temperature": 17.84
+                }
+            },
+            "node_id": "03F",
+            "longitude": -87.72566,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72566,
+                    41.880732
+                ]
+            },
+            "latitude": 41.880732,
+            "human_address": " Pulaski Rd & Madison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:44.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.32
+                },
+                "HTU21D": {
+                    "temperature": 17.76,
+                    "humidity": 73.36
+                },
+                "BMP180": {
+                    "temperature": 17.9
+                }
+            },
+            "node_id": "03F",
+            "longitude": -87.72566,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.72566,
+                    41.880732
+                ]
+            },
+            "latitude": 41.880732,
+            "human_address": " Pulaski Rd & Madison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:51.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.53
+                },
+                "HTU21D": {
+                    "temperature": 8.59
+                },
+                "BMP180": {
+                    "temperature": 48.9,
+                    "pressure": 1000.23
+                }
+            },
+            "node_id": "088",
+            "longitude": -87.66672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.66672,
+                    41.965256
+                ]
+            },
+            "latitude": 41.965256,
+            "human_address": " Clark St & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:06.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.34
+                },
+                "HTU21D": {
+                    "temperature": 3.8
+                },
+                "BMP180": {
+                    "temperature": 48.8,
+                    "pressure": 1000.3
+                }
+            },
+            "node_id": "088",
+            "longitude": -87.66672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.66672,
+                    41.965256
+                ]
+            },
+            "latitude": 41.965256,
+            "human_address": " Clark St & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:21.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.56
+                },
+                "HTU21D": {
+                    "temperature": 7.82
+                },
+                "BMP180": {
+                    "temperature": 49.0,
+                    "pressure": 1000.19
+                }
+            },
+            "node_id": "088",
+            "longitude": -87.66672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.66672,
+                    41.965256
+                ]
+            },
+            "latitude": 41.965256,
+            "human_address": " Clark St & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:37.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.95
+                },
+                "HTU21D": {
+                    "temperature": 5.38
+                },
+                "BMP180": {
+                    "temperature": 49.3,
+                    "pressure": 999.99
+                }
+            },
+            "node_id": "088",
+            "longitude": -87.66672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.66672,
+                    41.965256
+                ]
+            },
+            "latitude": 41.965256,
+            "human_address": " Clark St & Wilson Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:57.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.55
+                },
+                "HTU21D": {
+                    "temperature": 8.89
+                },
+                "BMP180": {
+                    "temperature": 20.9
+                }
+            },
+            "node_id": "04C",
+            "longitude": -87.685557,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685557,
+                    41.846579
+                ]
+            },
+            "latitude": 41.846579,
+            "human_address": " Western Ave & 25th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:41.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.66
+                },
+                "HTU21D": {
+                    "temperature": 18.02,
+                    "humidity": 64.18
+                },
+                "BMP180": {
+                    "temperature": 50.2,
+                    "pressure": 1008.55
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:47.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.14
+                },
+                "HTU21D": {
+                    "temperature": 17.51,
+                    "humidity": 65.5
+                },
+                "BMP180": {
+                    "temperature": 49.7,
+                    "pressure": 1008.78
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:59.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.33
+                },
+                "HTU21D": {
+                    "temperature": 17.12
+                },
+                "BMP180": {
+                    "temperature": 17.4
+                }
+            },
+            "node_id": "04D",
+            "longitude": -87.682414,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.682414,
+                    41.913583
+                ]
+            },
+            "latitude": 41.913583,
+            "human_address": " Leavitt St & Milwaukee Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:05.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.43
+                },
+                "HTU21D": {
+                    "temperature": 1.06
+                },
+                "BMP180": {
+                    "temperature": 49.3,
+                    "pressure": 1015.2
+                }
+            },
+            "node_id": "062",
+            "longitude": -87.666306,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.666306,
+                    41.866786
+                ]
+            },
+            "latitude": 41.866786,
+            "human_address": " Ashland Ave & Roosevelt Rd Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:20.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.43
+                },
+                "HTU21D": {
+                    "temperature": 1.13
+                },
+                "BMP180": {
+                    "temperature": 49.3,
+                    "pressure": 1015.1
+                }
+            },
+            "node_id": "062",
+            "longitude": -87.666306,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.666306,
+                    41.866786
+                ]
+            },
+            "latitude": 41.866786,
+            "human_address": " Ashland Ave & Roosevelt Rd Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:35.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.52
+                },
+                "HTU21D": {
+                    "temperature": 1.17
+                },
+                "BMP180": {
+                    "temperature": 49.4,
+                    "pressure": 1015.14
+                }
+            },
+            "node_id": "062",
+            "longitude": -87.666306,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.666306,
+                    41.866786
+                ]
+            },
+            "latitude": 41.866786,
+            "human_address": " Ashland Ave & Roosevelt Rd Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:13.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.11
+                },
+                "HTU21D": {
+                    "temperature": 19.41,
+                    "humidity": 64.31
+                },
+                "BMP180": {
+                    "temperature": 40.1,
+                    "pressure": 1058.97
+                }
+            },
+            "node_id": "067",
+            "longitude": -87.665048,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.665048,
+                    41.808594
+                ]
+            },
+            "latitude": 41.808594,
+            "human_address": " Ashland Ave & 47th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:21.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.98
+                },
+                "HTU21D": {
+                    "temperature": 19.26,
+                    "humidity": 64.47
+                },
+                "BMP180": {
+                    "temperature": 40.0,
+                    "pressure": 1058.94
+                }
+            },
+            "node_id": "067",
+            "longitude": -87.665048,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.665048,
+                    41.808594
+                ]
+            },
+            "latitude": 41.808594,
+            "human_address": " Ashland Ave & 47th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:05.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.41
+                },
+                "HTU21D": {
+                    "temperature": 2.13
+                },
+                "BMP180": {
+                    "temperature": 39.2,
+                    "pressure": 1027.7
+                }
+            },
+            "node_id": "091",
+            "longitude": -87.648093,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.648093,
+                    41.903632
+                ]
+            },
+            "latitude": 41.903632,
+            "human_address": " Halsted St & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:20.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.23
+                },
+                "HTU21D": {
+                    "temperature": 2.08
+                },
+                "BMP180": {
+                    "temperature": 39.1,
+                    "pressure": 1027.73
+                }
+            },
+            "node_id": "091",
+            "longitude": -87.648093,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.648093,
+                    41.903632
+                ]
+            },
+            "latitude": 41.903632,
+            "human_address": " Halsted St & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:36.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.25
+                },
+                "HTU21D": {
+                    "temperature": 2.11
+                },
+                "BMP180": {
+                    "temperature": 39.1,
+                    "pressure": 1027.77
+                }
+            },
+            "node_id": "091",
+            "longitude": -87.648093,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.648093,
+                    41.903632
+                ]
+            },
+            "latitude": 41.903632,
+            "human_address": " Halsted St & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:51.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.48
+                },
+                "HTU21D": {
+                    "temperature": 2.16
+                },
+                "BMP180": {
+                    "temperature": 39.3,
+                    "pressure": 1027.68
+                }
+            },
+            "node_id": "091",
+            "longitude": -87.648093,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.648093,
+                    41.903632
+                ]
+            },
+            "latitude": 41.903632,
+            "human_address": " Halsted St & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:40.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.69
+                },
+                "HTU21D": {
+                    "temperature": 14.79,
+                    "humidity": 71.16
+                },
+                "BMP180": {
+                    "temperature": 21.9,
+                    "pressure": 1016.14
+                }
+            },
+            "node_id": "080",
+            "longitude": -87.659672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.659672,
+                    41.96904
+                ]
+            },
+            "latitude": 41.96904,
+            "human_address": " Broadway Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:58.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 5.86
+                },
+                "HTU21D": {
+                    "temperature": 10.29
+                },
+                "BMP180": {
+                    "temperature": 17.79
+                }
+            },
+            "node_id": "050",
+            "longitude": -87.6674,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6674,
+                    41.903335
+                ]
+            },
+            "latitude": 41.903335,
+            "human_address": " Ashland Ave & Division St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:43:25.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.4
+                },
+                "HTU21D": {
+                    "temperature": 18.87,
+                    "humidity": 63.99
+                },
+                "BMP180": {
+                    "temperature": 19.5
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:39.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.26
+                },
+                "HTU21D": {
+                    "temperature": 18.77,
+                    "humidity": 64.39
+                },
+                "BMP180": {
+                    "temperature": 19.45
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:51.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.31
+                },
+                "HTU21D": {
+                    "temperature": 18.79,
+                    "humidity": 64.2
+                },
+                "BMP180": {
+                    "temperature": 19.4
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:03.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.21
+                },
+                "HTU21D": {
+                    "temperature": 18.68,
+                    "humidity": 64.7
+                },
+                "BMP180": {
+                    "temperature": 19.29
+                }
+            },
+            "node_id": "032",
+            "longitude": -87.671773,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.671773,
+                    41.882304
+                ]
+            },
+            "latitude": 41.882304,
+            "human_address": " Wood St & Warren Blv Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:32.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.59
+                },
+                "HTU21D": {
+                    "temperature": 17.95,
+                    "humidity": 64.47
+                },
+                "BMP180": {
+                    "temperature": 50.2,
+                    "pressure": 1008.48
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:41.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.71
+                },
+                "HTU21D": {
+                    "temperature": 17.13,
+                    "humidity": 66.95
+                },
+                "BMP180": {
+                    "temperature": 49.4,
+                    "pressure": 1008.99
+                }
+            },
+            "node_id": "07F",
+            "longitude": -87.67644,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.67644,
+                    41.87148
+                ]
+            },
+            "latitude": 41.87148,
+            "human_address": " Damen Ave & Polk St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:42:27.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.92
+                },
+                "HTU21D": {
+                    "temperature": 2.35
+                },
+                "BMP180": {
+                    "temperature": 18.84
+                }
+            },
+            "node_id": "039",
+            "longitude": -87.69068,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.69068,
+                    41.94672
+                ]
+            },
+            "latitude": 41.94672,
+            "human_address": " Campbell Ave & Addison St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:45:11.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.3
+                },
+                "HTU21D": {
+                    "temperature": 17.09
+                },
+                "BMP180": {
+                    "temperature": 17.4
+                }
+            },
+            "node_id": "04D",
+            "longitude": -87.682414,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.682414,
+                    41.913583
+                ]
+            },
+            "latitude": 41.913583,
+            "human_address": " Leavitt St & Milwaukee Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:44:04.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 20.13
+                },
+                "HTU21D": {
+                    "temperature": 19.4,
+                    "humidity": 64.41
+                },
+                "BMP180": {
+                    "temperature": 40.1,
+                    "pressure": 1058.95
+                }
+            },
+            "node_id": "067",
+            "longitude": -87.665048,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.665048,
+                    41.808594
+                ]
+            },
+            "latitude": 41.808594,
+            "human_address": " Ashland Ave & 47th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:46:13.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 19.82
+                },
+                "HTU21D": {
+                    "temperature": 19.14,
+                    "humidity": 64.76
+                },
+                "BMP180": {
+                    "temperature": 39.8,
+                    "pressure": 1059.01
+                }
+            },
+            "node_id": "067",
+            "longitude": -87.665048,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.665048,
+                    41.808594
+                ]
+            },
+            "latitude": 41.808594,
+            "human_address": " Ashland Ave & 47th Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:48:30.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.72
+                },
+                "HTU21D": {
+                    "temperature": 14.85,
+                    "humidity": 71.1
+                },
+                "BMP180": {
+                    "temperature": 21.9,
+                    "pressure": 1016.13
+                }
+            },
+            "node_id": "080",
+            "longitude": -87.659672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.659672,
+                    41.96904
+                ]
+            },
+            "latitude": 41.96904,
+            "human_address": " Broadway Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:50:35.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 15.63
+                },
+                "HTU21D": {
+                    "temperature": 14.8,
+                    "humidity": 71.44
+                },
+                "BMP180": {
+                    "temperature": 21.9,
+                    "pressure": 1015.95
+                }
+            },
+            "node_id": "080",
+            "longitude": -87.659672,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.659672,
+                    41.96904
+                ]
+            },
+            "latitude": 41.96904,
+            "human_address": " Broadway Ave & Lawrence Ave Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:47:32.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.38
+                },
+                "HTU21D": {
+                    "temperature": 17.43,
+                    "humidity": 78.05
+                },
+                "BMP180": {
+                    "temperature": 17.2,
+                    "pressure": 976.43
+                }
+            },
+            "node_id": "02A",
+            "longitude": -87.57535,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.57535,
+                    41.722457
+                ]
+            },
+            "latitude": 41.722457,
+            "human_address": " Jeffrey Ave & 95th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:49:37.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.53
+                },
+                "HTU21D": {
+                    "temperature": 17.46,
+                    "humidity": 77.82
+                },
+                "BMP180": {
+                    "temperature": 17.3,
+                    "pressure": 976.35
+                }
+            },
+            "node_id": "02A",
+            "longitude": -87.57535,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.57535,
+                    41.722457
+                ]
+            },
+            "latitude": 41.722457,
+            "human_address": " Jeffrey Ave & 95th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:51:43.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 18.37
+                },
+                "HTU21D": {
+                    "temperature": 17.35,
+                    "humidity": 78.33
+                },
+                "BMP180": {
+                    "temperature": 17.1,
+                    "pressure": 976.33
+                }
+            },
+            "node_id": "02A",
+            "longitude": -87.57535,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.57535,
+                    41.722457
+                ]
+            },
+            "latitude": 41.722457,
+            "human_address": " Jeffrey Ave & 95th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:48:29.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.89
+                },
+                "HTU21D": {
+                    "temperature": 17.36,
+                    "humidity": 66.97
+                },
+                "BMP180": {
+                    "temperature": 38.4,
+                    "pressure": 1044.54
+                }
+            },
+            "node_id": "02C",
+            "longitude": -87.614529,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.614529,
+                    41.736495
+                ]
+            },
+            "latitude": 41.736495,
+            "human_address": " Martin Luther King Dr & 87th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        },
+        {
+            "timestamp": "2018-06-03T00:50:38.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 17.59
+                },
+                "HTU21D": {
+                    "temperature": 17.13,
+                    "humidity": 67.84
+                },
+                "BMP180": {
+                    "temperature": 38.1,
+                    "pressure": 1044.54
+                }
+            },
+            "node_id": "02C",
+            "longitude": -87.614529,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.614529,
+                    41.736495
+                ]
+            },
+            "latitude": 41.736495,
+            "human_address": " Martin Luther King Dr & 87th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        }
+    ]
+}

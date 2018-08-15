@@ -1,11 +1,13 @@
 from datetime import datetime
 from typing import List
 
+from .abc import ResponseHandler
 from .errors import ApiError
 
 
 class Response:
-    """``Response`` is a generic wrapper around responses from the API. It captures
+    """
+    ``Response`` is a generic wrapper around responses from the API. It captures
     the major blocks of the response body -- ``meta`` and ``data`` -- and parses them
     into usable components.
     """
@@ -43,8 +45,9 @@ class Response:
         return '<Response {url}>'.format(url=self.current_url)
 
 
-class Description:
-    """A ``Description`` is a specific kind of response from the API. There are
+class Description(ResponseHandler):
+    """
+    A ``Description`` is a specific kind of response from the API. There are
     several endpoints of the API that return metadata of the data sets -- this
     object captures those metadata values.
 
@@ -100,9 +103,18 @@ class Description:
     def __repr__(self) -> str:
         return '<Description name="{name}" slug="{slug}">'.format(name=self.name, slug=self.slug)
 
+    @classmethod
+    def from_api_payload(cls, payload: dict, client: 'Client'=None) -> 'Description':
+        data = payload.get('data')
+        if isinstance(data, list):
+            return [cls(**meta) for meta in data]
+        else:
+            return cls(**data)
 
-class DataSet:
-    """A ``DataSet`` is a thin wrapper around an API resource response. It holds the
+
+class DataSet(ResponseHandler):
+    """
+    A ``DataSet`` is a thin wrapper around an API resource response. It holds the
     parsed list of records for the request.
 
     Its most useful feature is its generator ability -- API responses are paginated and
@@ -141,10 +153,16 @@ class DataSet:
         while self._response.next_url is not None:
             yield self
 
-            refreshed = self._client._send_request(self._response.next_url)
+            refreshed = self._client._send_request(
+                url=self._response.next_url, parse_as=DataSet)
             self = refreshed
 
         yield self
+
+    @classmethod
+    def from_api_payload(cls, payload: dict, client: 'Client') -> 'DataSet':
+        response = Response(payload)
+        return cls(response=response, client=client)
 
     @property
     def records(self) -> List[dict]:

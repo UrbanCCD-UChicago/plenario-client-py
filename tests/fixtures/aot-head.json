@@ -1,0 +1,54 @@
+{
+    "meta": {
+        "params": {
+            "window": "2018-08-15T14:56:57",
+            "page_size": 200,
+            "page": 1,
+            "order_by": {
+                "desc": "timestamp"
+            }
+        },
+        "links": {
+            "previous": null,
+            "next": null,
+            "current": "https://dev.plenar.io/api/v2/aot/@head?order_by=desc%3Atimestamp&page=1&page_size=200&window=2018-08-15T14%3A56%3A57"
+        },
+        "counts": {
+            "total_records": 8880789,
+            "total_pages": 44404,
+            "data_count": 200
+        }
+    },
+    "data": [
+        {
+            "timestamp": "2018-06-03T00:42:37.000000",
+            "observations": {
+                "TSYS01": {
+                    "temperature": 21.27
+                },
+                "HTU21D": {
+                    "temperature": 19.23
+                },
+                "BMP180": {
+                    "temperature": 27.8,
+                    "pressure": 1082.76
+                }
+            },
+            "node_id": "025",
+            "longitude": -87.685806,
+            "location": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.685806,
+                    41.857797
+                ]
+            },
+            "latitude": 41.857797,
+            "human_address": " Western Ave & 18th St Chicago IL",
+            "aot_meta": {
+                "slug": "chicago",
+                "network_name": "Chicago"
+            }
+        }
+    ]
+}

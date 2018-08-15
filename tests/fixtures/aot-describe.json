@@ -1,0 +1,92 @@
+{
+    "meta": {
+        "params": {
+            "window": "2018-08-15T14:57:12",
+            "page_size": 200,
+            "page": 1,
+            "order_by": {
+                "desc": "timestamp"
+            }
+        },
+        "links": {
+            "previous": null,
+            "next": null,
+            "current": "https://dev.plenar.io/api/v2/aot/@describe?order_by=desc%3Atimestamp&page=1&page_size=200&window=2018-08-15T14%3A57%3A12"
+        },
+        "counts": {
+            "total_records": 1,
+            "total_pages": 1,
+            "data_count": 1
+        }
+    },
+    "data": [
+        {
+            "time_range": {
+                "upper_inclusive": true,
+                "upper": "2018-08-15T14:42:54",
+                "lower_inclusive": true,
+                "lower": "2018-05-09T00:33:56"
+            },
+            "source_url": "http://www.mcs.anl.gov/research/projects/waggle/downloads/beehive1/plenario.json",
+            "slug": "chicago",
+            "network_name": "Chicago",
+            "fields": [
+                {
+                    "type": "text",
+                    "name": "node_id"
+                },
+                {
+                    "type": "text",
+                    "name": "human_address"
+                },
+                {
+                    "type": "float",
+                    "name": "latitude"
+                },
+                {
+                    "type": "float",
+                    "name": "longitude"
+                },
+                {
+                    "type": "timestamp",
+                    "name": "timestamp"
+                },
+                {
+                    "type": "object",
+                    "name": "observations"
+                },
+                {
+                    "type": "geometry(point, 4326)",
+                    "name": "location"
+                }
+            ],
+            "bbox": {
+                "srid": 4326,
+                "coordinates": [
+                    [
+                        [
+                            41.96904,
+                            -87.761072
+                        ],
+                        [
+                            41.666078,
+                            -87.761072
+                        ],
+                        [
+                            41.666078,
+                            -87.536509
+                        ],
+                        [
+                            41.96904,
+                            -87.536509
+                        ],
+                        [
+                            41.96904,
+                            -87.761072
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

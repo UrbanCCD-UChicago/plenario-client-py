@@ -1,7 +1,7 @@
 import re
 
 import responses  # the responses testing lib, not our responses module
-from plenario_client import Client, F
+from plenario_client import AoTClient, Client, F
 
 from utils import load_fixture
 
@@ -9,9 +9,51 @@ from utils import load_fixture
 LOCALHOST_URL = re.compile('.*localhost.*')
 
 
+class TestAoTClient:
+    def setup_method(self, mtd):
+        self.client = AoTClient(scheme='http', hostname='localhost')
+
+    @responses.activate
+    def test_describe_networks(self):
+        responses.add(
+            method=responses.GET,
+            url=LOCALHOST_URL,
+            status=200,
+            json=load_fixture('aot-describe.json')
+        )
+
+        networks = self.client.describe_networks()
+        assert len(networks) == 1
+
+    @responses.activate
+    def test_head_observations(self):
+        responses.add(
+            method=responses.GET,
+            url=LOCALHOST_URL,
+            status=200,
+            json=load_fixture('aot-head.json')
+        )
+
+        observations = self.client.head_observations()
+        assert len(observations.records) == 1
+        assert len([page for page in observations]) == 1
+
+    @responses.activate
+    def test_get_observations(self):
+        responses.add(
+            method=responses.GET,
+            url=LOCALHOST_URL,
+            status=200,
+            json=load_fixture('aot.json')
+        )
+
+        observations = self.client.get_observations()
+        assert len(observations.records) == 200
+
+
 class TestClient:
     def setup_method(self, mtd):
-        self.client = Client(scheme='http', host='localhost')
+        self.client = Client(scheme='http', hostname='localhost')
 
     @responses.activate
     def test_describe_data_sets(self):
