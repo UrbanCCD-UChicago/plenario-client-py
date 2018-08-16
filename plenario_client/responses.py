@@ -5,7 +5,7 @@ from .abc import ResponseHandler
 from .errors import ApiError
 
 
-class Response:
+class PlenarioResponse:
     """
     ``Response`` is a generic wrapper around responses from the API. It captures
     the major blocks of the response body -- ``meta`` and ``data`` -- and parses them
@@ -132,12 +132,12 @@ class DataSet(ResponseHandler):
     ...
     """
 
-    def __init__(self, client: 'Client', response: Response):
+    def __init__(self, client: 'Client', response: PlenarioResponse):
         """Initializes a new ``DataSet``.
 
-        :param client: The :class:`Client` that made the request, got the :class:`Response`,
-            and parsed the reponse into this ``DataSet``. It's used to make subsequent
-            paging requests to the resource.
+        :param client: The :class:`Client` that made the request, got the
+            :class:`PlenarioResponse`, and parsed the reponse into this ``DataSet``.
+            It's used to make subsequent paging requests to the resource.
         :param response: The :class:`Response` object that will be parsed into this object
         """
         self._client = client
@@ -161,7 +161,7 @@ class DataSet(ResponseHandler):
 
     @classmethod
     def from_api_payload(cls, payload: dict, client: 'Client') -> 'DataSet':
-        response = Response(payload)
+        response = PlenarioResponse(payload)
         return cls(response=response, client=client)
 
     @property
