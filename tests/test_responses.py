@@ -4,7 +4,7 @@ import pytest
 import responses
 from plenario_client import Client
 from plenario_client.errors import ApiError
-from plenario_client.responses import DataSet, Description, Response
+from plenario_client.responses import DataSet, Description, PlenarioResponse
 
 from utils import load_fixture
 
@@ -15,12 +15,12 @@ PAGE_2_URL = re.compile('.*page=2.*')
 def test_response_init_with_error():
     res = load_fixture('error.json')
     with pytest.raises(ApiError):
-        Response(res)
+        PlenarioResponse(res)
 
 
 def test_response_init_with_list():
     payload = load_fixture('list.json')
-    res = Response(payload)
+    res = PlenarioResponse(payload)
 
     assert res.meta == payload['meta']
     assert res.data == payload['data']
@@ -28,7 +28,7 @@ def test_response_init_with_list():
 
 def test_response_init_with_detail():
     payload = load_fixture('detail.json')
-    res = Response(payload)
+    res = PlenarioResponse(payload)
 
     assert res.meta == payload['meta']
     assert res.data == payload['data']
@@ -61,7 +61,7 @@ def test_description_init():
 
 def test_data_set_init():
     payload = load_fixture('detail.json')
-    res = Response(payload)
+    res = PlenarioResponse(payload)
     data_set = DataSet(response=res, client=None)
 
     assert data_set.meta == res.meta
@@ -78,7 +78,7 @@ def test_data_set_iter():
     )
 
     payload = load_fixture('detail.json')
-    res = Response(payload)
+    res = PlenarioResponse(payload)
     data_set = DataSet(response=res, client=Client())
 
     pages = [page for page in data_set]
