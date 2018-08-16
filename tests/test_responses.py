@@ -2,6 +2,7 @@ import re
 
 import pytest
 import responses
+from datetime import datetime, date
 from plenario_client import Client
 from plenario_client.errors import ApiError
 from plenario_client.responses import DataSet, Description, PlenarioResponse
@@ -57,6 +58,13 @@ def test_description_init():
         'upper': '2018-08-13T00:00:00',
         'upper_inclusive': True
     }
+
+    assert description.first_import == datetime(2018, 8, 2, 16, 22)
+    assert description.next_import == datetime(2018, 8, 15, 16, 22)
+    assert description.latest_import == datetime(2018, 8, 14, 16, 23, 59)
+    assert description.refresh_ends_on is None
+    assert description.refresh_starts_on == date(2018, 1, 1)
+
 
 
 def test_data_set_init():
