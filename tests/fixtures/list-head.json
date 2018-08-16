@@ -1,0 +1,196 @@
+{
+    "meta": {
+        "params": {
+            "page_size": 200,
+            "page": 1,
+            "order_by": {
+                "asc": "name"
+            }
+        },
+        "links": {
+            "previous": null,
+            "next": null,
+            "current": "https://dev.plenar.io/api/v2/data-sets/@head?order_by=asc%3Aname&page=1&page_size=200"
+        },
+        "counts": {
+            "total_records": 15,
+            "total_pages": 1,
+            "data_count": 15
+        }
+    },
+    "data": [
+        {
+            "virtual_points": [
+                {
+                    "name": "vpf_5DRYegEC_NT_iGjz",
+                    "lon_field": "Longitude",
+                    "loc_field": null,
+                    "lat_field": "Latitude"
+                }
+            ],
+            "virtual_dates": [],
+            "user": {
+                "name": "Vince Forgione",
+                "email": "vforgione@uchicago.edu",
+                "bio": "Lead Engineer with UChicago's Urban CCD"
+            },
+            "time_range": {
+                "upper_inclusive": true,
+                "upper": "2018-08-13T00:00:00",
+                "lower_inclusive": true,
+                "lower": "2001-04-06T00:00:00"
+            },
+            "source_url": "https://data.cityofchicago.org/api/views/3c9v-pnva/rows.csv?accessType=DOWNLOAD",
+            "slug": "chicago-311-service-requests-abandoned-vehicles",
+            "refresh_starts_on": "2018-01-01",
+            "refresh_rate": "days",
+            "refresh_interval": 1,
+            "refresh_ends_on": null,
+            "next_import": "2018-08-15T16:22:00.052382Z",
+            "name": "Chicago 311 Service Requests - Abandoned Vehicles",
+            "latest_import": "2018-08-14T16:23:59.820952Z",
+            "first_import": "2018-08-02T16:22:00.042468Z",
+            "fields": [
+                {
+                    "type": "text",
+                    "name": "Vehicle Make/Model",
+                    "description": null
+                },
+                {
+                    "type": "integer",
+                    "name": "ZIP Code",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "Vehicle Color",
+                    "description": null
+                },
+                {
+                    "type": "float",
+                    "name": "Y Coordinate",
+                    "description": null
+                },
+                {
+                    "type": "float",
+                    "name": "X Coordinate",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "Type of Service Request",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "Street Address",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "Status",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "Service Request Number",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "SSA",
+                    "description": null
+                },
+                {
+                    "type": "integer",
+                    "name": "Police District",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "Most Recent Action",
+                    "description": null
+                },
+                {
+                    "type": "float",
+                    "name": "Longitude",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "Location",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "License Plate",
+                    "description": null
+                },
+                {
+                    "type": "float",
+                    "name": "Latitude",
+                    "description": null
+                },
+                {
+                    "type": "integer",
+                    "name": "How Many Days Has the Vehicle Been Reported as Parked?",
+                    "description": null
+                },
+                {
+                    "type": "text",
+                    "name": "Current Activity",
+                    "description": null
+                },
+                {
+                    "type": "timestamp",
+                    "name": "Creation Date",
+                    "description": null
+                },
+                {
+                    "type": "timestamp",
+                    "name": "Completion Date",
+                    "description": null
+                },
+                {
+                    "type": "integer",
+                    "name": "Community Area",
+                    "description": null
+                },
+                {
+                    "type": "integer",
+                    "name": "Ward",
+                    "description": null
+                }
+            ],
+            "description": null,
+            "bbox": {
+                "srid": 4326,
+                "coordinates": [
+                    [
+                        [
+                            -87.52468278255836,
+                            41.64449686770894
+                        ],
+                        [
+                            -87.91372610600482,
+                            41.64449686770894
+                        ],
+                        [
+                            -87.91372610600482,
+                            42.02266026807753
+                        ],
+                        [
+                            -87.52468278255836,
+                            42.02266026807753
+                        ],
+                        [
+                            -87.52468278255836,
+                            41.64449686770894
+                        ]
+                    ]
+                ]
+            },
+            "attribution": "City of Chicago"
+        }
+    ]
+}

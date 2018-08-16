@@ -1,0 +1,5399 @@
+{
+    "meta": {
+        "params": {
+            "page_size": 200,
+            "page": 1,
+            "order_by": {
+                "asc": "row_id"
+            }
+        },
+        "links": {
+            "previous": null,
+            "next": "http://localhost/api/v2/data-sets/chicago-beach-lab-data-dna-tests?order_by=asc%3Arow_id&page=2&page_size=200",
+            "current": "http://localhost/api/v2/data-sets/chicago-beach-lab-data-dna-tests?order_by=asc%3Arow_id&page=1&page_size=200"
+        },
+        "counts": {
+            "total_records": 4520,
+            "total_pages": 23,
+            "data_count": 200
+        }
+    },
+    "data": [
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 1,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 1606,
+            "DNA Sample Timestamp": "2016-08-05T12:35:00.000000",
+            "DNA Sample 2 Reading": 163.0,
+            "DNA Sample 1 Reading": 39.0,
+            "DNA Reading Mean": 79.7,
+            "Culture Test ID": "113691",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/05/2016 08:36:00 AM",
+            "Culture Sample 2 Reading": "1733.0",
+            "Culture Sample 1 Timestamp": "08/05/2016 08:35:00 AM",
+            "Culture Sample 1 Reading": "411.0",
+            "Culture Reading Mean": "844.0",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 2,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 4585,
+            "DNA Sample Timestamp": "2017-07-30T00:00:00.000000",
+            "DNA Sample 2 Reading": 389.0,
+            "DNA Sample 1 Reading": 313.0,
+            "DNA Reading Mean": 348.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 3,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 5451,
+            "DNA Sample Timestamp": "2017-08-23T00:00:00.000000",
+            "DNA Sample 2 Reading": 247.0,
+            "DNA Sample 1 Reading": 87.0,
+            "DNA Reading Mean": 146.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.703717,
+                    41.90643
+                ]
+            },
+            "row_id": 4,
+            "Longitude": -87.703717,
+            "Location": "(41.90643, -87.703717)",
+            "Latitude": 41.90643,
+            "DNA Test ID": 4359,
+            "DNA Sample Timestamp": "2017-07-22T00:00:00.000000",
+            "DNA Sample 2 Reading": 3083.0,
+            "DNA Sample 1 Reading": 3408.0,
+            "DNA Reading Mean": 3241.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Humboldt"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 5,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 2009,
+            "DNA Sample Timestamp": "2016-08-20T12:40:00.000000",
+            "DNA Sample 2 Reading": 147.0,
+            "DNA Sample 1 Reading": 236.0,
+            "DNA Reading Mean": 186.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6072,
+                    41.8393
+                ]
+            },
+            "row_id": 6,
+            "Longitude": -87.6072,
+            "Location": "(41.8393, -87.6072)",
+            "Latitude": 41.8393,
+            "DNA Test ID": 4433,
+            "DNA Sample Timestamp": "2017-07-25T00:00:00.000000",
+            "DNA Sample 2 Reading": 1156.0,
+            "DNA Sample 1 Reading": 466.0,
+            "DNA Reading Mean": 734.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs (31st)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6666,
+                    42.0213
+                ]
+            },
+            "row_id": 7,
+            "Longitude": -87.6666,
+            "Location": "(42.0213, -87.6666)",
+            "Latitude": 42.0213,
+            "DNA Test ID": 4835,
+            "DNA Sample Timestamp": "2017-08-06T00:00:00.000000",
+            "DNA Sample 2 Reading": 253.0,
+            "DNA Sample 1 Reading": 303.0,
+            "DNA Reading Mean": 276.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rogers"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 8,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 1670,
+            "DNA Sample Timestamp": "2016-08-10T13:11:00.000000",
+            "DNA Sample 2 Reading": 1.0,
+            "DNA Sample 1 Reading": 25.0,
+            "DNA Reading Mean": 25.0,
+            "Culture Test ID": "113735",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/10/2016 03:43:00 PM",
+            "Culture Sample 2 Reading": "9.0",
+            "Culture Sample 1 Timestamp": "08/10/2016 03:42:00 PM",
+            "Culture Sample 1 Reading": "20.0",
+            "Culture Reading Mean": "13.4",
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 9,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 5877,
+            "DNA Sample Timestamp": "2017-09-03T00:00:00.000000",
+            "DNA Sample 2 Reading": 86.0,
+            "DNA Sample 1 Reading": 250.0,
+            "DNA Reading Mean": 146.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6647,
+                    42.0161
+                ]
+            },
+            "row_id": 10,
+            "Longitude": -87.6647,
+            "Location": "(42.0161, -87.6647)",
+            "Latitude": 42.0161,
+            "DNA Test ID": 2787,
+            "DNA Sample Timestamp": "2017-06-11T00:00:00.000000",
+            "DNA Sample 2 Reading": 133.0,
+            "DNA Sample 1 Reading": 40.0,
+            "DNA Reading Mean": 72.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Marion Mahony Griffin (Jarvis)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6515,
+                    41.9785
+                ]
+            },
+            "row_id": 11,
+            "Longitude": -87.6515,
+            "Location": "(41.9785, -87.6515)",
+            "Latitude": 41.9785,
+            "DNA Test ID": 3631,
+            "DNA Sample Timestamp": "2017-07-02T00:00:00.000000",
+            "DNA Sample 2 Reading": 4875.0,
+            "DNA Sample 1 Reading": 157.0,
+            "DNA Reading Mean": 874.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Foster"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 12,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 5466,
+            "DNA Sample Timestamp": "2017-08-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 294.0,
+            "DNA Sample 1 Reading": 318.0,
+            "DNA Reading Mean": 305.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6564,
+                    42.0027
+                ]
+            },
+            "row_id": 13,
+            "Longitude": -87.6564,
+            "Location": "(42.0027, -87.6564)",
+            "Latitude": 42.0027,
+            "DNA Test ID": 3193,
+            "DNA Sample Timestamp": "2017-06-23T00:00:00.000000",
+            "DNA Sample 2 Reading": 255.0,
+            "DNA Sample 1 Reading": 337.0,
+            "DNA Reading Mean": 293.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Hartigan (Albion)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6072,
+                    41.8393
+                ]
+            },
+            "row_id": 14,
+            "Longitude": -87.6072,
+            "Location": "(41.8393, -87.6072)",
+            "Latitude": 41.8393,
+            "DNA Test ID": 4696,
+            "DNA Sample Timestamp": "2017-08-03T00:00:00.000000",
+            "DNA Sample 2 Reading": 1038.0,
+            "DNA Sample 1 Reading": 2985.0,
+            "DNA Reading Mean": 1760.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs (31st)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 15,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 724,
+            "DNA Sample Timestamp": "2016-06-16T12:02:00.000000",
+            "DNA Sample 2 Reading": 2.0,
+            "DNA Sample 1 Reading": 10.0,
+            "DNA Reading Mean": 4.5,
+            "Culture Test ID": "112935",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "06/16/2016 07:04:00 AM",
+            "Culture Sample 2 Reading": "9.0",
+            "Culture Sample 1 Timestamp": "06/16/2016 07:03:00 AM",
+            "Culture Sample 1 Reading": "9.0",
+            "Culture Reading Mean": "9.0",
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 16,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 183,
+            "DNA Sample Timestamp": "2015-07-28T00:00:00.000000",
+            "DNA Sample 2 Reading": 984.0,
+            "DNA Sample 1 Reading": 78.9,
+            "DNA Reading Mean": 279.0,
+            "Culture Test ID": "94065",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "101.0",
+            "Culture Sample 1 Timestamp": "07/28/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "579.0",
+            "Culture Reading Mean": "241.8",
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 17,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 3120,
+            "DNA Sample Timestamp": "2017-06-22T00:00:00.000000",
+            "DNA Sample 2 Reading": 234.0,
+            "DNA Sample 1 Reading": 1161.0,
+            "DNA Reading Mean": 521.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 18,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 3745,
+            "DNA Sample Timestamp": "2017-07-06T00:00:00.000000",
+            "DNA Sample 2 Reading": 553.0,
+            "DNA Sample 1 Reading": 145.0,
+            "DNA Reading Mean": 283.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 19,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 3095,
+            "DNA Sample Timestamp": "2017-06-21T00:00:00.000000",
+            "DNA Sample 2 Reading": 54.0,
+            "DNA Sample 1 Reading": 48.0,
+            "DNA Reading Mean": 50.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 20,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 2905,
+            "DNA Sample Timestamp": "2017-06-14T00:00:00.000000",
+            "DNA Sample 2 Reading": 384.0,
+            "DNA Sample 1 Reading": 860.0,
+            "DNA Reading Mean": 574.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 21,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 1245,
+            "DNA Sample Timestamp": "2016-07-14T12:56:00.000000",
+            "DNA Sample 2 Reading": 38.0,
+            "DNA Sample 1 Reading": 27.0,
+            "DNA Reading Mean": 32.0,
+            "Culture Test ID": "113340",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "07/14/2016 06:46:00 AM",
+            "Culture Sample 2 Reading": "162.0",
+            "Culture Sample 1 Timestamp": "07/14/2016 06:45:00 AM",
+            "Culture Sample 1 Reading": "107.0",
+            "Culture Reading Mean": "131.7",
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 22,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 1891,
+            "DNA Sample Timestamp": "2016-08-18T12:56:00.000000",
+            "DNA Sample 2 Reading": 486.0,
+            "DNA Sample 1 Reading": 1274.0,
+            "DNA Reading Mean": 786.9,
+            "Culture Test ID": "113891",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/18/2016 08:31:00 AM",
+            "Culture Sample 2 Reading": "236.0",
+            "Culture Sample 1 Timestamp": "08/18/2016 08:30:00 AM",
+            "Culture Sample 1 Reading": "727.0",
+            "Culture Reading Mean": "414.2",
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 23,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 3641,
+            "DNA Sample Timestamp": "2017-07-04T00:00:00.000000",
+            "DNA Sample 2 Reading": 385.0,
+            "DNA Sample 1 Reading": 534.0,
+            "DNA Reading Mean": 453.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 24,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 1587,
+            "DNA Sample Timestamp": "2016-08-04T12:51:00.000000",
+            "DNA Sample 2 Reading": 123.0,
+            "DNA Sample 1 Reading": 139.0,
+            "DNA Reading Mean": 130.8,
+            "Culture Test ID": "113659",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/04/2016 08:31:00 AM",
+            "Culture Sample 2 Reading": "159.0",
+            "Culture Sample 1 Timestamp": "08/04/2016 08:30:00 AM",
+            "Culture Sample 1 Reading": "225.0",
+            "Culture Reading Mean": "189.1",
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6635,
+                    42.0131
+                ]
+            },
+            "row_id": 25,
+            "Longitude": -87.6635,
+            "Location": "(42.0131, -87.6635)",
+            "Latitude": 42.0131,
+            "DNA Test ID": 2874,
+            "DNA Sample Timestamp": "2017-06-13T00:00:00.000000",
+            "DNA Sample 2 Reading": 79.0,
+            "DNA Sample 1 Reading": 35.0,
+            "DNA Reading Mean": 52.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Leone"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 26,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 5554,
+            "DNA Sample Timestamp": "2017-08-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 62.0,
+            "DNA Sample 1 Reading": 42.0,
+            "DNA Reading Mean": 51.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6647,
+                    42.0161
+                ]
+            },
+            "row_id": 27,
+            "Longitude": -87.6647,
+            "Location": "(42.0161, -87.6647)",
+            "Latitude": 42.0161,
+            "DNA Test ID": 3985,
+            "DNA Sample Timestamp": "2017-07-11T00:00:00.000000",
+            "DNA Sample 2 Reading": 184.0,
+            "DNA Sample 1 Reading": 364.0,
+            "DNA Reading Mean": 258.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Marion Mahony Griffin (Jarvis)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 28,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 263,
+            "DNA Sample Timestamp": "2015-08-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 31.0,
+            "DNA Sample 1 Reading": 15.3,
+            "DNA Reading Mean": 22.0,
+            "Culture Test ID": "95429",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "17.0",
+            "Culture Sample 1 Timestamp": "08/27/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "13.0",
+            "Culture Reading Mean": "14.9",
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 29,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 625,
+            "DNA Sample Timestamp": "2016-06-03T11:41:00.000000",
+            "DNA Sample 2 Reading": 815.0,
+            "DNA Sample 1 Reading": 146.0,
+            "DNA Reading Mean": 344.9,
+            "Culture Test ID": "112738",
+            "Culture Sample Interval": "2",
+            "Culture Sample 2 Timestamp": "06/03/2016 07:05:00 AM",
+            "Culture Sample 2 Reading": "281.0",
+            "Culture Sample 1 Timestamp": "06/03/2016 07:03:00 AM",
+            "Culture Sample 1 Reading": "125.0",
+            "Culture Reading Mean": "187.4",
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6647,
+                    42.0161
+                ]
+            },
+            "row_id": 30,
+            "Longitude": -87.6647,
+            "Location": "(42.0161, -87.6647)",
+            "Latitude": 42.0161,
+            "DNA Test ID": 5237,
+            "DNA Sample Timestamp": "2017-08-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 175.0,
+            "DNA Sample 1 Reading": 312.0,
+            "DNA Reading Mean": 233.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Marion Mahony Griffin (Jarvis)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 31,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 2550,
+            "DNA Sample Timestamp": "2017-06-05T12:10:00.000000",
+            "DNA Sample 2 Reading": 157.0,
+            "DNA Sample 1 Reading": 248.0,
+            "DNA Reading Mean": 197.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 32,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 983,
+            "DNA Sample Timestamp": "2016-06-26T12:38:00.000000",
+            "DNA Sample 2 Reading": 5.0,
+            "DNA Sample 1 Reading": 86.0,
+            "DNA Reading Mean": 20.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 33,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 610,
+            "DNA Sample Timestamp": "2016-06-05T12:45:00.000000",
+            "DNA Sample 2 Reading": 114.0,
+            "DNA Sample 1 Reading": 63.0,
+            "DNA Reading Mean": 84.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 34,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 3926,
+            "DNA Sample Timestamp": "2017-07-11T00:00:00.000000",
+            "DNA Sample 2 Reading": 312.0,
+            "DNA Sample 1 Reading": 833.0,
+            "DNA Reading Mean": 509.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 35,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 4326,
+            "DNA Sample Timestamp": "2017-07-20T00:00:00.000000",
+            "DNA Sample 2 Reading": 199.0,
+            "DNA Sample 1 Reading": 184.0,
+            "DNA Reading Mean": 191.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 36,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 3807,
+            "DNA Sample Timestamp": "2017-07-07T00:00:00.000000",
+            "DNA Sample 2 Reading": 6988.0,
+            "DNA Sample 1 Reading": 8745.0,
+            "DNA Reading Mean": 7817.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 37,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 2534,
+            "DNA Sample Timestamp": "2017-06-04T12:10:00.000000",
+            "DNA Sample 2 Reading": 144.0,
+            "DNA Sample 1 Reading": 8.0,
+            "DNA Reading Mean": 33.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 38,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 4156,
+            "DNA Sample Timestamp": "2017-07-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 490.0,
+            "DNA Sample 1 Reading": 82.0,
+            "DNA Reading Mean": 200.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 39,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 1989,
+            "DNA Sample Timestamp": "2016-08-20T12:39:00.000000",
+            "DNA Sample 2 Reading": 41.0,
+            "DNA Sample 1 Reading": 21.0,
+            "DNA Reading Mean": 29.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 40,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 181,
+            "DNA Sample Timestamp": "2015-07-10T00:00:00.000000",
+            "DNA Sample 2 Reading": 55.7,
+            "DNA Sample 1 Reading": 82.8,
+            "DNA Reading Mean": 68.0,
+            "Culture Test ID": "93301",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "49.0",
+            "Culture Sample 1 Timestamp": "07/10/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "21.0",
+            "Culture Reading Mean": "32.1",
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6072,
+                    41.8393
+                ]
+            },
+            "row_id": 41,
+            "Longitude": -87.6072,
+            "Location": "(41.8393, -87.6072)",
+            "Latitude": 41.8393,
+            "DNA Test ID": 4807,
+            "DNA Sample Timestamp": "2017-08-05T00:00:00.000000",
+            "DNA Sample 2 Reading": 413.0,
+            "DNA Sample 1 Reading": 491.0,
+            "DNA Reading Mean": 450.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs (31st)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 42,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 5232,
+            "DNA Sample Timestamp": "2017-08-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 128.0,
+            "DNA Sample 1 Reading": 28.0,
+            "DNA Reading Mean": 59.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 43,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 687,
+            "DNA Sample Timestamp": "2016-06-10T13:28:00.000000",
+            "DNA Sample 2 Reading": 1789.0,
+            "DNA Sample 1 Reading": 1580.0,
+            "DNA Reading Mean": 1681.3,
+            "Culture Test ID": "112847",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "06/10/2016 08:55:00 AM",
+            "Culture Sample 2 Reading": "1986.0",
+            "Culture Sample 1 Timestamp": "06/10/2016 08:50:00 AM",
+            "Culture Sample 1 Reading": "2420.0",
+            "Culture Reading Mean": "2192.3",
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6635,
+                    42.0131
+                ]
+            },
+            "row_id": 44,
+            "Longitude": -87.6635,
+            "Location": "(42.0131, -87.6635)",
+            "Latitude": 42.0131,
+            "DNA Test ID": 4751,
+            "DNA Sample Timestamp": "2017-08-04T00:00:00.000000",
+            "DNA Sample 2 Reading": 157.0,
+            "DNA Sample 1 Reading": 179.0,
+            "DNA Reading Mean": 167.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Leone"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 45,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 1325,
+            "DNA Sample Timestamp": "2016-07-22T12:41:00.000000",
+            "DNA Sample 2 Reading": 54.0,
+            "DNA Sample 1 Reading": 50.0,
+            "DNA Reading Mean": 52.0,
+            "Culture Test ID": "113472",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "07/22/2016 08:40:00 AM",
+            "Culture Sample 2 Reading": "70.0",
+            "Culture Sample 1 Timestamp": "07/22/2016 08:35:00 AM",
+            "Culture Sample 1 Reading": "44.0",
+            "Culture Reading Mean": "55.5",
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 46,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 5189,
+            "DNA Sample Timestamp": "2017-08-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 3.0,
+            "DNA Sample 1 Reading": 10.0,
+            "DNA Reading Mean": 5.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 47,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 54,
+            "DNA Sample Timestamp": "2015-06-01T00:00:00.000000",
+            "DNA Sample 2 Reading": 763.6,
+            "DNA Sample 1 Reading": 514.0,
+            "DNA Reading Mean": 627.0,
+            "Culture Test ID": "95111",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "435.0",
+            "Culture Sample 1 Timestamp": "06/01/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "435.0",
+            "Culture Reading Mean": "435.0",
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 48,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 22,
+            "DNA Sample Timestamp": "2015-08-25T00:00:00.000000",
+            "DNA Sample 2 Reading": 472.4,
+            "DNA Sample 1 Reading": 1385.5,
+            "DNA Reading Mean": 809.0,
+            "Culture Test ID": "95386",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "727.0",
+            "Culture Sample 1 Timestamp": "08/25/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "222.0",
+            "Culture Reading Mean": "401.7",
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 49,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 3934,
+            "DNA Sample Timestamp": "2017-07-12T00:00:00.000000",
+            "DNA Sample 2 Reading": 240.0,
+            "DNA Sample 1 Reading": 3712.0,
+            "DNA Reading Mean": 943.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 50,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 4387,
+            "DNA Sample Timestamp": "2017-07-23T00:00:00.000000",
+            "DNA Sample 2 Reading": 420.0,
+            "DNA Sample 1 Reading": 532.0,
+            "DNA Reading Mean": 472.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 51,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 1,
+            "DNA Sample Timestamp": "2015-08-12T00:00:00.000000",
+            "DNA Sample 2 Reading": 424.1,
+            "DNA Sample 1 Reading": 4514.9,
+            "DNA Reading Mean": 1384.0,
+            "Culture Test ID": "94772",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "387.0",
+            "Culture Sample 1 Timestamp": "08/12/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "397.0",
+            "Culture Reading Mean": "392.0",
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 52,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 703,
+            "DNA Sample Timestamp": "2016-06-11T13:18:00.000000",
+            "DNA Sample 2 Reading": 112.0,
+            "DNA Sample 1 Reading": 145.0,
+            "DNA Reading Mean": 127.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 53,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 4505,
+            "DNA Sample Timestamp": "2017-07-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 245.0,
+            "DNA Sample 1 Reading": 62.0,
+            "DNA Reading Mean": 123.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 54,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 1028,
+            "DNA Sample Timestamp": "2016-06-30T11:55:00.000000",
+            "DNA Sample 2 Reading": 4.0,
+            "DNA Sample 1 Reading": 7.0,
+            "DNA Reading Mean": 5.3,
+            "Culture Test ID": "113148",
+            "Culture Sample Interval": "2",
+            "Culture Sample 2 Timestamp": "06/30/2016 07:08:00 AM",
+            "Culture Sample 2 Reading": "3.0",
+            "Culture Sample 1 Timestamp": "06/30/2016 07:06:00 AM",
+            "Culture Sample 1 Reading": "4.0",
+            "Culture Reading Mean": "3.5",
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 55,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 1706,
+            "DNA Sample Timestamp": "2016-08-11T12:36:00.000000",
+            "DNA Sample 2 Reading": 10.0,
+            "DNA Sample 1 Reading": 6.0,
+            "DNA Reading Mean": 7.7,
+            "Culture Test ID": "113784",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/11/2016 08:31:00 AM",
+            "Culture Sample 2 Reading": "86.0",
+            "Culture Sample 1 Timestamp": "08/11/2016 08:30:00 AM",
+            "Culture Sample 1 Reading": "126.0",
+            "Culture Reading Mean": "104.1",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5797,
+                    41.7911
+                ]
+            },
+            "row_id": 56,
+            "Longitude": -87.5797,
+            "Location": "(41.7911, -87.5797)",
+            "Latitude": 41.7911,
+            "DNA Test ID": 3186,
+            "DNA Sample Timestamp": "2017-06-23T00:00:00.000000",
+            "DNA Sample 2 Reading": 12.0,
+            "DNA Sample 1 Reading": 54.0,
+            "DNA Reading Mean": 25.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "57th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 57,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 5275,
+            "DNA Sample Timestamp": "2017-08-19T00:00:00.000000",
+            "DNA Sample 2 Reading": 10.0,
+            "DNA Sample 1 Reading": 14.0,
+            "DNA Reading Mean": 11.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 58,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 73,
+            "DNA Sample Timestamp": "2015-06-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 681.1,
+            "DNA Sample 1 Reading": 394.8,
+            "DNA Reading Mean": 519.0,
+            "Culture Test ID": "108170",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "921.0",
+            "Culture Sample 1 Timestamp": "06/16/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "980.0",
+            "Culture Reading Mean": "950.0",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6564,
+                    42.0027
+                ]
+            },
+            "row_id": 59,
+            "Longitude": -87.6564,
+            "Location": "(42.0027, -87.6564)",
+            "Latitude": 42.0027,
+            "DNA Test ID": 4133,
+            "DNA Sample Timestamp": "2017-07-14T00:00:00.000000",
+            "DNA Sample 2 Reading": 96.0,
+            "DNA Sample 1 Reading": 217.0,
+            "DNA Reading Mean": 144.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Hartigan (Albion)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 60,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 4145,
+            "DNA Sample Timestamp": "2017-07-15T00:00:00.000000",
+            "DNA Sample 2 Reading": 100.0,
+            "DNA Sample 1 Reading": 14.0,
+            "DNA Reading Mean": 37.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 61,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 2108,
+            "DNA Sample Timestamp": "2016-08-26T12:49:00.000000",
+            "DNA Sample 2 Reading": 112.0,
+            "DNA Sample 1 Reading": 95.0,
+            "DNA Reading Mean": 103.2,
+            "Culture Test ID": "114006",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/26/2016 07:06:00 AM",
+            "Culture Sample 2 Reading": "161.0",
+            "Culture Sample 1 Timestamp": "08/26/2016 07:05:00 AM",
+            "Culture Sample 1 Reading": "197.0",
+            "Culture Reading Mean": "178.1",
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6666,
+                    42.0213
+                ]
+            },
+            "row_id": 62,
+            "Longitude": -87.6666,
+            "Location": "(42.0213, -87.6666)",
+            "Latitude": 42.0213,
+            "DNA Test ID": 5714,
+            "DNA Sample Timestamp": "2017-08-30T00:00:00.000000",
+            "DNA Sample 2 Reading": 222.0,
+            "DNA Sample 1 Reading": 241.0,
+            "DNA Reading Mean": 231.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rogers"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 63,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 4147,
+            "DNA Sample Timestamp": "2017-07-15T00:00:00.000000",
+            "DNA Sample 2 Reading": null,
+            "DNA Sample 1 Reading": 304.0,
+            "DNA Reading Mean": 304.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 64,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 4205,
+            "DNA Sample Timestamp": "2017-07-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 1378.0,
+            "DNA Sample 1 Reading": 939.0,
+            "DNA Reading Mean": 1137.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 65,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 606,
+            "DNA Sample Timestamp": "2016-06-03T11:40:00.000000",
+            "DNA Sample 2 Reading": 152.0,
+            "DNA Sample 1 Reading": 61.0,
+            "DNA Reading Mean": 96.3,
+            "Culture Test ID": "112741",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "06/03/2016 06:41:00 AM",
+            "Culture Sample 2 Reading": "114.0",
+            "Culture Sample 1 Timestamp": "06/03/2016 06:40:00 AM",
+            "Culture Sample 1 Reading": "179.0",
+            "Culture Reading Mean": "142.8",
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 66,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 4705,
+            "DNA Sample Timestamp": "2017-08-02T00:00:00.000000",
+            "DNA Sample 2 Reading": 423.0,
+            "DNA Sample 1 Reading": 372.0,
+            "DNA Reading Mean": 396.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 67,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 2934,
+            "DNA Sample Timestamp": "2017-06-15T00:00:00.000000",
+            "DNA Sample 2 Reading": 909.0,
+            "DNA Sample 1 Reading": 521.0,
+            "DNA Reading Mean": 688.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 68,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 5153,
+            "DNA Sample Timestamp": "2017-08-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 307.0,
+            "DNA Sample 1 Reading": 309.0,
+            "DNA Reading Mean": 308.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": null,
+            "row_id": 69,
+            "Longitude": null,
+            "Location": null,
+            "Latitude": null,
+            "DNA Test ID": 609,
+            "DNA Sample Timestamp": "2016-06-05T12:45:00.000000",
+            "DNA Sample 2 Reading": 7.0,
+            "DNA Sample 1 Reading": 105.0,
+            "DNA Reading Mean": 27.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 70,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 2646,
+            "DNA Sample Timestamp": "2017-06-06T12:07:00.000000",
+            "DNA Sample 2 Reading": 39.0,
+            "DNA Sample 1 Reading": 150.0,
+            "DNA Reading Mean": 76.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6515,
+                    41.9785
+                ]
+            },
+            "row_id": 71,
+            "Longitude": -87.6515,
+            "Location": "(41.9785, -87.6515)",
+            "Latitude": 41.9785,
+            "DNA Test ID": 2927,
+            "DNA Sample Timestamp": "2017-06-14T00:00:00.000000",
+            "DNA Sample 2 Reading": 158.0,
+            "DNA Sample 1 Reading": 90.0,
+            "DNA Reading Mean": 119.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Foster"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 72,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 5750,
+            "DNA Sample Timestamp": "2017-08-31T00:00:00.000000",
+            "DNA Sample 2 Reading": 3794.0,
+            "DNA Sample 1 Reading": 2299.0,
+            "DNA Reading Mean": 2953.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 73,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 5347,
+            "DNA Sample Timestamp": "2017-08-21T00:00:00.000000",
+            "DNA Sample 2 Reading": 184.0,
+            "DNA Sample 1 Reading": 251.0,
+            "DNA Reading Mean": 214.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6647,
+                    42.0161
+                ]
+            },
+            "row_id": 74,
+            "Longitude": -87.6647,
+            "Location": "(42.0161, -87.6647)",
+            "Latitude": 42.0161,
+            "DNA Test ID": 3195,
+            "DNA Sample Timestamp": "2017-06-23T00:00:00.000000",
+            "DNA Sample 2 Reading": 2198.0,
+            "DNA Sample 1 Reading": 42.0,
+            "DNA Reading Mean": 303.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Marion Mahony Griffin (Jarvis)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 75,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 1204,
+            "DNA Sample Timestamp": "2016-07-13T12:25:00.000000",
+            "DNA Sample 2 Reading": 77.0,
+            "DNA Sample 1 Reading": 117.0,
+            "DNA Reading Mean": 94.9,
+            "Culture Test ID": "113315",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "07/13/2016 07:40:00 AM",
+            "Culture Sample 2 Reading": "687.0",
+            "Culture Sample 1 Timestamp": "07/13/2016 07:35:00 AM",
+            "Culture Sample 1 Reading": "1046.0",
+            "Culture Reading Mean": "847.7",
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 76,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 148,
+            "DNA Sample Timestamp": "2015-08-05T00:00:00.000000",
+            "DNA Sample 2 Reading": 130.9,
+            "DNA Sample 1 Reading": 131.0,
+            "DNA Reading Mean": 131.0,
+            "Culture Test ID": "94540",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "141.0",
+            "Culture Sample 1 Timestamp": "08/05/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "219.0",
+            "Culture Reading Mean": "175.7",
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 77,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 190,
+            "DNA Sample Timestamp": "2015-06-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 347.4,
+            "DNA Sample 1 Reading": 72.1,
+            "DNA Reading Mean": 158.0,
+            "Culture Test ID": "87355",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "68.0",
+            "Culture Sample 1 Timestamp": "06/24/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "29.0",
+            "Culture Reading Mean": "44.4",
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 78,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 4665,
+            "DNA Sample Timestamp": "2017-08-02T00:00:00.000000",
+            "DNA Sample 2 Reading": 14.0,
+            "DNA Sample 1 Reading": 4.0,
+            "DNA Reading Mean": 7.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 79,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 2725,
+            "DNA Sample Timestamp": "2017-06-09T00:00:00.000000",
+            "DNA Sample 2 Reading": 336.0,
+            "DNA Sample 1 Reading": 119.0,
+            "DNA Reading Mean": 200.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 80,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 618,
+            "DNA Sample Timestamp": "2016-06-08T11:31:00.000000",
+            "DNA Sample 2 Reading": 163.0,
+            "DNA Sample 1 Reading": 158.0,
+            "DNA Reading Mean": 160.5,
+            "Culture Test ID": "112798",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "06/08/2016 06:45:00 AM",
+            "Culture Sample 2 Reading": "199.0",
+            "Culture Sample 1 Timestamp": "06/08/2016 06:40:00 AM",
+            "Culture Sample 1 Reading": "164.0",
+            "Culture Reading Mean": "180.7",
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6663,
+                    42.0188
+                ]
+            },
+            "row_id": 81,
+            "Longitude": -87.6663,
+            "Location": "(42.0188, -87.6663)",
+            "Latitude": 42.0188,
+            "DNA Test ID": 2468,
+            "DNA Sample Timestamp": "2017-06-01T12:37:00.000000",
+            "DNA Sample 2 Reading": 108.0,
+            "DNA Sample 1 Reading": 63.0,
+            "DNA Reading Mean": 82.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Howard"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6666,
+                    42.0213
+                ]
+            },
+            "row_id": 82,
+            "Longitude": -87.6666,
+            "Location": "(42.0213, -87.6666)",
+            "Latitude": 42.0213,
+            "DNA Test ID": 2964,
+            "DNA Sample Timestamp": "2017-06-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 13.0,
+            "DNA Sample 1 Reading": 28.0,
+            "DNA Reading Mean": 19.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rogers"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 83,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 2046,
+            "DNA Sample Timestamp": "2016-08-24T13:13:00.000000",
+            "DNA Sample 2 Reading": 4.0,
+            "DNA Sample 1 Reading": 23.0,
+            "DNA Reading Mean": 9.6,
+            "Culture Test ID": "113986",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/24/2016 08:56:00 AM",
+            "Culture Sample 2 Reading": "18.0",
+            "Culture Sample 1 Timestamp": "08/24/2016 08:55:00 AM",
+            "Culture Sample 1 Reading": "23.0",
+            "Culture Reading Mean": "20.3",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6235,
+                    41.9032
+                ]
+            },
+            "row_id": 84,
+            "Longitude": -87.6235,
+            "Location": "(41.9032, -87.6235)",
+            "Latitude": 41.9032,
+            "DNA Test ID": 3836,
+            "DNA Sample Timestamp": "2017-07-08T00:00:00.000000",
+            "DNA Sample 2 Reading": 132.0,
+            "DNA Sample 1 Reading": 5.0,
+            "DNA Reading Mean": 25.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oak Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 85,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 761,
+            "DNA Sample Timestamp": "2016-06-15T11:42:00.000000",
+            "DNA Sample 2 Reading": 147.0,
+            "DNA Sample 1 Reading": 279.0,
+            "DNA Reading Mean": 202.5,
+            "Culture Test ID": "112918",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "06/15/2016 05:41:00 AM",
+            "Culture Sample 2 Reading": "184.0",
+            "Culture Sample 1 Timestamp": "06/15/2016 05:40:00 AM",
+            "Culture Sample 1 Reading": "211.0",
+            "Culture Reading Mean": "197.0",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 86,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 5192,
+            "DNA Sample Timestamp": "2017-08-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 15.0,
+            "DNA Sample 1 Reading": 65.0,
+            "DNA Reading Mean": 31.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 87,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 3838,
+            "DNA Sample Timestamp": "2017-07-08T00:00:00.000000",
+            "DNA Sample 2 Reading": 850.0,
+            "DNA Sample 1 Reading": 646.0,
+            "DNA Reading Mean": 741.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 88,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 843,
+            "DNA Sample Timestamp": "2016-06-18T12:58:00.000000",
+            "DNA Sample 2 Reading": 266.0,
+            "DNA Sample 1 Reading": 126.0,
+            "DNA Reading Mean": 183.1,
+            "Culture Test ID": "112969",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "06/18/2016 10:35:00 AM",
+            "Culture Sample 2 Reading": "17.0",
+            "Culture Sample 1 Timestamp": "06/18/2016 10:30:00 AM",
+            "Culture Sample 1 Reading": "15.0",
+            "Culture Reading Mean": "16.0",
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6647,
+                    42.0161
+                ]
+            },
+            "row_id": 89,
+            "Longitude": -87.6647,
+            "Location": "(42.0161, -87.6647)",
+            "Latitude": 42.0161,
+            "DNA Test ID": 4981,
+            "DNA Sample Timestamp": "2017-08-11T00:00:00.000000",
+            "DNA Sample 2 Reading": 148.0,
+            "DNA Sample 1 Reading": 128.0,
+            "DNA Reading Mean": 137.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Marion Mahony Griffin (Jarvis)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6666,
+                    42.0213
+                ]
+            },
+            "row_id": 90,
+            "Longitude": -87.6666,
+            "Location": "(42.0213, -87.6666)",
+            "Latitude": 42.0213,
+            "DNA Test ID": 3395,
+            "DNA Sample Timestamp": "2017-06-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 50.0,
+            "DNA Sample 1 Reading": 64.0,
+            "DNA Reading Mean": 56.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rogers"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6635,
+                    42.0131
+                ]
+            },
+            "row_id": 91,
+            "Longitude": -87.6635,
+            "Location": "(42.0131, -87.6635)",
+            "Latitude": 42.0131,
+            "DNA Test ID": 3569,
+            "DNA Sample Timestamp": "2017-06-30T00:00:00.000000",
+            "DNA Sample 2 Reading": 62.0,
+            "DNA Sample 1 Reading": 6.0,
+            "DNA Reading Mean": 19.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Leone"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 92,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 3609,
+            "DNA Sample Timestamp": "2017-07-02T00:00:00.000000",
+            "DNA Sample 2 Reading": 151.0,
+            "DNA Sample 1 Reading": 225.0,
+            "DNA Reading Mean": 184.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 93,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 3528,
+            "DNA Sample Timestamp": "2017-06-29T00:00:00.000000",
+            "DNA Sample 2 Reading": 87.0,
+            "DNA Sample 1 Reading": 37.0,
+            "DNA Reading Mean": 56.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 94,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 1166,
+            "DNA Sample Timestamp": "2016-07-09T13:02:00.000000",
+            "DNA Sample 2 Reading": 576.0,
+            "DNA Sample 1 Reading": 562.0,
+            "DNA Reading Mean": 569.0,
+            "Culture Test ID": "113267",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "07/09/2016 10:46:00 AM",
+            "Culture Sample 2 Reading": "147.0",
+            "Culture Sample 1 Timestamp": "07/09/2016 10:45:00 AM",
+            "Culture Sample 1 Reading": "173.0",
+            "Culture Reading Mean": "159.5",
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 95,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 2714,
+            "DNA Sample Timestamp": "2017-06-11T00:00:00.000000",
+            "DNA Sample 2 Reading": 14.0,
+            "DNA Sample 1 Reading": 18.0,
+            "DNA Reading Mean": 15.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 96,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 5905,
+            "DNA Sample Timestamp": "2017-09-04T00:00:00.000000",
+            "DNA Sample 2 Reading": 90.0,
+            "DNA Sample 1 Reading": 38.0,
+            "DNA Reading Mean": 58.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 97,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 1070,
+            "DNA Sample Timestamp": "2016-07-02T13:05:00.000000",
+            "DNA Sample 2 Reading": 39.0,
+            "DNA Sample 1 Reading": 18.0,
+            "DNA Reading Mean": 26.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 98,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 5440,
+            "DNA Sample Timestamp": "2017-08-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 39.0,
+            "DNA Sample 1 Reading": 831.0,
+            "DNA Reading Mean": 180.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": null,
+            "row_id": 99,
+            "Longitude": null,
+            "Location": null,
+            "Latitude": null,
+            "DNA Test ID": 2053,
+            "DNA Sample Timestamp": "2016-08-25T13:00:00.000000",
+            "DNA Sample 2 Reading": 360.0,
+            "DNA Sample 1 Reading": 221.0,
+            "DNA Reading Mean": 282.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 100,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 2048,
+            "DNA Sample Timestamp": "2016-08-24T13:13:00.000000",
+            "DNA Sample 2 Reading": 29.0,
+            "DNA Sample 1 Reading": 4.0,
+            "DNA Reading Mean": 10.8,
+            "Culture Test ID": "113981",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/24/2016 10:41:00 AM",
+            "Culture Sample 2 Reading": "461.0",
+            "Culture Sample 1 Timestamp": "08/24/2016 10:40:00 AM",
+            "Culture Sample 1 Reading": "219.0",
+            "Culture Reading Mean": "317.7",
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6515,
+                    41.9785
+                ]
+            },
+            "row_id": 101,
+            "Longitude": -87.6515,
+            "Location": "(41.9785, -87.6515)",
+            "Latitude": 41.9785,
+            "DNA Test ID": 5318,
+            "DNA Sample Timestamp": "2017-08-21T00:00:00.000000",
+            "DNA Sample 2 Reading": 145.0,
+            "DNA Sample 1 Reading": 110.0,
+            "DNA Reading Mean": 126.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Foster"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6515,
+                    41.9785
+                ]
+            },
+            "row_id": 102,
+            "Longitude": -87.6515,
+            "Location": "(41.9785, -87.6515)",
+            "Latitude": 41.9785,
+            "DNA Test ID": 4690,
+            "DNA Sample Timestamp": "2017-08-02T00:00:00.000000",
+            "DNA Sample 2 Reading": 154.0,
+            "DNA Sample 1 Reading": 125.0,
+            "DNA Reading Mean": 138.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Foster"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 103,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 4155,
+            "DNA Sample Timestamp": "2017-07-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 9924.0,
+            "DNA Sample 1 Reading": 1544.0,
+            "DNA Reading Mean": 3914.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 104,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 789,
+            "DNA Sample Timestamp": "2016-06-17T11:47:00.000000",
+            "DNA Sample 2 Reading": 72.0,
+            "DNA Sample 1 Reading": 11.0,
+            "DNA Reading Mean": 28.1,
+            "Culture Test ID": "112951",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "06/17/2016 07:20:00 AM",
+            "Culture Sample 2 Reading": "57.0",
+            "Culture Sample 1 Timestamp": "06/17/2016 07:15:00 AM",
+            "Culture Sample 1 Reading": "27.0",
+            "Culture Reading Mean": "39.2",
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 105,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 1889,
+            "DNA Sample Timestamp": "2016-08-18T12:55:00.000000",
+            "DNA Sample 2 Reading": 45.0,
+            "DNA Sample 1 Reading": 1.0,
+            "DNA Reading Mean": 6.7,
+            "Culture Test ID": "113883",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "08/18/2016 05:49:00 AM",
+            "Culture Sample 2 Reading": "1.0",
+            "Culture Sample 1 Timestamp": "08/18/2016 05:48:00 AM",
+            "Culture Sample 1 Reading": "2.0",
+            "Culture Reading Mean": "1.4",
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 106,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 1030,
+            "DNA Sample Timestamp": "2016-07-03T12:13:00.000000",
+            "DNA Sample 2 Reading": 31.0,
+            "DNA Sample 1 Reading": 18.0,
+            "DNA Reading Mean": 23.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 107,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 261,
+            "DNA Sample Timestamp": "2015-08-19T00:00:00.000000",
+            "DNA Sample 2 Reading": 6.8,
+            "DNA Sample 1 Reading": 16.3,
+            "DNA Reading Mean": 11.0,
+            "Culture Test ID": "95156",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "5.0",
+            "Culture Sample 1 Timestamp": "08/19/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "6.0",
+            "Culture Reading Mean": "5.5",
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6515,
+                    41.9785
+                ]
+            },
+            "row_id": 108,
+            "Longitude": -87.6515,
+            "Location": "(41.9785, -87.6515)",
+            "Latitude": 41.9785,
+            "DNA Test ID": 5291,
+            "DNA Sample Timestamp": "2017-08-19T00:00:00.000000",
+            "DNA Sample 2 Reading": 50.0,
+            "DNA Sample 1 Reading": 49.0,
+            "DNA Reading Mean": 49.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Foster"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6666,
+                    42.0213
+                ]
+            },
+            "row_id": 109,
+            "Longitude": -87.6666,
+            "Location": "(42.0213, -87.6666)",
+            "Latitude": 42.0213,
+            "DNA Test ID": 4528,
+            "DNA Sample Timestamp": "2017-07-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 349.0,
+            "DNA Sample 1 Reading": 196.0,
+            "DNA Reading Mean": 261.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rogers"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.703717,
+                    41.90643
+                ]
+            },
+            "row_id": 110,
+            "Longitude": -87.703717,
+            "Location": "(41.90643, -87.703717)",
+            "Latitude": 41.90643,
+            "DNA Test ID": 4748,
+            "DNA Sample Timestamp": "2017-08-04T00:00:00.000000",
+            "DNA Sample 2 Reading": 3993.0,
+            "DNA Sample 1 Reading": 4876.0,
+            "DNA Reading Mean": 4412.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Humboldt"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.703717,
+                    41.90643
+                ]
+            },
+            "row_id": 111,
+            "Longitude": -87.703717,
+            "Location": "(41.90643, -87.703717)",
+            "Latitude": 41.90643,
+            "DNA Test ID": 3250,
+            "DNA Sample Timestamp": "2017-06-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 446.0,
+            "DNA Sample 1 Reading": 544.0,
+            "DNA Reading Mean": 492.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Humboldt"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 112,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 2189,
+            "DNA Sample Timestamp": "2016-09-02T12:30:00.000000",
+            "DNA Sample 2 Reading": 33.0,
+            "DNA Sample 1 Reading": 101.0,
+            "DNA Reading Mean": 57.7,
+            "Culture Test ID": "114111",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "09/02/2016 07:31:00 AM",
+            "Culture Sample 2 Reading": "35.0",
+            "Culture Sample 1 Timestamp": "09/02/2016 07:30:00 AM",
+            "Culture Sample 1 Reading": "54.0",
+            "Culture Reading Mean": "43.5",
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": null,
+            "row_id": 113,
+            "Longitude": null,
+            "Location": null,
+            "Latitude": null,
+            "DNA Test ID": 782,
+            "DNA Sample Timestamp": "2016-06-16T12:01:00.000000",
+            "DNA Sample 2 Reading": 74.0,
+            "DNA Sample 1 Reading": 129.0,
+            "DNA Reading Mean": 97.7,
+            "Culture Test ID": "112933",
+            "Culture Sample Interval": "2",
+            "Culture Sample 2 Timestamp": "06/16/2016 06:30:00 AM",
+            "Culture Sample 2 Reading": "9.0",
+            "Culture Sample 1 Timestamp": "06/16/2016 06:28:00 AM",
+            "Culture Sample 1 Reading": "11.0",
+            "Culture Reading Mean": "9.9",
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 114,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 667,
+            "DNA Sample Timestamp": "2016-06-10T13:28:00.000000",
+            "DNA Sample 2 Reading": 32.0,
+            "DNA Sample 1 Reading": 9.0,
+            "DNA Reading Mean": 17.0,
+            "Culture Test ID": "112849",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "06/10/2016 09:10:00 AM",
+            "Culture Sample 2 Reading": "7.0",
+            "Culture Sample 1 Timestamp": "06/10/2016 09:05:00 AM",
+            "Culture Sample 1 Reading": "10.0",
+            "Culture Reading Mean": "8.4",
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6663,
+                    42.0188
+                ]
+            },
+            "row_id": 115,
+            "Longitude": -87.6663,
+            "Location": "(42.0188, -87.6663)",
+            "Latitude": 42.0188,
+            "DNA Test ID": 5442,
+            "DNA Sample Timestamp": "2017-08-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 260.0,
+            "DNA Sample 1 Reading": 138.0,
+            "DNA Reading Mean": 189.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Howard"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6663,
+                    42.0188
+                ]
+            },
+            "row_id": 116,
+            "Longitude": -87.6663,
+            "Location": "(42.0188, -87.6663)",
+            "Latitude": 42.0188,
+            "DNA Test ID": 3688,
+            "DNA Sample Timestamp": "2017-07-04T00:00:00.000000",
+            "DNA Sample 2 Reading": 1172.0,
+            "DNA Sample 1 Reading": 3054.0,
+            "DNA Reading Mean": 1891.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Howard"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6235,
+                    41.9032
+                ]
+            },
+            "row_id": 117,
+            "Longitude": -87.6235,
+            "Location": "(41.9032, -87.6235)",
+            "Latitude": 41.9032,
+            "DNA Test ID": 2636,
+            "DNA Sample Timestamp": "2017-06-07T00:00:00.000000",
+            "DNA Sample 2 Reading": 14.0,
+            "DNA Sample 1 Reading": 3.0,
+            "DNA Reading Mean": 6.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oak Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 118,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 5470,
+            "DNA Sample Timestamp": "2017-08-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 78.0,
+            "DNA Sample 1 Reading": 97.0,
+            "DNA Reading Mean": 87.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6647,
+                    42.0161
+                ]
+            },
+            "row_id": 119,
+            "Longitude": -87.6647,
+            "Location": "(42.0161, -87.6647)",
+            "Latitude": 42.0161,
+            "DNA Test ID": 5195,
+            "DNA Sample Timestamp": "2017-08-16T00:00:00.000000",
+            "DNA Sample 2 Reading": null,
+            "DNA Sample 1 Reading": 1103.0,
+            "DNA Reading Mean": 1103.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Marion Mahony Griffin (Jarvis)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 120,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 2295,
+            "DNA Sample Timestamp": "2017-05-26T12:32:00.000000",
+            "DNA Sample 2 Reading": 54.0,
+            "DNA Sample 1 Reading": 26.0,
+            "DNA Reading Mean": 37.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 121,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 4842,
+            "DNA Sample Timestamp": "2017-08-07T00:00:00.000000",
+            "DNA Sample 2 Reading": 737.0,
+            "DNA Sample 1 Reading": 951.0,
+            "DNA Reading Mean": 837.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6663,
+                    42.0188
+                ]
+            },
+            "row_id": 122,
+            "Longitude": -87.6663,
+            "Location": "(42.0188, -87.6663)",
+            "Latitude": 42.0188,
+            "DNA Test ID": 5520,
+            "DNA Sample Timestamp": "2017-08-25T00:00:00.000000",
+            "DNA Sample 2 Reading": 282.0,
+            "DNA Sample 1 Reading": 401.0,
+            "DNA Reading Mean": 336.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Howard"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6072,
+                    41.8393
+                ]
+            },
+            "row_id": 123,
+            "Longitude": -87.6072,
+            "Location": "(41.8393, -87.6072)",
+            "Latitude": 41.8393,
+            "DNA Test ID": 5038,
+            "DNA Sample Timestamp": "2017-08-13T00:00:00.000000",
+            "DNA Sample 2 Reading": 146.0,
+            "DNA Sample 1 Reading": 88.0,
+            "DNA Reading Mean": 113.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs (31st)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 124,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 4230,
+            "DNA Sample Timestamp": "2017-07-18T00:00:00.000000",
+            "DNA Sample 2 Reading": 58.0,
+            "DNA Sample 1 Reading": 132.0,
+            "DNA Reading Mean": 87.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 125,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 3819,
+            "DNA Sample Timestamp": "2017-07-09T00:00:00.000000",
+            "DNA Sample 2 Reading": 475.0,
+            "DNA Sample 1 Reading": 211.0,
+            "DNA Reading Mean": 316.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 126,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 2630,
+            "DNA Sample Timestamp": "2017-06-06T12:07:00.000000",
+            "DNA Sample 2 Reading": 65.0,
+            "DNA Sample 1 Reading": 63.0,
+            "DNA Reading Mean": 64.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6635,
+                    42.0131
+                ]
+            },
+            "row_id": 127,
+            "Longitude": -87.6635,
+            "Location": "(42.0131, -87.6635)",
+            "Latitude": 42.0131,
+            "DNA Test ID": 3843,
+            "DNA Sample Timestamp": "2017-07-08T00:00:00.000000",
+            "DNA Sample 2 Reading": 1562.0,
+            "DNA Sample 1 Reading": 1479.0,
+            "DNA Reading Mean": 1519.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Leone"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6635,
+                    42.0131
+                ]
+            },
+            "row_id": 128,
+            "Longitude": -87.6635,
+            "Location": "(42.0131, -87.6635)",
+            "Latitude": 42.0131,
+            "DNA Test ID": 3736,
+            "DNA Sample Timestamp": "2017-07-05T00:00:00.000000",
+            "DNA Sample 2 Reading": 308.0,
+            "DNA Sample 1 Reading": 262.0,
+            "DNA Reading Mean": 284.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Leone"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6235,
+                    41.9032
+                ]
+            },
+            "row_id": 129,
+            "Longitude": -87.6235,
+            "Location": "(41.9032, -87.6235)",
+            "Latitude": 41.9032,
+            "DNA Test ID": 4894,
+            "DNA Sample Timestamp": "2017-08-08T00:00:00.000000",
+            "DNA Sample 2 Reading": 153.0,
+            "DNA Sample 1 Reading": 19.0,
+            "DNA Reading Mean": 53.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oak Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5797,
+                    41.7911
+                ]
+            },
+            "row_id": 130,
+            "Longitude": -87.5797,
+            "Location": "(41.7911, -87.5797)",
+            "Latitude": 41.7911,
+            "DNA Test ID": 2347,
+            "DNA Sample Timestamp": "2017-05-28T00:00:00.000000",
+            "DNA Sample 2 Reading": 190.0,
+            "DNA Sample 1 Reading": 127.0,
+            "DNA Reading Mean": 155.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "57th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 131,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 1095,
+            "DNA Sample Timestamp": "2016-07-08T11:45:00.000000",
+            "DNA Sample 2 Reading": 552.0,
+            "DNA Sample 1 Reading": 523.0,
+            "DNA Reading Mean": 537.3,
+            "Culture Test ID": "113245",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "07/08/2016 06:35:00 AM",
+            "Culture Sample 2 Reading": "1553.0",
+            "Culture Sample 1 Timestamp": "07/08/2016 06:30:00 AM",
+            "Culture Sample 1 Reading": "2420.0",
+            "Culture Reading Mean": "1938.6",
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 132,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 5564,
+            "DNA Sample Timestamp": "2017-08-28T00:00:00.000000",
+            "DNA Sample 2 Reading": 144.0,
+            "DNA Sample 1 Reading": 311.0,
+            "DNA Reading Mean": 211.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 133,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 2289,
+            "DNA Sample Timestamp": "2017-05-26T12:29:00.000000",
+            "DNA Sample 2 Reading": 756.0,
+            "DNA Sample 1 Reading": 67.0,
+            "DNA Reading Mean": 225.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6235,
+                    41.9032
+                ]
+            },
+            "row_id": 134,
+            "Longitude": -87.6235,
+            "Location": "(41.9032, -87.6235)",
+            "Latitude": 41.9032,
+            "DNA Test ID": 4414,
+            "DNA Sample Timestamp": "2017-07-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 77.0,
+            "DNA Sample 1 Reading": 142.0,
+            "DNA Reading Mean": 104.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oak Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6515,
+                    41.9785
+                ]
+            },
+            "row_id": 135,
+            "Longitude": -87.6515,
+            "Location": "(41.9785, -87.6515)",
+            "Latitude": 41.9785,
+            "DNA Test ID": 5889,
+            "DNA Sample Timestamp": "2017-09-03T00:00:00.000000",
+            "DNA Sample 2 Reading": 277.0,
+            "DNA Sample 1 Reading": 251.0,
+            "DNA Reading Mean": 263.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Foster"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 136,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 4837,
+            "DNA Sample Timestamp": "2017-08-07T00:00:00.000000",
+            "DNA Sample 2 Reading": 954.0,
+            "DNA Sample 1 Reading": 937.0,
+            "DNA Reading Mean": 945.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 137,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 2343,
+            "DNA Sample Timestamp": "2017-05-29T12:17:00.000000",
+            "DNA Sample 2 Reading": 38.0,
+            "DNA Sample 1 Reading": 7.0,
+            "DNA Reading Mean": 16.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 138,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 3649,
+            "DNA Sample Timestamp": "2017-07-03T00:00:00.000000",
+            "DNA Sample 2 Reading": 331.0,
+            "DNA Sample 1 Reading": 491.0,
+            "DNA Reading Mean": 403.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 139,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 4713,
+            "DNA Sample Timestamp": "2017-08-03T00:00:00.000000",
+            "DNA Sample 2 Reading": 8.0,
+            "DNA Sample 1 Reading": 206.0,
+            "DNA Reading Mean": 40.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 140,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 2209,
+            "DNA Sample Timestamp": "2016-09-02T12:31:00.000000",
+            "DNA Sample 2 Reading": 31.0,
+            "DNA Sample 1 Reading": 60.0,
+            "DNA Reading Mean": 43.1,
+            "Culture Test ID": "114115",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "09/02/2016 08:11:00 AM",
+            "Culture Sample 2 Reading": "32.0",
+            "Culture Sample 1 Timestamp": "09/02/2016 08:10:00 AM",
+            "Culture Sample 1 Reading": "20.0",
+            "Culture Reading Mean": "25.3",
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 141,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 53,
+            "DNA Sample Timestamp": "2015-07-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 38.4,
+            "DNA Sample 1 Reading": 531.8,
+            "DNA Reading Mean": 143.0,
+            "Culture Test ID": "93571",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "27.0",
+            "Culture Sample 1 Timestamp": "07/17/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "30.0",
+            "Culture Reading Mean": "28.5",
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 142,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 888,
+            "DNA Sample Timestamp": "2016-06-24T11:42:00.000000",
+            "DNA Sample 2 Reading": 48.0,
+            "DNA Sample 1 Reading": 30.0,
+            "DNA Reading Mean": 37.9,
+            "Culture Test ID": "113067",
+            "Culture Sample Interval": "2",
+            "Culture Sample 2 Timestamp": "06/24/2016 06:06:00 AM",
+            "Culture Sample 2 Reading": "43.0",
+            "Culture Sample 1 Timestamp": "06/24/2016 06:04:00 AM",
+            "Culture Sample 1 Reading": "33.0",
+            "Culture Reading Mean": "37.7",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6663,
+                    42.0188
+                ]
+            },
+            "row_id": 143,
+            "Longitude": -87.6663,
+            "Location": "(42.0188, -87.6663)",
+            "Latitude": 42.0188,
+            "DNA Test ID": 2963,
+            "DNA Sample Timestamp": "2017-06-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 18.0,
+            "DNA Sample 1 Reading": 11.0,
+            "DNA Reading Mean": 14.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Howard"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 144,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 38,
+            "DNA Sample Timestamp": "2015-05-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 1487.5,
+            "DNA Sample 1 Reading": 681.5,
+            "DNA Reading Mean": 1007.0,
+            "Culture Test ID": "94889",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "248.0",
+            "Culture Sample 1 Timestamp": "05/27/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "204.0",
+            "Culture Reading Mean": "224.9",
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6515,
+                    41.9785
+                ]
+            },
+            "row_id": 145,
+            "Longitude": -87.6515,
+            "Location": "(41.9785, -87.6515)",
+            "Latitude": 41.9785,
+            "DNA Test ID": 4191,
+            "DNA Sample Timestamp": "2017-07-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 200.0,
+            "DNA Sample 1 Reading": 16.0,
+            "DNA Reading Mean": 56.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Foster"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6545,
+                    41.9877
+                ]
+            },
+            "row_id": 146,
+            "Longitude": -87.6545,
+            "Location": "(41.9877, -87.6545)",
+            "Latitude": 41.9877,
+            "DNA Test ID": 4176,
+            "DNA Sample Timestamp": "2017-07-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 1191.0,
+            "DNA Sample 1 Reading": 1074.0,
+            "DNA Reading Mean": 1131.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Osterman"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6564,
+                    42.0027
+                ]
+            },
+            "row_id": 147,
+            "Longitude": -87.6564,
+            "Location": "(42.0027, -87.6564)",
+            "Latitude": 42.0027,
+            "DNA Test ID": 3552,
+            "DNA Sample Timestamp": "2017-06-30T00:00:00.000000",
+            "DNA Sample 2 Reading": 421.0,
+            "DNA Sample 1 Reading": 110.0,
+            "DNA Reading Mean": 215.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Hartigan (Albion)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6072,
+                    41.8393
+                ]
+            },
+            "row_id": 148,
+            "Longitude": -87.6072,
+            "Location": "(41.8393, -87.6072)",
+            "Latitude": 41.8393,
+            "DNA Test ID": 4615,
+            "DNA Sample Timestamp": "2017-07-31T00:00:00.000000",
+            "DNA Sample 2 Reading": 211.0,
+            "DNA Sample 1 Reading": 124.0,
+            "DNA Reading Mean": 161.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs (31st)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 149,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 239,
+            "DNA Sample Timestamp": "2015-06-12T00:00:00.000000",
+            "DNA Sample 2 Reading": 168.9,
+            "DNA Sample 1 Reading": 31.3,
+            "DNA Reading Mean": 73.0,
+            "Culture Test ID": "108074",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "22.8",
+            "Culture Sample 1 Timestamp": "06/12/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "137.9",
+            "Culture Reading Mean": "56.1",
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 150,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 2168,
+            "DNA Sample Timestamp": "2016-08-31T12:25:00.000000",
+            "DNA Sample 2 Reading": 265.0,
+            "DNA Sample 1 Reading": 250.0,
+            "DNA Reading Mean": 257.4,
+            "Culture Test ID": "114067",
+            "Culture Sample Interval": "2",
+            "Culture Sample 2 Timestamp": "08/31/2016 08:17:00 AM",
+            "Culture Sample 2 Reading": "403.0",
+            "Culture Sample 1 Timestamp": "08/31/2016 08:15:00 AM",
+            "Culture Sample 1 Reading": "548.0",
+            "Culture Reading Mean": "469.9",
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6564,
+                    42.0027
+                ]
+            },
+            "row_id": 151,
+            "Longitude": -87.6564,
+            "Location": "(42.0027, -87.6564)",
+            "Latitude": 42.0027,
+            "DNA Test ID": 5236,
+            "DNA Sample Timestamp": "2017-08-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 451.0,
+            "DNA Sample 1 Reading": 545.0,
+            "DNA Reading Mean": 495.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Hartigan (Albion)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 152,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 2472,
+            "DNA Sample Timestamp": "2017-06-02T00:00:00.000000",
+            "DNA Sample 2 Reading": 489.0,
+            "DNA Sample 1 Reading": 32.0,
+            "DNA Reading Mean": 125.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6072,
+                    41.8393
+                ]
+            },
+            "row_id": 153,
+            "Longitude": -87.6072,
+            "Location": "(41.8393, -87.6072)",
+            "Latitude": 41.8393,
+            "DNA Test ID": 2330,
+            "DNA Sample Timestamp": "2017-05-28T00:00:00.000000",
+            "DNA Sample 2 Reading": 46.0,
+            "DNA Sample 1 Reading": 101.0,
+            "DNA Reading Mean": 68.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs (31st)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6663,
+                    42.0188
+                ]
+            },
+            "row_id": 154,
+            "Longitude": -87.6663,
+            "Location": "(42.0188, -87.6663)",
+            "Latitude": 42.0188,
+            "DNA Test ID": 4613,
+            "DNA Sample Timestamp": "2017-07-30T00:00:00.000000",
+            "DNA Sample 2 Reading": 405.0,
+            "DNA Sample 1 Reading": 324.0,
+            "DNA Reading Mean": 362.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Howard"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 155,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 1236,
+            "DNA Sample Timestamp": "2016-07-17T14:27:00.000000",
+            "DNA Sample 2 Reading": 4.0,
+            "DNA Sample 1 Reading": 36.0,
+            "DNA Reading Mean": 12.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 156,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 2679,
+            "DNA Sample Timestamp": "2017-06-08T00:00:00.000000",
+            "DNA Sample 2 Reading": 1177.0,
+            "DNA Sample 1 Reading": 21.0,
+            "DNA Reading Mean": 157.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5748,
+                    41.7827
+                ]
+            },
+            "row_id": 157,
+            "Longitude": -87.5748,
+            "Location": "(41.7827, -87.5748)",
+            "Latitude": 41.7827,
+            "DNA Test ID": 2765,
+            "DNA Sample Timestamp": "2017-06-10T00:00:00.000000",
+            "DNA Sample 2 Reading": 2560.0,
+            "DNA Sample 1 Reading": 763.0,
+            "DNA Reading Mean": 1397.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "63rd Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6515,
+                    41.9785
+                ]
+            },
+            "row_id": 158,
+            "Longitude": -87.6515,
+            "Location": "(41.9785, -87.6515)",
+            "Latitude": 41.9785,
+            "DNA Test ID": 3598,
+            "DNA Sample Timestamp": "2017-07-01T00:00:00.000000",
+            "DNA Sample 2 Reading": 228.0,
+            "DNA Sample 1 Reading": 108.0,
+            "DNA Reading Mean": 156.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Foster"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 159,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 64,
+            "DNA Sample Timestamp": "2015-06-02T00:00:00.000000",
+            "DNA Sample 2 Reading": 90.3,
+            "DNA Sample 1 Reading": 473.5,
+            "DNA Reading Mean": 207.0,
+            "Culture Test ID": "95242",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "328.0",
+            "Culture Sample 1 Timestamp": "06/02/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "291.0",
+            "Culture Reading Mean": "308.9",
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6564,
+                    42.0027
+                ]
+            },
+            "row_id": 160,
+            "Longitude": -87.6564,
+            "Location": "(42.0027, -87.6564)",
+            "Latitude": 42.0027,
+            "DNA Test ID": 4792,
+            "DNA Sample Timestamp": "2017-08-05T00:00:00.000000",
+            "DNA Sample 2 Reading": 274.0,
+            "DNA Sample 1 Reading": 145.0,
+            "DNA Reading Mean": 199.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Hartigan (Albion)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6666,
+                    42.0213
+                ]
+            },
+            "row_id": 161,
+            "Longitude": -87.6666,
+            "Location": "(42.0213, -87.6666)",
+            "Latitude": 42.0213,
+            "DNA Test ID": 4055,
+            "DNA Sample Timestamp": "2017-07-13T00:00:00.000000",
+            "DNA Sample 2 Reading": 59.0,
+            "DNA Sample 1 Reading": 13.0,
+            "DNA Reading Mean": 27.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Rogers"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 162,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 3800,
+            "DNA Sample Timestamp": "2017-07-09T00:00:00.000000",
+            "DNA Sample 2 Reading": 145.0,
+            "DNA Sample 1 Reading": 152.0,
+            "DNA Reading Mean": 148.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5976,
+                    41.8211
+                ]
+            },
+            "row_id": 163,
+            "Longitude": -87.5976,
+            "Location": "(41.8211, -87.5976)",
+            "Latitude": 41.8211,
+            "DNA Test ID": 2382,
+            "DNA Sample Timestamp": "2017-06-01T12:37:00.000000",
+            "DNA Sample 2 Reading": 54.0,
+            "DNA Sample 1 Reading": 54.0,
+            "DNA Reading Mean": 54.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oakwood"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 164,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 35,
+            "DNA Sample Timestamp": "2015-07-08T00:00:00.000000",
+            "DNA Sample 2 Reading": 2265.7,
+            "DNA Sample 1 Reading": 692.8,
+            "DNA Reading Mean": 1253.0,
+            "Culture Test ID": "93270",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "2420.0",
+            "Culture Sample 1 Timestamp": "07/08/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "980.0",
+            "Culture Reading Mean": "1540.0",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6564,
+                    42.0027
+                ]
+            },
+            "row_id": 165,
+            "Longitude": -87.6564,
+            "Location": "(42.0027, -87.6564)",
+            "Latitude": 42.0027,
+            "DNA Test ID": 2960,
+            "DNA Sample Timestamp": "2017-06-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 3.0,
+            "DNA Sample 1 Reading": 27.0,
+            "DNA Reading Mean": 9.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Hartigan (Albion)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6635,
+                    42.0131
+                ]
+            },
+            "row_id": 166,
+            "Longitude": -87.6635,
+            "Location": "(42.0131, -87.6635)",
+            "Latitude": 42.0131,
+            "DNA Test ID": 3313,
+            "DNA Sample Timestamp": "2017-06-26T00:00:00.000000",
+            "DNA Sample 2 Reading": 93.0,
+            "DNA Sample 1 Reading": 652.0,
+            "DNA Reading Mean": 246.2,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Leone"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 167,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 582,
+            "DNA Sample Timestamp": "2016-06-02T12:13:00.000000",
+            "DNA Sample 2 Reading": 558.0,
+            "DNA Sample 1 Reading": 197.0,
+            "DNA Reading Mean": 331.6,
+            "Culture Test ID": "112720",
+            "Culture Sample Interval": "3",
+            "Culture Sample 2 Timestamp": "06/02/2016 06:40:00 AM",
+            "Culture Sample 2 Reading": "138.0",
+            "Culture Sample 1 Timestamp": "06/02/2016 06:37:00 AM",
+            "Culture Sample 1 Reading": "228.0",
+            "Culture Reading Mean": "177.4",
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6564,
+                    42.0027
+                ]
+            },
+            "row_id": 168,
+            "Longitude": -87.6564,
+            "Location": "(42.0027, -87.6564)",
+            "Latitude": 42.0027,
+            "DNA Test ID": 4432,
+            "DNA Sample Timestamp": "2017-07-25T00:00:00.000000",
+            "DNA Sample 2 Reading": 292.0,
+            "DNA Sample 1 Reading": 161.0,
+            "DNA Reading Mean": 216.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Hartigan (Albion)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 169,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 5349,
+            "DNA Sample Timestamp": "2017-08-21T00:00:00.000000",
+            "DNA Sample 2 Reading": 205.0,
+            "DNA Sample 1 Reading": 412.0,
+            "DNA Reading Mean": 290.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 170,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 4799,
+            "DNA Sample Timestamp": "2017-08-06T00:00:00.000000",
+            "DNA Sample 2 Reading": 28.0,
+            "DNA Sample 1 Reading": 14.0,
+            "DNA Reading Mean": 19.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 171,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 157,
+            "DNA Sample Timestamp": "2015-06-30T00:00:00.000000",
+            "DNA Sample 2 Reading": 16.8,
+            "DNA Sample 1 Reading": 119.0,
+            "DNA Reading Mean": 45.0,
+            "Culture Test ID": "92845",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "125.0",
+            "Culture Sample 1 Timestamp": "06/30/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "150.0",
+            "Culture Reading Mean": "136.9",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 172,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 4206,
+            "DNA Sample Timestamp": "2017-07-17T00:00:00.000000",
+            "DNA Sample 2 Reading": 465.0,
+            "DNA Sample 1 Reading": 281.0,
+            "DNA Reading Mean": 361.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 173,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 3827,
+            "DNA Sample Timestamp": "2017-07-08T00:00:00.000000",
+            "DNA Sample 2 Reading": 1444.0,
+            "DNA Sample 1 Reading": 3416.0,
+            "DNA Reading Mean": 2221.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.551,
+                    41.758
+                ]
+            },
+            "row_id": 174,
+            "Longitude": -87.551,
+            "Location": "(41.758, -87.551)",
+            "Latitude": 41.758,
+            "DNA Test ID": 1444,
+            "DNA Sample Timestamp": "2016-07-27T11:31:00.000000",
+            "DNA Sample 2 Reading": 8.0,
+            "DNA Sample 1 Reading": 96.0,
+            "DNA Reading Mean": 27.7,
+            "Culture Test ID": "113529",
+            "Culture Sample Interval": "5",
+            "Culture Sample 2 Timestamp": "07/27/2016 06:55:00 AM",
+            "Culture Sample 2 Reading": "51.0",
+            "Culture Sample 1 Timestamp": "07/27/2016 06:50:00 AM",
+            "Culture Sample 1 Reading": "50.0",
+            "Culture Reading Mean": "50.5",
+            "Culture Note": null,
+            "Beach": "Rainbow"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 175,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 905,
+            "DNA Sample Timestamp": "2016-06-22T12:08:00.000000",
+            "DNA Sample 2 Reading": 31.0,
+            "DNA Sample 1 Reading": 9.0,
+            "DNA Reading Mean": 16.7,
+            "Culture Test ID": "113020",
+            "Culture Sample Interval": "2",
+            "Culture Sample 2 Timestamp": "06/22/2016 06:42:00 AM",
+            "Culture Sample 2 Reading": "78.0",
+            "Culture Sample 1 Timestamp": "06/22/2016 06:40:00 AM",
+            "Culture Sample 1 Reading": "51.0",
+            "Culture Reading Mean": "63.1",
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 176,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 45,
+            "DNA Sample Timestamp": "2015-07-01T00:00:00.000000",
+            "DNA Sample 2 Reading": 588.4,
+            "DNA Sample 1 Reading": 575.6,
+            "DNA Reading Mean": 582.0,
+            "Culture Test ID": "92854",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "770.0",
+            "Culture Sample 1 Timestamp": "07/01/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "326.0",
+            "Culture Reading Mean": "501.0",
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6635,
+                    42.0131
+                ]
+            },
+            "row_id": 177,
+            "Longitude": -87.6635,
+            "Location": "(42.0131, -87.6635)",
+            "Latitude": 42.0131,
+            "DNA Test ID": 5573,
+            "DNA Sample Timestamp": "2017-08-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 863.0,
+            "DNA Sample 1 Reading": 177.0,
+            "DNA Reading Mean": 390.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Leone"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 178,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 4366,
+            "DNA Sample Timestamp": "2017-07-22T00:00:00.000000",
+            "DNA Sample 2 Reading": 16.0,
+            "DNA Sample 1 Reading": 5.0,
+            "DNA Reading Mean": 8.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": null,
+            "row_id": 179,
+            "Longitude": null,
+            "Location": null,
+            "Latitude": null,
+            "DNA Test ID": 2111,
+            "DNA Sample Timestamp": "2016-08-27T13:00:00.000000",
+            "DNA Sample 2 Reading": 760.0,
+            "DNA Sample 1 Reading": 854.0,
+            "DNA Reading Mean": 805.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5299,
+                    41.7142
+                ]
+            },
+            "row_id": 180,
+            "Longitude": -87.5299,
+            "Location": "(41.7142, -87.5299)",
+            "Latitude": 41.7142,
+            "DNA Test ID": 1629,
+            "DNA Sample Timestamp": "2016-08-07T12:57:00.000000",
+            "DNA Sample 2 Reading": 9.0,
+            "DNA Sample 1 Reading": 47.0,
+            "DNA Reading Mean": 20.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Calumet"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6235,
+                    41.9032
+                ]
+            },
+            "row_id": 181,
+            "Longitude": -87.6235,
+            "Location": "(41.9032, -87.6235)",
+            "Latitude": 41.9032,
+            "DNA Test ID": 5041,
+            "DNA Sample Timestamp": "2017-08-13T00:00:00.000000",
+            "DNA Sample 2 Reading": 11.0,
+            "DNA Sample 1 Reading": 107.0,
+            "DNA Reading Mean": 34.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oak Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6152,
+                    41.8935
+                ]
+            },
+            "row_id": 182,
+            "Longitude": -87.6152,
+            "Location": "(41.8935, -87.6152)",
+            "Latitude": 41.8935,
+            "DNA Test ID": 4413,
+            "DNA Sample Timestamp": "2017-07-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 1276.0,
+            "DNA Sample 1 Reading": 75.0,
+            "DNA Reading Mean": 309.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Ohio Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5976,
+                    41.8211
+                ]
+            },
+            "row_id": 183,
+            "Longitude": -87.5976,
+            "Location": "(41.8211, -87.5976)",
+            "Latitude": 41.8211,
+            "DNA Test ID": 5647,
+            "DNA Sample Timestamp": "2017-08-29T00:00:00.000000",
+            "DNA Sample 2 Reading": 83.0,
+            "DNA Sample 1 Reading": 5.0,
+            "DNA Reading Mean": 20.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oakwood"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5797,
+                    41.7911
+                ]
+            },
+            "row_id": 184,
+            "Longitude": -87.5797,
+            "Location": "(41.7911, -87.5797)",
+            "Latitude": 41.7911,
+            "DNA Test ID": 2729,
+            "DNA Sample Timestamp": "2017-06-09T00:00:00.000000",
+            "DNA Sample 2 Reading": 10.0,
+            "DNA Sample 1 Reading": 9.0,
+            "DNA Reading Mean": 9.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "57th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6635,
+                    42.0131
+                ]
+            },
+            "row_id": 185,
+            "Longitude": -87.6635,
+            "Location": "(42.0131, -87.6635)",
+            "Latitude": 42.0131,
+            "DNA Test ID": 4240,
+            "DNA Sample Timestamp": "2017-07-19T00:00:00.000000",
+            "DNA Sample 2 Reading": 29.0,
+            "DNA Sample 1 Reading": 18.0,
+            "DNA Reading Mean": 22.8,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Leone"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5797,
+                    41.7911
+                ]
+            },
+            "row_id": 186,
+            "Longitude": -87.5797,
+            "Location": "(41.7911, -87.5797)",
+            "Latitude": 41.7911,
+            "DNA Test ID": 2313,
+            "DNA Sample Timestamp": "2017-05-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 51.0,
+            "DNA Sample 1 Reading": 78.0,
+            "DNA Reading Mean": 63.1,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "57th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5976,
+                    41.8211
+                ]
+            },
+            "row_id": 187,
+            "Longitude": -87.5976,
+            "Location": "(41.8211, -87.5976)",
+            "Latitude": 41.8211,
+            "DNA Test ID": 4984,
+            "DNA Sample Timestamp": "2017-08-12T00:00:00.000000",
+            "DNA Sample 2 Reading": 206.0,
+            "DNA Sample 1 Reading": 546.0,
+            "DNA Reading Mean": 335.4,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oakwood"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 188,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 5454,
+            "DNA Sample Timestamp": "2017-08-23T00:00:00.000000",
+            "DNA Sample 2 Reading": 242.0,
+            "DNA Sample 1 Reading": 794.0,
+            "DNA Reading Mean": 438.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5797,
+                    41.7911
+                ]
+            },
+            "row_id": 189,
+            "Longitude": -87.5797,
+            "Location": "(41.7911, -87.5797)",
+            "Latitude": 41.7911,
+            "DNA Test ID": 2949,
+            "DNA Sample Timestamp": "2017-06-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 2.0,
+            "DNA Sample 1 Reading": 14.0,
+            "DNA Reading Mean": 5.3,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "57th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 190,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 52,
+            "DNA Sample Timestamp": "2015-06-18T00:00:00.000000",
+            "DNA Sample 2 Reading": 396.8,
+            "DNA Sample 1 Reading": 536.1,
+            "DNA Reading Mean": 461.0,
+            "Culture Test ID": "109537",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "83.0",
+            "Culture Sample 1 Timestamp": "06/18/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "77.0",
+            "Culture Reading Mean": "79.9",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 191,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 182,
+            "DNA Sample Timestamp": "2015-07-10T00:00:00.000000",
+            "DNA Sample 2 Reading": 309.2,
+            "DNA Sample 1 Reading": 82.4,
+            "DNA Reading Mean": 160.0,
+            "Culture Test ID": "93302",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "55.0",
+            "Culture Sample 1 Timestamp": "07/10/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "86.0",
+            "Culture Reading Mean": "68.8",
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6072,
+                    41.8393
+                ]
+            },
+            "row_id": 192,
+            "Longitude": -87.6072,
+            "Location": "(41.8393, -87.6072)",
+            "Latitude": 41.8393,
+            "DNA Test ID": 4651,
+            "DNA Sample Timestamp": "2017-08-01T00:00:00.000000",
+            "DNA Sample 2 Reading": 23.0,
+            "DNA Sample 1 Reading": 257.0,
+            "DNA Reading Mean": 76.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Margaret T Burroughs (31st)"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 193,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 2188,
+            "DNA Sample Timestamp": "2016-09-01T14:03:00.000000",
+            "DNA Sample 2 Reading": 35.0,
+            "DNA Sample 1 Reading": 38.0,
+            "DNA Reading Mean": 36.5,
+            "Culture Test ID": "114093",
+            "Culture Sample Interval": "2",
+            "Culture Sample 2 Timestamp": "09/01/2016 09:07:00 AM",
+            "Culture Sample 2 Reading": "43.0",
+            "Culture Sample 1 Timestamp": "09/01/2016 09:05:00 AM",
+            "Culture Sample 1 Reading": "41.0",
+            "Culture Reading Mean": "42.0",
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6083,
+                    41.8638
+                ]
+            },
+            "row_id": 194,
+            "Longitude": -87.6083,
+            "Location": "(41.8638, -87.6083)",
+            "Latitude": 41.8638,
+            "DNA Test ID": 5065,
+            "DNA Sample Timestamp": "2017-08-12T00:00:00.000000",
+            "DNA Sample 2 Reading": 11.0,
+            "DNA Sample 1 Reading": 26.0,
+            "DNA Reading Mean": 16.9,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "12th Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 195,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 152,
+            "DNA Sample Timestamp": "2015-07-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 229.3,
+            "DNA Sample 1 Reading": 125.2,
+            "DNA Reading Mean": 169.0,
+            "Culture Test ID": "93550",
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": "185.0",
+            "Culture Sample 1 Timestamp": "07/16/2015 12:00:00 AM",
+            "Culture Sample 1 Reading": "86.0",
+            "Culture Reading Mean": "126.1",
+            "Culture Note": null,
+            "Beach": "South Shore"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6235,
+                    41.9032
+                ]
+            },
+            "row_id": 196,
+            "Longitude": -87.6235,
+            "Location": "(41.9032, -87.6235)",
+            "Latitude": 41.9032,
+            "DNA Test ID": 3229,
+            "DNA Sample Timestamp": "2017-06-24T00:00:00.000000",
+            "DNA Sample 2 Reading": 61.0,
+            "DNA Sample 1 Reading": 78.0,
+            "DNA Reading Mean": 69.0,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Oak Street"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 197,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 5605,
+            "DNA Sample Timestamp": "2017-08-28T00:00:00.000000",
+            "DNA Sample 2 Reading": 110.0,
+            "DNA Sample 1 Reading": 327.0,
+            "DNA Reading Mean": 189.7,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6385,
+                    41.9655
+                ]
+            },
+            "row_id": 198,
+            "Longitude": -87.6385,
+            "Location": "(41.9655, -87.6385)",
+            "Latitude": 41.9655,
+            "DNA Test ID": 1171,
+            "DNA Sample Timestamp": "2016-07-10T13:17:00.000000",
+            "DNA Sample 2 Reading": 186.0,
+            "DNA Sample 1 Reading": 164.0,
+            "DNA Reading Mean": 174.7,
+            "Culture Test ID": "113269",
+            "Culture Sample Interval": "1",
+            "Culture Sample 2 Timestamp": "07/10/2016 09:26:00 AM",
+            "Culture Sample 2 Reading": "46.0",
+            "Culture Sample 1 Timestamp": "07/10/2016 09:25:00 AM",
+            "Culture Sample 1 Reading": "37.0",
+            "Culture Reading Mean": "41.3",
+            "Culture Note": null,
+            "Beach": "Montrose"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.6273,
+                    41.9148
+                ]
+            },
+            "row_id": 199,
+            "Longitude": -87.6273,
+            "Location": "(41.9148, -87.6273)",
+            "Latitude": 41.9148,
+            "DNA Test ID": 5206,
+            "DNA Sample Timestamp": "2017-08-16T00:00:00.000000",
+            "DNA Sample 2 Reading": 83.0,
+            "DNA Sample 1 Reading": 84.0,
+            "DNA Reading Mean": 83.5,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "North Avenue"
+        },
+        {
+            "vpf_tNaE6k34OqpOqiUk": {
+                "srid": 4326,
+                "coordinates": [
+                    -87.5636,
+                    41.7689
+                ]
+            },
+            "row_id": 200,
+            "Longitude": -87.5636,
+            "Location": "(41.7689, -87.5636)",
+            "Latitude": 41.7689,
+            "DNA Test ID": 5566,
+            "DNA Sample Timestamp": "2017-08-27T00:00:00.000000",
+            "DNA Sample 2 Reading": 278.0,
+            "DNA Sample 1 Reading": 188.0,
+            "DNA Reading Mean": 228.6,
+            "Culture Test ID": null,
+            "Culture Sample Interval": null,
+            "Culture Sample 2 Timestamp": null,
+            "Culture Sample 2 Reading": null,
+            "Culture Sample 1 Timestamp": null,
+            "Culture Sample 1 Reading": null,
+            "Culture Reading Mean": null,
+            "Culture Note": null,
+            "Beach": "South Shore"
+        }
+    ]
+}
