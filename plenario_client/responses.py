@@ -1,8 +1,9 @@
-from datetime import datetime
+from datetime import datetime, date
 from typing import List
 
 from .abc import ResponseHandler
 from .errors import ApiError
+from .utils import parse_datetime, parse_date
 
 
 class PlenarioResponse:
@@ -57,7 +58,7 @@ class Description(ResponseHandler):
     """
 
     def __init__(self, **kwargs):
-        """Initializes a new ``Desctiprion``.
+        """Initializes a new ``Description``.
 
         :param attribution: The data set's attribution
         :param bbox: The data set's bounding box
@@ -82,14 +83,14 @@ class Description(ResponseHandler):
         self.bbox: dict = kwargs.get('bbox')
         self.description: str = kwargs.get('description')
         self.fields: List[dict] = kwargs.get('fields')
-        self.first_import: datetime = kwargs.get('first_import')
-        self.latest_import: datetime = kwargs.get('latest_import')
+        self.first_import: datetime = parse_datetime(kwargs.get('first_import'))
+        self.latest_import: datetime = parse_datetime(kwargs.get('latest_import'))
         self.name: str = kwargs.get('name')
-        self.next_import: datetime = kwargs.get('next_import')
-        self.refresh_ends_on: datetime = kwargs.get('refresh_ends_on')
+        self.next_import: datetime = parse_datetime(kwargs.get('next_import'))
+        self.refresh_ends_on: date = parse_date(kwargs.get('refresh_ends_on'))
         self.refresh_interval: int = kwargs.get('refresh_interval')
         self.refresh_rate: str = kwargs.get('refresh_rate')
-        self.refresh_starts_on: datetime = kwargs.get('refresh_starts_on')
+        self.refresh_starts_on: date = parse_date(kwargs.get('refresh_starts_on'))
         self.slug: str = kwargs.get('slug')
         self.source_url: str = kwargs.get('source_url')
         self.time_range: dict = kwargs.get('time_range')
