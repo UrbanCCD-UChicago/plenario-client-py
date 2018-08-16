@@ -104,6 +104,5 @@ pipenv install --dev
 The tests use pytest. To run them:
 
 ```bash
-pipenv shell
-python -m pytest
+pipenv run python -m pytest
 ```
