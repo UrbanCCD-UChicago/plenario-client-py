@@ -52,7 +52,7 @@ class TestAoTClient:
 
 
 class TestClient:
-    def setup_method(self, mtd):
+    def setup_method(self):
         self.client = Client(scheme='http', hostname='localhost')
 
     @responses.activate
@@ -147,3 +147,15 @@ class TestClient:
 
         metas = self.client.describe_data_sets(params=params)
         assert len(metas) == 1
+
+    @responses.activate
+    def test_client_user_agent(self):
+        responses.add(
+            method=responses.GET,
+            url=LOCALHOST_URL,
+            status=200,
+            json=load_fixture('list-head.json'),
+        )
+
+        mock_response = self.client.head_data_set_descriptions()
+        assert responses.calls[0].request.headers.get('User-Agent') == 'plenario-client-py'

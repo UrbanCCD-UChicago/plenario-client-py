@@ -29,6 +29,7 @@ class ClientBase(ABC):
         if isinstance(params, F):
             params = params.to_query_params()
 
+        self.session.headers = {'User-Agent': 'plenario-client-py'}
         response = self.session.get(url, params=params)
         payload = response.json()
 
