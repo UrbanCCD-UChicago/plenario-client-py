@@ -75,16 +75,16 @@ class TimeRange:
             self.upper_inclusive = False
 
     def __lt__(self, other):
-        return self.lower_bound < other.lower_bound
+        return self.upper_bound < other.lower_bound
 
     def __le__(self, other):
-        return self.lower_bound <= other.lower_bound
+        return self.upper_bound <= other.lower_bound
 
     def __gt__(self, other):
-        return self.upper_bound > other.upper_bound
+        return self.lower_bound > other.upper_bound
 
     def __ge__(self, other):
-        return self.upper_bound >= other.upper_bound
+        return self.lower_bound >= other.upper_bound
 
     def __eq__(self, other):
         return self.__dict__ == other.__dict__

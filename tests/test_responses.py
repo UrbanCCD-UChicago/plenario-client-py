@@ -122,6 +122,20 @@ def test_time_range_operators():
         'upper_inclusive': False
     }
 
+    tr_le = {
+        'lower': '2019-01-01T00:00:00',
+        'upper': '2019-02-01T00:00:00',
+        'lower_inclusive': True,
+        'upper_inclusive': False
+    }
+
+    tr_ge = {
+        'lower': '2017-12-01T00:00:00',
+        'upper': '2018-01-01T00:00:00',
+        'lower_inclusive': True,
+        'upper_inclusive': False
+    }
+
     tr_to_be_normalized = {
         'lower': '2018-01-01T00:00:00',
         'upper': '2018-12-31T23:59:59',
@@ -138,12 +152,14 @@ def test_time_range_operators():
 
     time_range = TimeRange(tr)
     time_range_normalized = TimeRange(tr_to_be_normalized)
+    time_range_le = TimeRange(tr_le)
+    time_range_ge = TimeRange(tr_ge)
     time_range_min = TimeRange(tr_min)
     mid_datetime = datetime(2018, 6, 1, 1, 1, 1)
 
     assert time_range == time_range_normalized
-    assert time_range <= time_range_normalized
-    assert time_range >= time_range_normalized
+    assert time_range <= time_range_le
+    assert time_range >= time_range_ge
     assert time_range != time_range_min
     assert time_range > time_range_min
     assert time_range_min < time_range
