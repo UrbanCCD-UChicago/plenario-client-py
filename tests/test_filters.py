@@ -1,4 +1,5 @@
 from plenario_client import F
+from plenario_client.responses import TimeRange
 
 
 def test_empty_init():
@@ -118,3 +119,16 @@ def test_to_query_params():
         ('name[]', 'eq:vince'),
         ('name[]', 'eq:bob')
     ]
+
+
+def test_time_range_filter():
+    tr = {
+        'lower': '2018-01-01T00:00:00',
+        'upper': '2019-01-01T00:00:00',
+        'lower_inclusive': True,
+        'upper_inclusive': False
+    }
+
+    time_range = TimeRange(tr)
+    f = F("timestamp", "within", time_range)
+    assert f.to_query_params() == [('timestamp', 'within:{"lower": "2018-01-01T00:00:00", "lower_inclusive": true, "upper": "2019-01-01T00:00:00", "upper_inclusive": false}')]

@@ -2,6 +2,7 @@ import re
 
 import responses  # the responses testing lib, not our responses module
 from plenario_client import AoTClient, Client, F
+from plenario_client.responses import TimeRange
 
 from utils import load_fixture
 
@@ -147,6 +148,29 @@ class TestClient:
 
         metas = self.client.describe_data_sets(params=params)
         assert len(metas) == 1
+
+    @responses.activate
+    def test_describe_data_sets_with_a_time_range_filter(self):
+        responses.add(
+            method=responses.GET,
+            url=LOCALHOST_URL,
+            status=200,
+            json=load_fixture('list-filtered.json')
+        )
+
+        tr = {
+            'lower': '2018-01-01T00:00:00',
+            'upper': '2019-01-01T00:00:00',
+            'lower_inclusive': True,
+            'upper_inclusive': False
+        }
+
+        time_range = TimeRange(tr)
+        params = F('time_range', 'intersects', time_range)
+        metas = self.client.describe_data_sets(params=params)
+        ENCODED_PATH = '/api/v2/data-sets?time_range=intersects%3A%7B%22lower%22%3A+%222018-01-01T00%3A00%3A00%22%2C+%22lower_inclusive%22%3A+true%2C+%22upper%22%3A+%222019-01-01T00%3A00%3A00%22%2C+%22upper_inclusive%22%3A+false%7D'
+        assert responses.calls[0].request.path_url == ENCODED_PATH
+
 
     @responses.activate
     def test_client_user_agent(self):

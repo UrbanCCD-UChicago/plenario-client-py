@@ -1,5 +1,6 @@
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from typing import List
+import json
 
 from .abc import ResponseHandler
 from .errors import ApiError
@@ -44,6 +45,65 @@ class PlenarioResponse:
 
     def __repr__(self) -> str:
         return '<Response {url}>'.format(url=self.current_url)
+
+
+class TimeRange:
+    """
+    ``TimeRange`` is a wrapper around the time_range response from the API. It encapsulates
+    the lower and upper bounds into datetime objects, and the lower and upper inclusiveness
+    into bools. Note that on initialization, all ranges are normalized to lower inclusive and
+    upper exclusive
+    """
+
+    def __init__(self, time_range_json: dict):
+        """
+        Initializes a new ``TimeRange``
+        :param time_range_json: JSON dictionary containing upper and lower bounds,
+        and their inclusiveness.
+        """
+        self.lower: datetime = parse_datetime(time_range_json.get('lower'))
+        self.upper: datetime = parse_datetime(time_range_json.get('upper'))
+        self.lower_inclusive: bool = time_range_json.get('lower_inclusive')
+        self.upper_inclusive: bool = time_range_json.get('upper_inclusive')
+
+        if not self.lower_inclusive:
+            self.lower = self.lower + timedelta(seconds=1)
+            self.lower_inclusive = True
+
+        if self.upper_inclusive:
+            self.upper = self.upper + timedelta(seconds=1)
+            self.upper_inclusive = False
+
+    def __lt__(self, other):
+        return self.upper < other.lower
+
+    def __le__(self, other):
+        return self.upper <= other.lower
+
+    def __gt__(self, other):
+        return self.lower > other.upper
+
+    def __ge__(self, other):
+        return self.lower >= other.upper
+
+    def __eq__(self, other):
+        return self.__dict__ == other.__dict__
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def __contains__(self, timestamp: datetime):
+        return self.lower <= timestamp <= self.upper
+
+    def __str__(self):
+        return json.dumps(self.__dict__, cls=TimeRangeEncoder, sort_keys=True)
+
+
+class TimeRangeEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, datetime):
+            return obj.isoformat()
+        return json.JSONEncoder.default(self, obj)
 
 
 class Description(ResponseHandler):
@@ -93,7 +153,7 @@ class Description(ResponseHandler):
         self.refresh_starts_on: date = parse_date(kwargs.get('refresh_starts_on'))
         self.slug: str = kwargs.get('slug')
         self.source_url: str = kwargs.get('source_url')
-        self.time_range: dict = kwargs.get('time_range')
+        self.time_range: TimeRange = TimeRange(kwargs.get('time_range'))
         self.user: dict = kwargs.get('user')
         self.virtual_dates: List[dict] = kwargs.get('virtual_dates')
         self.virtual_points: List[dict] = kwargs.get('virtual_points')
