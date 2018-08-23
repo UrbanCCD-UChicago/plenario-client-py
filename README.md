@@ -1,4 +1,4 @@
-# Pleanrio Client
+# Plenario Client
 
 This library serves as the official Python client to the [Plenario API](https://plenario.docs.apiary.io/#).
 
