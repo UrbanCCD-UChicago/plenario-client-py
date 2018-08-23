@@ -52,8 +52,8 @@ def test_description_init():
         'srid': 4326
     }
 
-    assert description.time_range.lower_bound == datetime(2001, 4, 6, 0, 0, 0)
-    assert description.time_range.upper_bound == datetime(2018, 8, 13, 0, 0, 1)
+    assert description.time_range.lower == datetime(2001, 4, 6, 0, 0, 0)
+    assert description.time_range.upper == datetime(2018, 8, 13, 0, 0, 1)
     assert description.time_range.lower_inclusive is True
     assert description.time_range.upper_inclusive is False
     assert description.first_import == datetime(2018, 8, 2, 16, 22)
@@ -107,10 +107,10 @@ def test_time_range_normalization():
     normalized_upper_tr = TimeRange(tr_one)
     normalized_lower_tr = TimeRange(tr_two)
 
-    assert normalized_upper_tr.upper_bound == datetime(2019, 1, 1, 0, 0, 0)
+    assert normalized_upper_tr.upper == datetime(2019, 1, 1, 0, 0, 0)
     assert normalized_upper_tr.upper_inclusive is False
 
-    assert normalized_lower_tr.lower_bound == datetime(2018, 1, 1, 0, 0, 1)
+    assert normalized_lower_tr.lower == datetime(2018, 1, 1, 0, 0, 1)
     assert normalized_lower_tr.lower_inclusive is True
 
 
@@ -165,4 +165,4 @@ def test_time_range_operators():
     assert time_range_min < time_range
     assert mid_datetime in time_range
     assert mid_datetime not in time_range_min
-    assert str(time_range) == """{"lower_bound": "2018-01-01 00:00:00", "lower_inclusive": true, "upper_bound": "2019-01-01 00:00:00", "upper_inclusive": false}"""
+    assert str(time_range) == """{"lower": "2018-01-01T00:00:00", "lower_inclusive": true, "upper": "2019-01-01T00:00:00", "upper_inclusive": false}"""

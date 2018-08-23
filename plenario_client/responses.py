@@ -61,30 +61,30 @@ class TimeRange:
         :param time_range_json: JSON dictionary containing upper and lower bounds,
         and their inclusiveness.
         """
-        self.lower_bound: datetime = parse_datetime(time_range_json.get('lower'))
-        self.upper_bound: datetime = parse_datetime(time_range_json.get('upper'))
+        self.lower: datetime = parse_datetime(time_range_json.get('lower'))
+        self.upper: datetime = parse_datetime(time_range_json.get('upper'))
         self.lower_inclusive: bool = time_range_json.get('lower_inclusive')
         self.upper_inclusive: bool = time_range_json.get('upper_inclusive')
 
         if not self.lower_inclusive:
-            self.lower_bound = self.lower_bound + timedelta(seconds=1)
+            self.lower = self.lower + timedelta(seconds=1)
             self.lower_inclusive = True
 
         if self.upper_inclusive:
-            self.upper_bound = self.upper_bound + timedelta(seconds=1)
+            self.upper = self.upper + timedelta(seconds=1)
             self.upper_inclusive = False
 
     def __lt__(self, other):
-        return self.upper_bound < other.lower_bound
+        return self.upper < other.lower
 
     def __le__(self, other):
-        return self.upper_bound <= other.lower_bound
+        return self.upper <= other.lower
 
     def __gt__(self, other):
-        return self.lower_bound > other.upper_bound
+        return self.lower > other.upper
 
     def __ge__(self, other):
-        return self.lower_bound >= other.upper_bound
+        return self.lower >= other.upper
 
     def __eq__(self, other):
         return self.__dict__ == other.__dict__
@@ -93,10 +93,17 @@ class TimeRange:
         return not self.__eq__(other)
 
     def __contains__(self, timestamp: datetime):
-        return self.lower_bound <= timestamp <= self.upper_bound
+        return self.lower <= timestamp <= self.upper
 
     def __str__(self):
-        return json.dumps(self.__dict__, default=str, sort_keys=True)
+        return json.dumps(self.__dict__, cls=TimeRangeEncoder, sort_keys=True)
+
+
+class TimeRangeEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, datetime):
+            return obj.isoformat()
+        return json.JSONEncoder.default(self, obj)
 
 
 class Description(ResponseHandler):
