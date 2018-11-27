@@ -1,238 +1,34 @@
-from datetime import datetime, date, timedelta
 from typing import List
-import json
-
-from .abc import ResponseHandler
-from .errors import ApiError
-from .utils import parse_datetime, parse_date
 
 
-class PlenarioResponse:
-    """
-    ``Response`` is a generic wrapper around responses from the API. It captures
-    the major blocks of the response body -- ``meta`` and ``data`` -- and parses them
-    into usable components.
-    """
+class Page:
 
-    def __init__(self, response: dict):
-        """Initializes a new ``Client``.
+    def __init__(self, resp: dict):
+        self.meta: dict = resp.get('meta', {})
+        self.data: List[dict] = resp.get('data', [])
 
-        :param response: The JSON body of the API response
-        :raise ApiError: When the response payload contains an ``error`` key, the error message
-            is raised as the Python error message.
-        """
-        error = response.get('error')
-        if error is not None:
-            raise ApiError(error)
-
-        self.meta = response.get('meta', {})
-        self.data = response.get('data', {})
-
-        links = self.meta.get('links', {})
-        self.previous_url = links.get('previous')
-        self.current_url = links.get('current')
-        self.next_url = links.get('next')
-
-        counts = self.meta.get('counts', {})
-        self.data_count = counts.get('data_count')
-        self.total_pages = counts.get('total_pages')
-        self.total_records = counts.get('total_records')
-
-        self.params = self.meta.get('params', {})
-
-    def __str__(self) -> str:
-        return self.current_url
-
-    def __repr__(self) -> str:
-        return '<Response {url}>'.format(url=self.current_url)
-
-
-class TimeRange:
-    """
-    ``TimeRange`` is a wrapper around the time_range response from the API. It encapsulates
-    the lower and upper bounds into datetime objects, and the lower and upper inclusiveness
-    into bools. Note that on initialization, all ranges are normalized to lower inclusive and
-    upper exclusive
-    """
-
-    def __init__(self, time_range_json: dict):
-        """
-        Initializes a new ``TimeRange``
-        :param time_range_json: JSON dictionary containing upper and lower bounds,
-        and their inclusiveness.
-        """
-        self.lower: datetime = parse_datetime(time_range_json.get('lower'))
-        self.upper: datetime = parse_datetime(time_range_json.get('upper'))
-        self.lower_inclusive: bool = time_range_json.get('lower_inclusive')
-        self.upper_inclusive: bool = time_range_json.get('upper_inclusive')
-
-        if not self.lower_inclusive:
-            self.lower = self.lower + timedelta(seconds=1)
-            self.lower_inclusive = True
-
-        if self.upper_inclusive:
-            self.upper = self.upper + timedelta(seconds=1)
-            self.upper_inclusive = False
-
-    def __lt__(self, other):
-        return self.upper < other.lower
-
-    def __le__(self, other):
-        return self.upper <= other.lower
-
-    def __gt__(self, other):
-        return self.lower > other.upper
-
-    def __ge__(self, other):
-        return self.lower >= other.upper
-
-    def __eq__(self, other):
-        return self.__dict__ == other.__dict__
-
-    def __ne__(self, other):
-        return not self.__eq__(other)
-
-    def __contains__(self, timestamp: datetime):
-        return self.lower <= timestamp <= self.upper
-
-    def __str__(self):
-        return json.dumps(self.__dict__, cls=TimeRangeEncoder, sort_keys=True)
-
-
-class TimeRangeEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, datetime):
-            return obj.isoformat()
-        return json.JSONEncoder.default(self, obj)
-
-
-class Description(ResponseHandler):
-    """
-    A ``Description`` is a specific kind of response from the API. There are
-    several endpoints of the API that return metadata of the data sets -- this
-    object captures those metadata values.
-
-    The metadata of a dataset can be used to create resource requests to access
-    the data set records, or to determine fields and filtering possibilities, or
-    view significant timestamps, etc.
-    """
-
-    def __init__(self, **kwargs):
-        """Initializes a new ``Description``.
-
-        :param attribution: The data set's attribution
-        :param bbox: The data set's bounding box
-        :param description: The data set's description
-        :param fields: The data set's fields
-        :param first_import: The data set's first import timestamp
-        :param latest_import: The data set's latest import timestamp
-        :param name: The data set's name
-        :param next_import: The data set's next import timestamp
-        :param refresh_ends_on: The data set's refresh ends on timestamp
-        :param refresh_interval: The data set's refresh interval
-        :param refresh_rate: The data set's refresh rate
-        :param refresh_starts_on: The data set's refresh starts on timestamp
-        :param slug: The data set's slug
-        :param source_url: The data set's source url
-        :param time_range: The data set's time range
-        :param user: The data set's user
-        :param virtual_dates: The data set's virtual dates
-        :param virtual_points: The data set's virtual points
-        """
-        self.attribution: str = kwargs.get('attribution')
-        self.bbox: dict = kwargs.get('bbox')
-        self.description: str = kwargs.get('description')
-        self.fields: List[dict] = kwargs.get('fields')
-        self.first_import: datetime = parse_datetime(kwargs.get('first_import'))
-        self.latest_import: datetime = parse_datetime(kwargs.get('latest_import'))
-        self.name: str = kwargs.get('name')
-        self.next_import: datetime = parse_datetime(kwargs.get('next_import'))
-        self.refresh_ends_on: date = parse_date(kwargs.get('refresh_ends_on'))
-        self.refresh_interval: int = kwargs.get('refresh_interval')
-        self.refresh_rate: str = kwargs.get('refresh_rate')
-        self.refresh_starts_on: date = parse_date(kwargs.get('refresh_starts_on'))
-        self.slug: str = kwargs.get('slug')
-        self.source_url: str = kwargs.get('source_url')
-        self.time_range: TimeRange = TimeRange(kwargs.get('time_range'))
-        self.user: dict = kwargs.get('user')
-        self.virtual_dates: List[dict] = kwargs.get('virtual_dates')
-        self.virtual_points: List[dict] = kwargs.get('virtual_points')
-
-    def __str__(self) -> str:
-        return self.name
-
-    def __repr__(self) -> str:
-        return '<Description name="{name}" slug="{slug}">'.format(name=self.name, slug=self.slug)
-
-    @classmethod
-    def from_api_payload(cls, payload: dict, client: 'Client'=None) -> 'Description':
-        data = payload.get('data')
-        if isinstance(data, list):
-            return [cls(**meta) for meta in data]
+        _links: dict = self.meta.get('links', {})
+        self.previous_url: str = _links.get('previous_url')
+        self.current_url: str = _links.get('current_url')
+        if not len(self.data):
+            self.next_url = None
         else:
-            return cls(**data)
+            self.next_url: str = _links.get('next_url')
+
+        self.query: dict = self.meta.get('query')
 
 
-class DataSet(ResponseHandler):
-    """
-    A ``DataSet`` is a thin wrapper around an API resource response. It holds the
-    parsed list of records for the request.
+class DataSet:
 
-    Its most useful feature is its generator ability -- API responses are paginated and
-    part of the response metadata are links to successive pages of records. Rather than
-    having users manually introspect for a potential next page, the ``DataSet`` wrapper
-    allows users to naturally write iterators around paging.
-
-    .. example::
-
-    >>> from plenario_client import Client
-    >>> client = Client()
-    >>> data_set = client.get_data_set('Chicago Beach Lab - DNA Tests')
-    >>> for page in data_set:
-    ...     print(page.meta)
-    ...
-    """
-
-    def __init__(self, client: 'Client', response: PlenarioResponse):
-        """Initializes a new ``DataSet``.
-
-        :param client: The :class:`Client` that made the request, got the
-            :class:`PlenarioResponse`, and parsed the reponse into this ``DataSet``.
-            It's used to make subsequent paging requests to the resource.
-        :param response: The :class:`Response` object that will be parsed into this object
-        """
+    def __init__(self, client: 'Client', resp: dict):
         self._client = client
-        self._response = response
+        self.page: Page = Page(resp)
 
-    def __str__(self) -> str:
-        return self._response.current_url
+    def __iter__(self):
+        while self.page.next_url:
+            yield self.page
 
-    def __repr__(self) -> str:
-        return '<DataSet {self}>'.format(self=self)
+            resp = self._client._send_request(self.page.next_url)
+            self.page = Page(resp)
 
-    def __iter__(self) -> 'DataSet':
-        while self._response.next_url is not None:
-            yield self
-
-            refreshed = self._client._send_request(
-                url=self._response.next_url, parse_as=DataSet)
-            self = refreshed
-
-        yield self
-
-    @classmethod
-    def from_api_payload(cls, payload: dict, client: 'Client') -> 'DataSet':
-        response = PlenarioResponse(payload)
-        return cls(response=response, client=client)
-
-    @property
-    def records(self) -> List[dict]:
-        """Accessess the underlying :class:`Response` list of records.
-        """
-        return self._response.data
-
-    @property
-    def meta(self) -> dict:
-        """Accessess the underlying :class:`Response` metadata.
-        """
-        return self._response.meta
+        yield self.page

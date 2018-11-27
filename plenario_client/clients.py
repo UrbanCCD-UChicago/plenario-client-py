@@ -3,172 +3,150 @@ from typing import List
 import requests
 from requests import Session
 
-from .abc import ClientBase, ResponseHandler
+from .__version__ import VERSION
+from .errors import ApiError
 from .filters import F
-from .responses import DataSet, Description
+from .responses import DataSet
 
 
-class Client(ClientBase):
+class PlenarioClient:
+    """The ``PlenarioClient`` class is the primary use of the library. It
+    encapsulates the functionality used to call endpoints of the Plenario API
+    and wraps is responses in useful, parseable classes.
     """
-    A ``Client`` is the access vehicle to the Plenario API. It makes creating requests
-    and queries as simple as possible by allowing the user to only provide resource
-    identifiers and naturally build queries for filters.
-    """
 
-    ENDPOINT = 'data-sets'
+    def __init__(self, protocol: str='https', domain: str='plenar.io', version: str='v2'):
+        """
+        Initializes a new instance.
 
-    def describe_data_sets(self, params: F=None) -> List[Description]:
-        """Sends a request to the ``/data-sets`` list endpoint to get a list of data set
-        metadata objects.
+        :param protocol: The connection protocol to the API
+        :param domain: The domain name of the API
+        :param version: The version string of the API
+        """
+        self._base_url = f'{protocol}://{domain}/api/{version}/data-sets'
 
-        :param params: Query filters (optional).
-        :return: A list of data set metadata objects, as :class:`Description`.
+        self._session = Session()
+        self._session.headers['User-Agent'] = f'plenario-client-py v{VERSION}'
+
+    def _send_request(self, url: str, params: F=None) -> dict:
+        if params:
+            params = params.to_query_params()
+
+        resp = self._session.get(url, params=params)
+        if resp.status_code != 200:
+            raise ApiError(resp.content)
+
+        return resp.json()
+
+    def list_data_sets(self, params: F=None) -> List[dict]:
+        """
+        Gets a list of data set metadata from the API. The metadata returned
+        are the listings of all available data sets. This list can be optionally
+        filtered against.
+
+        :param params: An :class:``F`` object used to create query params
+        
+        :return: The metadata entries for all available data sets
+        
+        :raise ApiError: Non 200 responses will raise with the message sent
 
         .. example::
 
-        >>> from plenario_client import Client
-        >>> client = Client()
-        >>> metas = client.describe_data_sets()
-        >>> for meta in metas:
-        ...     print(meta.name)
-        ...     print(meta.slug)
+        >>> from plenario_client import PlenarioClient
+        >>> client = PlenarioClient()
+        >>> data_sets = client.list_data_sets()
+        >>> data_sets[0]
+        {
+            "name": "Chicago 311 - Tree Trims",
+            "slug": "chicago-311-tree-trims",
+            "hull": { ... },
+            "time_range": { ... },
+            "num_records": 362192,
+            ...
+        }
         """
-        return self._send_request(url=self.base_path, params=params, parse_as=Description)
+        resp = self._send_request(self._base_url, params)
 
-    def head_data_set_descriptions(self, params: F=None) -> Description:
-        """Sends a request to the ``/data-sets/@head`` list endpoint to get a single data set
-        metadata object.
+        data_sets = []
+        data = resp.get('data', [])
+        while len(data) > 0:
+            data_sets.extend(data)
+            next_url = resp.get('meta', {}).get('links', {}).get('next_url')
+            if not next_url:
+                break
+            resp = self._send_request(next_url)
+            data = resp.get('data', [])
 
-        :param params: Query filters (optional).
-        :return: A single data set metadata object, as :class:`Description`.
-
-        .. example::
-
-        >>> from plenario_client import Client
-        >>> client = Client()
-        >>> meta = client.head_data_set_descriptions()
-        >>> print(meta.name)
-        >>> print(meta.slug)
-        """
-        url = f'{self.base_path}/@head'
-        return self._send_request(url=url, params=params, parse_as=Description)
+        return data_sets
 
     def get_data_set(self, slug: str, params: F=None) -> DataSet:
-        """Sends a request to the ``/data-sets/:slug`` detail endpoint to get the records
-        of the named data set.
+        """
+        Gets the records for a given data set from the API. The records can
+        be optionally filtered against.
 
-        :param slug: The slug value of the data set.
-        :param params: Query filters (optional).
-        :return: A list of records wrapped in a :class:`DataSet`
+        Since the API returns results in pages, the returned data of this
+        response works as a simple iterator wrapper around pages of records.
+        See the example below.
+
+        :param slug: The ``slug`` value of the data set
+        :param params: An :class:``F`` object used to create query params
+
+        :return: An iterator wrapper for pages of records.
+
+        :raise ApiError: Non 200 responses will raise with the message sent
 
         .. example::
 
-        >>> from plenario_client import Client()
-        >>> client = Client()
-        >>> data_set = client.get_data_set(slug='chicago-beach-lab-dna-tests')
+        >>> from plenario_client import PlenarioClient
+        >>> client = PlenarioClient()
+        >>> data_set = client.get_data_set('chicago-311-tree-trims')
         >>> for page in data_set:
-        ...     do_something_with(page.records)
+        ...     print(len(page.data))
+        ...     print(page.data[0])
+        ... 
+        200
+        {
+            ":id": "row-qre9_vj58_fwye", 
+            ":created_at": "2018-11-24T09:17:02", 
+            ":updated_at": "2018-11-24T09:17:06", 
+            "location": { ... }, 
+            "police_district": 9, 
+            "service_request_number": "18-01986721", 
+            "status": "Completed", 
+            "street_address": "2522 S MARY ST", 
+            "type_of_service_request": "Tree Trim", 
+            "ward": 11, 
+            ...
+        }
+        200
+        {
+            ":id": "row-vdhr~45ub-am7z", 
+            ":created_at": "2018-11-24T09:17:02", 
+            ":updated_at": "2018-11-24T09:17:06", 
+            "location": { ... }, 
+            "police_district": 9, 
+            "service_request_number": "18-01986810", 
+            "status": "Completed", 
+            "street_address": "2505 S MARY ST", 
+            "type_of_service_request": "Tree Trim", 
+            "ward": 11, 
+            ...
+        }
+        54
+        {
+            ":id": "row-unfn_ttyb-4fps", 
+            ":created_at": "2018-11-24T09:17:02", 
+            ":updated_at": "2018-11-24T09:17:06", 
+            "location": { ... }, 
+            "police_district": 24, 
+            "service_request_number": "18-02296466", 
+            "status": "Completed", 
+            "street_address": "2101 W HOOD AVE", 
+            "type_of_service_request": "Tree Trim", 
+            "ward": 40, 
+            ...
+        }
         """
-        url = f'{self.base_path}/{slug}'
-        return self._send_request(url=url, params=params, parse_as=DataSet)
-
-    def describe_data_set(self, slug: str, params: F=None) -> Description:
-        """Sends a request to the ``/data-sets/:slug/@describe`` detail endpoint to get
-        the metadata entry for the data set.
-
-        :param slug: The slug value of the data set.
-        :param params: Query filters (optional).
-        :return: The metadata entry for the data set, as a :class:`Description`.
-
-        .. example::
-
-        >>> from plenario_client import Client()
-        >>> client = Client()
-        >>> meta = client.describe_data_set(slug='chicago-beach-lab-dna-tests')
-        >>> print(meta.name)
-        >>> print(meta.source_url)
-        >>> print(meta.latest_import)
-        """
-        url = f'{self.base_path}/{slug}/@describe'
-        return self._send_request(url, params=params, parse_as=Description)
-
-    def head_data_set(self, slug: str, params: F=None) -> DataSet:
-        """Sends a request to the ``/data-sets/:slug/@head`` detail endpoint to get a
-        seingle record from the data set. Just like :function:`get_data_set` this will
-        return the response wrapped as a :class:`DataSet`, but the ``records``
-        attribute will only have a single record in its list.
-
-        :param slug: The slug value of the data set.
-        :param params: Query filters (optional).
-        :return: A single record wrapped in a :class:`DataSet`
-
-        .. example::
-
-        >>> from plenario_client import Client()
-        >>> client = Client()
-        >>> data_set = client.head_data_set(slug='chicago-beach-lab-dna-tests')
-        >>> print(data_set.records[0])
-        """
-        url = f'{self.base_path}/{slug}/@head'
-        return self._send_request(url=url, params=params, parse_as=DataSet)
-
-
-class AoTClient(ClientBase):
-    """
-    An ``AoTClient`` is the access vehicle to the Plenario Array of Things API.
-    It makes creating requests and queries as simple as possible while allowing the user
-    optionally naturally build queries for filters.
-    """
-
-    ENDPOINT = 'aot'
-
-    def describe_networks(self, params: F=None) -> List[Description]:
-        """Sends a request to the ``/aot/@describe`` endpoint to get a list of network
-        metadata objects.
-
-        :param params: Query filters (optional).
-        :return: A list of data set metadata objects, as :class:`Description`.
-
-        .. example::
-
-        >>> from plenario_client import AoTClient
-        >>> client = AoTClient()
-        >>> metas = client.describe_networks()
-        >>> for meta in metas:
-        ...     print(meta.name)
-        ...     print(meta.slug)
-        """
-        url = f'{self.base_path}/@describe'
-        return self._send_request(url=url, params=params, parse_as=Description)
-
-    def get_observations(self, params: F=None) -> DataSet:
-        """Sends a request to the ``/aot`` detail endpoint to page through the observations.
-
-        :param params: Query filters (optional).
-        :return: A list of records wrapped in a :class:`DataSet`
-
-        .. example::
-
-        >>> from plenario_client import AoTClient()
-        >>> client = AoTClient()
-        >>> data_set = client.get_observations()
-        >>> for page in data_set:
-        ...     do_something_with(page.records)
-        """
-        return self._send_request(url=self.base_path, params=params, parse_as=DataSet)
-
-    def head_observations(self, params: F=None) -> DataSet:
-        """Sends a request to the ``/aot/@head`` list endpoint to get a single observation.
-
-        :param params: Query filters (optional).
-        :return: A single data set observation, as :class:`DataSet`.
-
-        .. example::
-
-        >>> from plenario_client import AoTClient
-        >>> client = AoTClient()
-        >>> ds = client.head_observations()
-        >>> print(ds.records)
-        """
-        url = f'{self.base_path}/@head'
-        return self._send_request(url=url, params=params, parse_as=DataSet)
+        url = f'{self._base_url}/{slug}'
+        resp = self._send_request(url, params)
+        return DataSet(self, resp)

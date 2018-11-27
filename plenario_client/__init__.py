@@ -1,2 +1,2 @@
-from .clients import AoTClient, Client
+from .clients import PlenarioClient
 from .filters import F
